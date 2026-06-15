@@ -2,14 +2,14 @@
 key: HARBOR-6
 title: Show which berths are free for a chosen week
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[priya]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-06-15T09:45:00Z
-updated: 2026-06-15T10:06:00Z
+updated: 2026-06-15T11:20:00Z
 aliases: []
 tags: []
 definition_of_done: team
