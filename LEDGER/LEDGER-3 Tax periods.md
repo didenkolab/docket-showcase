@@ -2,13 +2,13 @@
 key: LEDGER-3
 title: Tax periods
 type: epic
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[tomasz]]'
 labels: []
 created: 2026-06-15T09:36:00Z
-updated: 2026-06-15T09:36:00Z
+updated: 2026-06-15T12:00:00Z
 aliases: []
 tags: []
 ---
