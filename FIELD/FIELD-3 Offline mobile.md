@@ -2,13 +2,13 @@
 key: FIELD-3
 title: Offline mobile
 type: epic
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[aiko]]'
 labels: []
 created: 2026-06-15T09:39:00Z
-updated: 2026-06-15T09:39:00Z
+updated: 2026-06-15T12:10:00Z
 aliases: []
 tags: []
 ---
