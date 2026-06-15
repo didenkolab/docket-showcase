@@ -2,13 +2,13 @@
 key: HARBOR-4
 title: Mobile check-in
 type: epic
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[aiko]]'
 labels: []
 created: 2026-06-15T09:33:00Z
-updated: 2026-06-15T09:33:00Z
+updated: 2026-06-15T11:45:00Z
 aliases: []
 tags: []
 ---
