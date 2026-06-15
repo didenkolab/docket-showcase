@@ -9,11 +9,12 @@ assignee: '[[priya]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-06-15T09:45:00Z
-updated: 2026-06-15T10:05:00Z
+updated: 2026-06-15T10:06:00Z
 aliases: []
 tags: []
 definition_of_done: team
 sprint: "[[Sprint 1]]"
+estimate: 3
 ---
 
 Before anybody reserves anything they ask the harbour office the same question: have you got room the week of the regatta. The answer has to come back as a list of berths that fit the boat, not as a grid the office has to read for them.
