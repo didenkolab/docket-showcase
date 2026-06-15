@@ -2,13 +2,13 @@
 key: LEDGER-2
 title: Bank import
 type: epic
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[tomasz]]'
 labels: []
 created: 2026-06-15T09:35:00Z
-updated: 2026-06-15T09:35:00Z
+updated: 2026-06-15T11:55:00Z
 aliases: []
 tags: []
 ---
