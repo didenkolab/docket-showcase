@@ -2,13 +2,13 @@
 key: HARBOR-2
 title: Berth calendar
 type: epic
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[priya]]'
 labels: []
 created: 2026-06-15T09:31:00Z
-updated: 2026-06-15T09:31:00Z
+updated: 2026-06-15T11:35:00Z
 aliases: []
 tags: []
 ---
