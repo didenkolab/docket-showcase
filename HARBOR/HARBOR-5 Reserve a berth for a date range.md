@@ -9,9 +9,9 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-06-15T09:40:00Z
-updated: 2026-06-15T09:40:00Z
+updated: 2026-06-15T09:44:00Z
 aliases: []
-tags: []
+tags: [area/api]
 ---
 
 Everything else in Harbor hangs off one sentence: this boat has that berth from this day to that one. A reservation is the range, the berth and the boat, and it either exists for every night in the range or it does not exist at all — a berth held for four of five nights is the argument the harbour office has to have on the pontoon on the fifth.
