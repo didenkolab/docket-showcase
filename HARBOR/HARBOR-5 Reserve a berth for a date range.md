@@ -2,14 +2,14 @@
 key: HARBOR-5
 title: Reserve a berth for a date range
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-06-15T09:40:00Z
-updated: 2026-06-15T10:01:00Z
+updated: 2026-06-15T11:10:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: team
