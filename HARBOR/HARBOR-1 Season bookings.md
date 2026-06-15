@@ -2,13 +2,13 @@
 key: HARBOR-1
 title: Season bookings
 type: epic
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 labels: []
 created: 2026-06-15T09:30:00Z
-updated: 2026-06-15T09:30:00Z
+updated: 2026-06-15T11:30:00Z
 aliases: []
 tags: []
 ---
