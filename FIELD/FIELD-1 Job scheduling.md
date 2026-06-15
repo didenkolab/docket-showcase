@@ -2,13 +2,13 @@
 key: FIELD-1
 title: Job scheduling
 type: epic
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 labels: []
 created: 2026-06-15T09:37:00Z
-updated: 2026-06-15T09:37:00Z
+updated: 2026-06-15T12:00:00Z
 aliases: []
 tags: []
 ---
