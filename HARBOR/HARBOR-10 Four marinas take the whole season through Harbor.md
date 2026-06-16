@@ -11,11 +11,12 @@ status_category: doing
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-06-16T09:30:00Z
-updated: 2026-06-16T09:32:00Z
+updated: 2026-06-16T14:21:00Z
 labels: []
 tags: []
 aliases: []
 parent: "[[HARBOR-9 Marinas run the season on Harbor]]"
+advanced_by: ["[[HARBOR-1 Season bookings]]"]
 ---
 
 Not signups and not trials. A marina counts when its berths are in Harbor and its season is being sold out of Harbor, which is the only version of adoption that survives August.
