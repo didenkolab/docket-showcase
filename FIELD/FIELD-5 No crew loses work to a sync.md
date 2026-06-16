@@ -11,11 +11,12 @@ status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 created: 2026-06-16T09:40:00Z
-updated: 2026-06-16T09:42:00Z
+updated: 2026-06-16T14:41:00Z
 labels: []
 tags: []
 aliases: []
 parent: "[[FIELD-4 A crew's day survives a dead zone]]"
+advanced_by: ["[[FIELD-3 Offline mobile]]"]
 ---
 
 A target of zero is the only honest one: a crew that loses a day's work once does not lose it twice, because they stop using the phone. The number was zero when it was written because nobody had looked.
