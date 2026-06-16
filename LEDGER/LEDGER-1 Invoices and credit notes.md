@@ -2,13 +2,13 @@
 key: LEDGER-1
 title: Invoices and credit notes
 type: epic
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[ingrid]]'
 labels: []
 created: 2026-06-15T09:34:00Z
-updated: 2026-06-15T11:50:00Z
+updated: 2026-06-16T09:18:00Z
 aliases: []
 tags: []
 ---
