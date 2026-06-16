@@ -1,9 +1,9 @@
 ---
 type: key_result
-target:
-current:
-measure:
-quarter:
+target: 90
+current: 0
+measure: Share of check-ins that arrived from the mobile queue rather than being typed in the office, over the last fourteen days
+quarter: 2026-Q3
 key: HARBOR-11
 title: Nine in ten arrivals are checked in from the pontoon
 status: In progress
@@ -11,7 +11,7 @@ status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 created: 2026-06-16T09:32:00Z
-updated: 2026-06-16T09:32:00Z
+updated: 2026-06-16T09:34:00Z
 labels: []
 tags: []
 aliases: []
