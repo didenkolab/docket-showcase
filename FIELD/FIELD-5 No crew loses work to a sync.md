@@ -1,9 +1,9 @@
 ---
 type: key_result
-target:
-current:
-measure:
-quarter:
+target: 0
+current: 0
+measure: Jobs whose offline edits were dropped by a merge, counted over the previous thirty days
+quarter: 2026-Q3
 key: FIELD-5
 title: No crew loses work to a sync
 status: In progress
@@ -11,7 +11,7 @@ status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 created: 2026-06-16T09:40:00Z
-updated: 2026-06-16T09:40:00Z
+updated: 2026-06-16T09:42:00Z
 labels: []
 tags: []
 aliases: []
