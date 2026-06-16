@@ -1,9 +1,9 @@
 ---
 type: key_result
-target:
-current:
-measure:
-quarter:
+target: 90
+current: 0
+measure: Share of imported statement lines the matcher settled on its own over the last thirty days
+quarter: 2026-Q3
 key: LEDGER-7
 title: Nine in ten bank lines are matched without a person
 status: In progress
@@ -11,7 +11,7 @@ status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 created: 2026-06-16T09:38:00Z
-updated: 2026-06-16T09:38:00Z
+updated: 2026-06-16T09:40:00Z
 labels: []
 tags: []
 aliases: []
