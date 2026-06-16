@@ -1,9 +1,9 @@
 ---
 type: key_result
-target:
-current:
-measure:
-quarter:
+target: 4
+current: 1
+measure: Marinas whose berth list is in Harbor and whose July and August bookings were made in it
+quarter: 2026-Q3
 key: HARBOR-10
 title: Four marinas take the whole season through Harbor
 status: In progress
@@ -11,7 +11,7 @@ status_category: doing
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-06-16T09:30:00Z
-updated: 2026-06-16T09:30:00Z
+updated: 2026-06-16T09:32:00Z
 labels: []
 tags: []
 aliases: []
