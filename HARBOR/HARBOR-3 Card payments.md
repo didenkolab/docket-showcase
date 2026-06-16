@@ -2,13 +2,13 @@
 key: HARBOR-3
 title: Card payments
 type: epic
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 labels: []
 created: 2026-06-15T09:32:00Z
-updated: 2026-06-15T11:40:00Z
+updated: 2026-06-16T09:17:00Z
 aliases: []
 tags: []
 ---
