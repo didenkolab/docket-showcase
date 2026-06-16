@@ -11,11 +11,12 @@ status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 created: 2026-06-16T09:32:00Z
-updated: 2026-06-16T09:34:00Z
+updated: 2026-06-16T14:25:00Z
 labels: []
 tags: []
 aliases: []
 parent: "[[HARBOR-9 Marinas run the season on Harbor]]"
+advanced_by: ["[[HARBOR-4 Mobile check-in]]"]
 ---
 
 The office keyboard is the fallback, and a fallback that is used for half the arrivals is the real product. This is the number that says whether check-in works standing on a finger pier in the rain.
