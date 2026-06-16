@@ -1,9 +1,9 @@
 ---
 type: key_result
-target:
-current:
-measure:
-quarter:
+target: 90
+current: 12
+measure: Share of month-view loads under one second on Sandholm's four hundred and six berths
+quarter: 2026-Q3
 key: HARBOR-12
 title: The biggest marina's month opens in under a second
 status: In progress
@@ -11,7 +11,7 @@ status_category: doing
 priority: normal
 assignee: '[[priya]]'
 created: 2026-06-16T09:34:00Z
-updated: 2026-06-16T09:34:00Z
+updated: 2026-06-16T09:36:00Z
 labels: []
 tags: []
 aliases: []
