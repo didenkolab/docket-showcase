@@ -8,9 +8,10 @@ priority: normal
 assignee: '[[priya]]'
 labels: []
 created: 2026-06-15T09:31:00Z
-updated: 2026-06-16T09:16:00Z
+updated: 2026-06-16T14:28:00Z
 aliases: []
 tags: []
+contributes_to: ["[[HARBOR-12 The biggest marina's month opens in under a second]]"]
 ---
 
 The wall planner the bookings replace was one sheet of paper the whole harbour office could stand in front of. Whatever we build has to be readable from that distance: a month of every berth on one screen, with the boat that is coming, the boat that is leaving and the slip that has been empty for a fortnight all visible without clicking anything.
