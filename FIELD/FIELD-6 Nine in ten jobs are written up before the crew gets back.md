@@ -11,11 +11,12 @@ status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 created: 2026-06-16T09:42:00Z
-updated: 2026-06-16T09:44:00Z
+updated: 2026-06-16T14:45:00Z
 labels: []
 tags: []
 aliases: []
 parent: "[[FIELD-4 A crew's day survives a dead zone]]"
+advanced_by: ["[[FIELD-1 Job scheduling]]"]
 ---
 
 A job written up in the van is written from memory of ten minutes ago; one written at the depot at six is written from memory of eight hours ago, and it is the second kind that produces the callbacks.
