@@ -9,7 +9,7 @@ assignee: '[[ola]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-06-15T10:10:00Z
-updated: 2026-06-18T11:10:00Z
+updated: 2026-06-18T11:15:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 1]]"
@@ -21,6 +21,6 @@ Every marina we have spoken to keeps its berths in a spreadsheet with a column n
 ## Acceptance
 
 - [x] A marina's spreadsheet becomes berths with length, depth and power
-- [ ] A row that cannot be read stops the import and says which row
+- [x] A row that cannot be read stops the import and says which row
 
 ## Comments
