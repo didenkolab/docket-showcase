@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-06-15T09:40:00Z
-updated: 2026-06-18T16:10:00Z
+updated: 2026-06-18T16:15:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: team
@@ -23,6 +23,6 @@ Everything else in Harbor hangs off one sentence: this boat has that berth from 
 
 - [x] A reservation covers every night of the range or none of them
 - [x] A berth already taken for one night of the range is refused, naming the night
-- [ ] The reservation is on the berth calendar the moment it is made
+- [x] The reservation is on the berth calendar the moment it is made
 
 ## Comments
