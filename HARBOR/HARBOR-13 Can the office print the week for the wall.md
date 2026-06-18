@@ -1,8 +1,8 @@
 ---
 type: request
-asked_by:
-asked_on:
-wanted_by:
+asked_by: Jonas Vik, harbourmaster at Vik Marina
+asked_on: 2026-06-18
+wanted_by: 2026-07-10
 key: HARBOR-13
 title: Can the office print the week for the wall?
 status: Backlog
@@ -10,7 +10,7 @@ status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-06-18T10:20:00Z
-updated: 2026-06-18T10:20:00Z
+updated: 2026-06-18T10:22:00Z
 labels: ["[[bookings]]"]
 tags: []
 aliases: []
