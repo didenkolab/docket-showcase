@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-06-15T09:55:00Z
-updated: 2026-06-19T16:00:00Z
+updated: 2026-06-19T16:05:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -23,6 +23,6 @@ An invoice number is the only thing about an invoice that the tax office cares a
 
 - [x] Each business gets its own sequence, starting again at the turn of its year
 - [x] Two invoices issued at the same moment get two different numbers
-- [ ] A number is allocated when the invoice is issued, not when it is drafted
+- [x] A number is allocated when the invoice is issued, not when it is drafted
 
 ## Comments
