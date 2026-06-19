@@ -2,14 +2,14 @@
 key: HARBOR-8
 title: Import the marina's berth list from a spreadsheet
 type: task
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[ola]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-06-15T10:10:00Z
-updated: 2026-06-19T09:50:00Z
+updated: 2026-06-19T15:10:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 1]]"
