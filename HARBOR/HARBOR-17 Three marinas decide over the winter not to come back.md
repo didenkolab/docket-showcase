@@ -11,10 +11,11 @@ status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-06-22T11:20:00Z
-updated: 2026-06-22T11:22:00Z
+updated: 2026-06-22T11:24:00Z
 labels: ["[[bookings]]"]
 tags: []
 aliases: []
+threatens: ["[[HARBOR-1 Season bookings]]"]
 ---
 
 ## What could happen
