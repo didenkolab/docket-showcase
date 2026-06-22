@@ -1,9 +1,9 @@
 ---
 type: risk
-likelihood: possible
-impact: moderate
-owner:
-reviewed_on:
+likelihood: unlikely
+impact: severe
+owner: ola
+reviewed_on: 2026-06-22
 key: HARBOR-14
 title: The payment provider suspends a marina's account mid-season
 status: Backlog
@@ -11,7 +11,7 @@ status_category: todo
 priority: normal
 assignee: '[[ola]]'
 created: 2026-06-22T10:20:00Z
-updated: 2026-06-22T10:20:00Z
+updated: 2026-06-22T10:22:00Z
 labels: ["[[payments]]"]
 tags: []
 aliases: []
