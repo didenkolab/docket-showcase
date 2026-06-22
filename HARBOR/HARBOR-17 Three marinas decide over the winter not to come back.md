@@ -1,9 +1,9 @@
 ---
 type: risk
-likelihood: possible
-impact: moderate
-owner:
-reviewed_on:
+likelihood: likely
+impact: major
+owner: ingrid
+reviewed_on: 2026-06-22
 key: HARBOR-17
 title: Three marinas decide over the winter not to come back
 status: Backlog
@@ -11,7 +11,7 @@ status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-06-22T11:20:00Z
-updated: 2026-06-22T11:20:00Z
+updated: 2026-06-22T11:22:00Z
 labels: ["[[bookings]]"]
 tags: []
 aliases: []
