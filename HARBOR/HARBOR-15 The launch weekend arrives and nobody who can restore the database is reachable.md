@@ -1,9 +1,9 @@
 ---
 type: risk
-likelihood: possible
-impact: moderate
-owner:
-reviewed_on:
+likelihood: likely
+impact: major
+owner: ola
+reviewed_on: 2026-06-22
 key: HARBOR-15
 title: The launch weekend arrives and nobody who can restore the database is reachable
 status: Backlog
@@ -11,7 +11,7 @@ status_category: todo
 priority: normal
 assignee: '[[ola]]'
 created: 2026-06-22T10:30:00Z
-updated: 2026-06-22T10:30:00Z
+updated: 2026-06-22T10:32:00Z
 labels: ["[[bookings]]"]
 tags: []
 aliases: []
