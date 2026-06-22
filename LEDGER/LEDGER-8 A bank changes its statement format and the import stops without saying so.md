@@ -1,9 +1,9 @@
 ---
 type: risk
-likelihood: possible
+likelihood: likely
 impact: moderate
-owner:
-reviewed_on:
+owner: ola
+reviewed_on: 2026-06-22
 key: LEDGER-8
 title: A bank changes its statement format and the import stops without saying so
 status: Backlog
@@ -11,7 +11,7 @@ status_category: todo
 priority: normal
 assignee: '[[ola]]'
 created: 2026-06-22T10:40:00Z
-updated: 2026-06-22T10:40:00Z
+updated: 2026-06-22T10:42:00Z
 labels: ["[[bank-import]]"]
 tags: []
 aliases: []
