@@ -11,10 +11,11 @@ status_category: todo
 priority: normal
 assignee: '[[ola]]'
 created: 2026-06-22T10:40:00Z
-updated: 2026-06-22T10:42:00Z
+updated: 2026-06-22T10:44:00Z
 labels: ["[[bank-import]]"]
 tags: []
 aliases: []
+threatens: ["[[LEDGER-2 Bank import]]"]
 ---
 
 ## What could happen
