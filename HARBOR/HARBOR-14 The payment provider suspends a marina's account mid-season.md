@@ -11,10 +11,11 @@ status_category: todo
 priority: normal
 assignee: '[[ola]]'
 created: 2026-06-22T10:20:00Z
-updated: 2026-06-22T10:22:00Z
+updated: 2026-06-22T10:24:00Z
 labels: ["[[payments]]"]
 tags: []
 aliases: []
+threatens: ["[[HARBOR-3 Card payments]]"]
 ---
 
 ## What could happen
