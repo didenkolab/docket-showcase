@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-06-15T09:45:00Z
-updated: 2026-06-17T10:05:00Z
+updated: 2026-06-22T15:25:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -21,7 +21,7 @@ Before anybody reserves anything they ask the harbour office the same question: 
 
 ## Acceptance
 
-- [ ] A week and a boat length come back as the berths that are free and long enough
+- [x] A week and a boat length come back as the berths that are free and long enough
 - [ ] A berth held but not yet paid for is not offered to somebody else
 - [ ] The answer is one request, not one request per berth
 
