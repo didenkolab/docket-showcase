@@ -11,10 +11,11 @@ status_category: todo
 priority: normal
 assignee: '[[aiko]]'
 created: 2026-06-22T11:30:00Z
-updated: 2026-06-22T11:32:00Z
+updated: 2026-06-22T11:34:00Z
 labels: ["[[offline-sync]]"]
 tags: []
 aliases: []
+threatens: ["[[FIELD-3 Offline mobile]]"]
 ---
 
 ## What could happen
