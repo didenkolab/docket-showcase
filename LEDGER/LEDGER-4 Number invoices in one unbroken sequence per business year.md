@@ -2,14 +2,14 @@
 key: LEDGER-4
 title: Number invoices in one unbroken sequence per business year
 type: story
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-06-15T09:55:00Z
-updated: 2026-06-22T10:30:00Z
+updated: 2026-06-23T15:10:00Z
 aliases: []
 tags: []
 definition_of_done: team
