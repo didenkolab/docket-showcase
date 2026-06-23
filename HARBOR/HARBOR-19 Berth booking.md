@@ -9,9 +9,10 @@ assignee:
 parent: "[[HARBOR-18 The Harbor suite]]"
 labels: []
 created: 2026-06-23T09:40:00Z
-updated: 2026-06-23T09:40:00Z
+updated: 2026-06-23T11:20:00Z
 aliases: []
 tags: []
+includes: ["[[HARBOR-22 A boat takes a berth for a range of nights]]", "[[HARBOR-23 A second boat cannot have nights that are already sold]]", "[[HARBOR-24 The berths that are free for a week]]", "[[HARBOR-25 The morning a boat leaves, its berth is somebody else's night]]", "[[HARBOR-26 The marina's own spreadsheet becomes a berth list]]"]
 ---
 
 The cases settled by the scenarios in `features/harbor/booking.feature`.

@@ -9,9 +9,10 @@ assignee:
 parent: "[[LEDGER-9 The Ledgerline suite]]"
 labels: []
 created: 2026-06-23T09:40:00Z
-updated: 2026-06-23T09:40:00Z
+updated: 2026-06-23T11:20:00Z
 aliases: []
 tags: []
+includes: ["[[LEDGER-13 Invoice numbers run without a gap in them]]", "[[LEDGER-14 A new business year starts the sequence again]]"]
 ---
 
 The cases settled by the scenarios in `features/ledgerline/invoices.feature`.
