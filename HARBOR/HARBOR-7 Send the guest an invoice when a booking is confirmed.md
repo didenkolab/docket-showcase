@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[invoicing]]"]
 created: 2026-06-15T09:50:00Z
-updated: 2026-06-24T15:55:00Z
+updated: 2026-06-24T16:00:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -23,7 +23,7 @@ A marina's season is sold on invoices, and the sprint goal is only met when one 
 ## Acceptance
 
 - [x] Confirming a booking produces an invoice with the nights and the rate on it
-- [ ] The rate on the invoice is the one that applied on the day of booking
+- [x] The rate on the invoice is the one that applied on the day of booking
 - [ ] The invoice number is unique and never reused
 
 ## Comments
