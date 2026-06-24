@@ -2,14 +2,14 @@
 key: HARBOR-7
 title: Send the guest an invoice when a booking is confirmed
 type: story
-status: In progress
+status: In review
 status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[invoicing]]"]
 created: 2026-06-15T09:50:00Z
-updated: 2026-06-24T16:05:00Z
+updated: 2026-06-24T16:10:00Z
 aliases: []
 tags: []
 definition_of_done: team
