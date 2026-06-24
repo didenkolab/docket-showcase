@@ -9,12 +9,13 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-06-15T09:55:00Z
-updated: 2026-06-23T15:10:00Z
+updated: 2026-06-24T10:10:00Z
 aliases: []
 tags: []
 definition_of_done: team
 sprint: "[[Sprint 1]]"
 estimate: 3
+tested_by: ["[[LEDGER-13 Invoice numbers run without a gap in them]]", "[[LEDGER-14 A new business year starts the sequence again]]"]
 ---
 
 An invoice number is the only thing about an invoice that the tax office cares about before it cares about anything else: the sequence has to start at one each business year, have no gaps in it, and never give the same number to two documents. A gap has to be explainable and a duplicate is not explainable at all, which is why this is the first thing Ledgerline does rather than the last.

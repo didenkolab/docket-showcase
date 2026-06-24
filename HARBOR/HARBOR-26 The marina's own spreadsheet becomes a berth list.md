@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-06-23T11:20:00Z
-updated: 2026-06-23T11:20:00Z
+updated: 2026-06-24T10:10:00Z
 labels: []
 tags: []
 aliases: []
@@ -16,6 +16,7 @@ automation_id: HARBOR-GEN-6C1A63
 generated: true
 parent: "[[HARBOR-19 Berth booking]]"
 included_in: ["[[HARBOR-19 Berth booking]]"]
+tests: ["[[HARBOR-8 Import the marina's berth list from a spreadsheet]]"]
 ---
 
 ## Scenario
@@ -30,3 +31,9 @@ included_in: ["[[HARBOR-19 Berth booking]]"]
 From `Berth booking` in `booking.feature`.
 
 **No case id in the automation**, so this one was derived from the feature file and the scenario name. Rename the scenario and it becomes a different test; tag the scenario `@HARBOR-GEN-6C1A63` to settle it.
+
+## What this covers
+
+Derived, not declared — correct it by editing the `tests:` links above.
+
+- HARBOR-8 — the commit that wrote it
