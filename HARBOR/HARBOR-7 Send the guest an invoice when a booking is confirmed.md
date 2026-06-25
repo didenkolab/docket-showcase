@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[invoicing]]"]
 created: 2026-06-15T09:50:00Z
-updated: 2026-06-24T16:10:00Z
+updated: 2026-06-25T09:25:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -27,3 +27,5 @@ A marina's season is sold on invoices, and the sprint goal is only met when one 
 - [x] The invoice number is unique and never reused
 
 ## Comments
+
+**priya · 2026-06-25 09:25** — Sending it back: the invoice takes today's rate rather than the rate on the day of booking, so every invoice we reissue after a price change is wrong by however much the price moved. The rest of it reads well.
