@@ -1,8 +1,8 @@
 ---
 type: request
-asked_by:
-asked_on:
-wanted_by:
+asked_by: Marit Sandholm, Sandholm Harbour
+asked_on: 2026-06-26
+wanted_by: 2026-08-14
 key: HARBOR-29
 title: Can we book the whole east pontoon for the regatta weekend?
 status: Backlog
@@ -10,7 +10,7 @@ status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-06-26T11:10:00Z
-updated: 2026-06-26T11:10:00Z
+updated: 2026-06-26T11:12:00Z
 labels: ["[[bookings]]"]
 tags: []
 aliases: []
