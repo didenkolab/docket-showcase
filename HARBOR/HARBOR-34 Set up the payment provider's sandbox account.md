@@ -9,9 +9,10 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-33 Take the card payment when a booking is confirmed]]"
 labels: []
 created: 2026-06-29T11:00:00Z
-updated: 2026-06-29T11:00:00Z
+updated: 2026-06-29T11:01:00Z
 aliases: []
 tags: []
+estimate: 1
 ---
 
 Test cards, a webhook endpoint that reaches a laptop, and a second account so QA is not sharing a transaction list with whoever is developing.
