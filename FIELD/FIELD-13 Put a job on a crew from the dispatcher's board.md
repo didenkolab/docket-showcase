@@ -9,9 +9,10 @@ assignee: '[[priya]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[routing]]"]
 created: 2026-06-29T09:45:00Z
-updated: 2026-06-29T09:45:00Z
+updated: 2026-06-29T09:52:00Z
 aliases: []
 tags: []
+definition_of_done: team
 ---
 
 The office side of the same sentence: four columns, one per crew, and an unplanned pile down the left that the dispatcher empties by dragging. It has to survive being used by one person while another is looking at it, because on a Monday morning both of Nordic Field's office staff are on the same board.
