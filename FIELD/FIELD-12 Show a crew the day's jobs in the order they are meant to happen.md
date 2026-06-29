@@ -2,14 +2,14 @@
 key: FIELD-12
 title: Show a crew the day's jobs in the order they are meant to happen
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[mobile]]"]
 created: 2026-06-29T09:40:00Z
-updated: 2026-06-29T10:00:00Z
+updated: 2026-06-29T11:20:00Z
 aliases: []
 tags: []
 definition_of_done: team
