@@ -9,9 +9,10 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-06-29T09:45:00Z
-updated: 2026-06-29T09:45:00Z
+updated: 2026-06-29T09:52:00Z
 aliases: []
 tags: []
+definition_of_done: team
 ---
 
 What actually leaves the building is a PDF, and it is read by somebody who has never seen Ledgerline and never will. It has to carry the business's registered name and number, the customer's address as the customer writes it, the lines, the tax rows and the payment details, on one page whenever one page is possible.
