@@ -9,10 +9,11 @@ assignee: '[[aiko]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[mobile]]"]
 created: 2026-06-29T09:40:00Z
-updated: 2026-06-29T09:47:00Z
+updated: 2026-06-29T10:00:00Z
 aliases: []
 tags: []
 definition_of_done: team
+sprint: "[[Sprint 2]]"
 ---
 
 This is the screen the crews will open thirty times a day and judge the whole product by. It is today, in order, with the address, the customer's name, what the job is and how long it is meant to take — and it opens on a cold phone in a van at half past six in the morning without asking anybody to log in again.
