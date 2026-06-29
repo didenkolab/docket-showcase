@@ -2,13 +2,13 @@
 key: FIELD-1
 title: Job scheduling
 type: epic
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[ingrid]]'
 labels: []
 created: 2026-06-15T09:37:00Z
-updated: 2026-06-16T14:44:00Z
+updated: 2026-06-29T09:20:00Z
 aliases: []
 tags: []
 contributes_to: ["[[FIELD-6 Nine in ten jobs are written up before the crew gets back]]"]
