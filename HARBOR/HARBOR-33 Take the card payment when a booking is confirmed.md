@@ -2,14 +2,14 @@
 key: HARBOR-33
 title: Take the card payment when a booking is confirmed
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-06-29T10:00:00Z
-updated: 2026-06-29T10:20:00Z
+updated: 2026-06-29T11:50:00Z
 aliases: []
 tags: []
 definition_of_done: team
