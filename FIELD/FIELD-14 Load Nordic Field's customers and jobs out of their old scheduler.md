@@ -9,9 +9,9 @@ assignee: '[[ola]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: []
 created: 2026-06-29T10:10:00Z
-updated: 2026-06-29T10:10:00Z
+updated: 2026-06-29T10:14:00Z
 aliases: []
-tags: []
+tags: [customer/nordic-field]
 ---
 
 Eleven hundred customers and about four thousand past jobs, exported from a scheduler the firm has used since 2014, in a file where the address is one column and the flat number is sometimes in it and sometimes in the note. Nothing about the pilot works until this has been done once against the real file.
