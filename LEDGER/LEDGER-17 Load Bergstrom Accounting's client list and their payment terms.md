@@ -9,9 +9,10 @@ assignee: '[[ola]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-06-29T10:00:00Z
-updated: 2026-06-29T10:04:00Z
+updated: 2026-06-29T10:20:00Z
 aliases: []
 tags: [customer/bergstrom]
+sprint: "[[Sprint 2]]"
 ---
 
 Ninety businesses, each with its own customers, its own payment terms and its own idea of what a customer reference looks like, exported from the system Bergstrom have been using since 2011. Nothing about invoicing can be demonstrated on made-up customers, and the shape of the real ones is the argument we keep having.
