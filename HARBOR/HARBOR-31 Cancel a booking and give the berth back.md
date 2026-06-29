@@ -9,9 +9,10 @@ assignee: '[[priya]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-06-29T09:40:00Z
-updated: 2026-06-29T09:40:00Z
+updated: 2026-06-29T09:47:00Z
 aliases: []
 tags: []
+definition_of_done: team
 ---
 
 Weather cancels more bookings than people do. The office needs one action that ends the booking, frees every night it held and leaves a record of who cancelled it and when — a berth quietly deleted is a berth nobody can explain in October.
