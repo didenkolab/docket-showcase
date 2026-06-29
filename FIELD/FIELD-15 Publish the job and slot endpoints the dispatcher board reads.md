@@ -9,9 +9,9 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: []
 created: 2026-06-29T10:15:00Z
-updated: 2026-06-29T10:15:00Z
+updated: 2026-06-29T10:19:00Z
 aliases: []
-tags: []
+tags: [area/api]
 ---
 
 The board, the phone and eventually the customer's own booking page all want the same three questions answered — what is on this crew today, what is unplanned, and is this slot free — and answering them three different ways is how the three screens come to disagree about the same day.
