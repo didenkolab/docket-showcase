@@ -9,9 +9,9 @@ assignee: '[[ola]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-06-30T15:30:00Z
-updated: 2026-06-30T15:30:00Z
+updated: 2026-06-30T15:34:00Z
 aliases: []
-tags: []
+tags: [area/api]
 ---
 
 Two of the three banks take a fortnight to approve a developer account and one of them wants a registered company number before it will talk at all. Started now because the sprint that needs them starts on the thirteenth and no amount of planning shortens a bank's approval queue.
