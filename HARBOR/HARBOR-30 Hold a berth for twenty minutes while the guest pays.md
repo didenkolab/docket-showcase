@@ -2,14 +2,14 @@
 key: HARBOR-30
 title: Hold a berth for twenty minutes while the guest pays
 type: story
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]", "[[payments]]"]
 created: 2026-06-29T09:35:00Z
-updated: 2026-06-29T11:15:00Z
+updated: 2026-06-30T10:20:00Z
 aliases: []
 tags: []
 definition_of_done: team
