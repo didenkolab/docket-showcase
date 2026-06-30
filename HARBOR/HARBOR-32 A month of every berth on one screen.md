@@ -2,14 +2,14 @@
 key: HARBOR-32
 title: A month of every berth on one screen
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[priya]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-06-29T09:50:00Z
-updated: 2026-06-29T10:10:00Z
+updated: 2026-06-30T09:40:00Z
 aliases: []
 tags: []
 definition_of_done: team
