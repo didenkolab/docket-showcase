@@ -9,10 +9,11 @@ assignee: '[[ola]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: []
 created: 2026-06-30T15:40:00Z
-updated: 2026-06-30T16:00:00Z
+updated: 2026-06-30T16:01:00Z
 aliases: []
 tags: [area/api]
 sprint: "[[Sprint 2]]"
+estimate: 2
 ---
 
 The sandbox keys went in with the first payment commit and the live ones would have followed. They belong in the deployment's own secret store, and the old ones have to be rotated because a key that has been in a repository is a key that is public.
