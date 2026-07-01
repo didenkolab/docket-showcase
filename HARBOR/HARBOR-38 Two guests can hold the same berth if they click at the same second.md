@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-07-01T14:20:00Z
-updated: 2026-07-01T14:24:00Z
+updated: 2026-07-01T14:30:00Z
 aliases: []
 tags: [regress]
 ---
@@ -22,3 +22,5 @@ Two browsers, same berth, same week, confirm within the same second: both holds 
 - [ ] The loser is told the berth went, not shown an error page
 
 ## Comments
+
+**mateo · 2026-07-01 14:30** — Reproduced eight times out of ten with two tabs and a stopwatch: berth A12, week of 10 August, both confirmations say 'held for you'. The second hold overwrites the first rather than being refused, so the first guest keeps a confirmation for a berth they do not have.
