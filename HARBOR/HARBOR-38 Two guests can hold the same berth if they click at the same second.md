@@ -9,9 +9,9 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-07-01T14:20:00Z
-updated: 2026-07-01T14:20:00Z
+updated: 2026-07-01T14:24:00Z
 aliases: []
-tags: []
+tags: [regress]
 ---
 
 Two browsers, same berth, same week, confirm within the same second: both holds are created and both guests are told the berth is theirs. The availability check and the write are two separate reads of the same table with nothing between them.
