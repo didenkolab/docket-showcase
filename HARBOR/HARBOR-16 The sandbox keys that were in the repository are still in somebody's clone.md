@@ -11,11 +11,12 @@ status_category: todo
 priority: normal
 assignee: '[[ola]]'
 created: 2026-06-22T10:50:00Z
-updated: 2026-06-22T10:54:00Z
+updated: 2026-07-01T14:30:00Z
 labels: ["[[payments]]"]
 tags: []
 aliases: []
 threatens: ["[[HARBOR-3 Card payments]]"]
+mitigated_by: ["[[HARBOR-37 Move the payment provider's keys out of the repository]]"]
 ---
 
 ## What could happen
