@@ -2,14 +2,14 @@
 key: FIELD-13
 title: Put a job on a crew from the dispatcher's board
 type: story
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[priya]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[routing]]"]
 created: 2026-06-29T09:45:00Z
-updated: 2026-06-29T11:25:00Z
+updated: 2026-07-01T09:40:00Z
 aliases: []
 tags: []
 definition_of_done: team
