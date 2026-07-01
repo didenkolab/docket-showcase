@@ -2,14 +2,14 @@
 key: FIELD-15
 title: Publish the job and slot endpoints the dispatcher board reads
 type: task
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: []
 created: 2026-06-29T10:15:00Z
-updated: 2026-06-30T09:45:00Z
+updated: 2026-07-01T10:10:00Z
 aliases: []
 tags: [area/api]
 sprint: "[[Sprint 2]]"
