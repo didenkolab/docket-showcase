@@ -2,14 +2,14 @@
 key: HARBOR-34
 title: Set up the payment provider's sandbox account
 type: subtask
-status: In progress
+status: In review
 status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-33 Take the card payment when a booking is confirmed]]"
 labels: []
 created: 2026-06-29T11:00:00Z
-updated: 2026-06-30T14:20:00Z
+updated: 2026-07-01T16:10:00Z
 aliases: []
 tags: []
 estimate: 1
