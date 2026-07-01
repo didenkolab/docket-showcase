@@ -2,13 +2,13 @@
 key: LEDGER-2
 title: Bank import
 type: epic
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 labels: []
 created: 2026-06-15T09:35:00Z
-updated: 2026-06-22T10:45:00Z
+updated: 2026-07-01T09:25:00Z
 aliases: []
 tags: []
 contributes_to: ["[[LEDGER-7 Nine in ten bank lines are matched without a person]]"]
