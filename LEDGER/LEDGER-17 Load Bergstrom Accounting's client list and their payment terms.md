@@ -9,7 +9,7 @@ assignee: '[[ola]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-06-29T10:00:00Z
-updated: 2026-07-02T11:20:00Z
+updated: 2026-07-02T11:25:00Z
 aliases: []
 tags: [customer/bergstrom]
 sprint: "[[Sprint 2]]"
@@ -21,6 +21,6 @@ Ninety businesses, each with its own customers, its own payment terms and its ow
 ## Acceptance
 
 - [x] Bergstrom's ninety businesses and their customers are in the vault's demo data
-- [ ] A row that cannot be read stops the import and says which row and why
+- [x] A row that cannot be read stops the import and says which row and why
 
 ## Comments
