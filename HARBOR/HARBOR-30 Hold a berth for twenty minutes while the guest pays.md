@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]", "[[payments]]"]
 created: 2026-06-29T09:35:00Z
-updated: 2026-07-02T15:40:00Z
+updated: 2026-07-02T15:45:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -23,6 +23,6 @@ Between choosing a berth and the card clearing there is a minute or two in which
 
 - [x] A held berth is not offered to anybody else while the hold lasts
 - [x] An unpaid hold expires on its own and the berth is free again
-- [ ] A payment that lands after the hold expired is refunded, not silently kept
+- [x] A payment that lands after the hold expired is refunded, not silently kept
 
 ## Comments
