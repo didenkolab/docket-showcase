@@ -2,14 +2,14 @@
 key: LEDGER-17
 title: Load Bergstrom Accounting's client list and their payment terms
 type: task
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[ola]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-06-29T10:00:00Z
-updated: 2026-07-03T09:45:00Z
+updated: 2026-07-03T15:50:00Z
 aliases: []
 tags: [customer/bergstrom]
 sprint: "[[Sprint 2]]"
