@@ -9,7 +9,7 @@ assignee: '[[ola]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: []
 created: 2026-06-30T15:40:00Z
-updated: 2026-07-03T11:10:00Z
+updated: 2026-07-03T11:15:00Z
 aliases: []
 tags: [area/api]
 sprint: "[[Sprint 2]]"
@@ -22,6 +22,6 @@ The sandbox keys went in with the first payment commit and the live ones would h
 ## Acceptance
 
 - [x] No provider key is in the repository or its history going forward
-- [ ] The sandbox keys that were committed are rotated
+- [x] The sandbox keys that were committed are rotated
 
 ## Comments
