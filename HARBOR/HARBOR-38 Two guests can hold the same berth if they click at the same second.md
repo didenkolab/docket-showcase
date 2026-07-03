@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-07-01T14:20:00Z
-updated: 2026-07-02T09:40:00Z
+updated: 2026-07-03T15:20:00Z
 aliases: []
 tags: [regress]
 sprint: "[[Sprint 2]]"
@@ -20,7 +20,7 @@ Two browsers, same berth, same week, confirm within the same second: both holds 
 
 ## Acceptance
 
-- [ ] Two simultaneous holds on one berth leave exactly one winner
+- [x] Two simultaneous holds on one berth leave exactly one winner
 - [ ] The loser is told the berth went, not shown an error page
 
 ## Comments
