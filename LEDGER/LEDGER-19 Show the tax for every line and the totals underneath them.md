@@ -2,14 +2,14 @@
 key: LEDGER-19
 title: Show the tax for every line and the totals underneath them
 type: subtask
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[priya]]'
 parent: "[[LEDGER-15 Write an invoice line by line with the tax shown separately]]"
 labels: []
 created: 2026-06-29T10:25:00Z
-updated: 2026-07-01T09:40:00Z
+updated: 2026-07-03T09:50:00Z
 aliases: []
 tags: []
 estimate: 3
