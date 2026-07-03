@@ -9,10 +9,10 @@ assignee:
 parent: "[[HARBOR-18 The Harbor suite]]"
 labels: []
 created: 2026-06-23T09:40:00Z
-updated: 2026-06-23T11:20:00Z
+updated: 2026-07-03T16:00:00Z
 aliases: []
 tags: []
-includes: ["[[HARBOR-22 A boat takes a berth for a range of nights]]", "[[HARBOR-23 A second boat cannot have nights that are already sold]]", "[[HARBOR-24 The berths that are free for a week]]", "[[HARBOR-25 The morning a boat leaves, its berth is somebody else's night]]", "[[HARBOR-26 The marina's own spreadsheet becomes a berth list]]"]
+includes: ["[[HARBOR-22 A boat takes a berth for a range of nights]]", "[[HARBOR-23 A second boat cannot have nights that are already sold]]", "[[HARBOR-24 The berths that are free for a week]]", "[[HARBOR-25 The morning a boat leaves, its berth is somebody else's night]]", "[[HARBOR-26 The marina's own spreadsheet becomes a berth list]]", "[[HARBOR-40 A berth is held for twenty minutes while the guest pays]]", "[[HARBOR-41 A cancelled booking gives its nights back to the free list]]", "[[HARBOR-42 Two guests clicking at the same moment do not both get the berth]]", "[[HARBOR-43 The free berths come back in the marina's own order]]"]
 ---
 
 The cases settled by the scenarios in `features/harbor/booking.feature`.

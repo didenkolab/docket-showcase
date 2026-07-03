@@ -1,0 +1,32 @@
+---
+type: test_execution
+environment: staging
+revision: 043ed64
+started:
+finished:
+key: HARBOR-47
+title: Cucumber on staging at 043ed64
+status: Backlog
+status_category: todo
+priority: normal
+assignee:
+created: 2026-07-03T16:00:00Z
+updated: 2026-07-03T16:00:00Z
+labels: []
+tags: []
+aliases: []
+---
+
+# What was run, where
+
+An execution is one pass over a set of tests, on one build, in one environment.
+Its runs are its children: a note per test, each with its own result.
+
+Two notes rather than a status on the test, because a test carrying only its
+last result cannot answer "did this ever pass on staging" — which is the
+question a release asks.
+
+## What was not run, and why
+
+The part nobody writes down, and the part that matters when somebody asks
+whether this build was tested.

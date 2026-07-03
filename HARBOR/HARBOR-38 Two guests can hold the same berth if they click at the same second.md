@@ -9,11 +9,12 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-07-01T14:20:00Z
-updated: 2026-07-03T15:30:00Z
+updated: 2026-07-03T16:00:00Z
 aliases: []
 tags: [regress]
 sprint: "[[Sprint 2]]"
 estimate: 3
+tested_by: ["[[HARBOR-41 A cancelled booking gives its nights back to the free list]]", "[[HARBOR-42 Two guests clicking at the same moment do not both get the berth]]"]
 ---
 
 Two browsers, same berth, same week, confirm within the same second: both holds are created and both guests are told the berth is theirs. The availability check and the write are two separate reads of the same table with nothing between them.

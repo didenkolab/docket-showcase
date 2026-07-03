@@ -9,12 +9,13 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]", "[[payments]]"]
 created: 2026-06-29T09:35:00Z
-updated: 2026-07-03T10:40:00Z
+updated: 2026-07-03T16:00:00Z
 aliases: []
 tags: []
 definition_of_done: team
 sprint: "[[Sprint 2]]"
 estimate: 5
+tested_by: ["[[HARBOR-26 The marina's own spreadsheet becomes a berth list]]", "[[HARBOR-40 A berth is held for twenty minutes while the guest pays]]"]
 ---
 
 Between choosing a berth and the card clearing there is a minute or two in which the berth belongs to nobody, and on a Friday in July that is long enough for two people to buy it. A hold is a reservation with an expiry: the berth is off the market for twenty minutes, and comes back on its own if the payment never lands.
