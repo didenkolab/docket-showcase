@@ -2,14 +2,14 @@
 key: LEDGER-18
 title: Lay the invoice out as a table an accountant can read down
 type: subtask
-status: In review
+status: QA
 status_category: doing
 priority: normal
 assignee: '[[priya]]'
 parent: "[[LEDGER-15 Write an invoice line by line with the tax shown separately]]"
 labels: []
 created: 2026-06-29T10:20:00Z
-updated: 2026-07-02T15:40:00Z
+updated: 2026-07-03T10:10:00Z
 aliases: []
 tags: []
 estimate: 5
