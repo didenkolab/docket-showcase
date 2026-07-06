@@ -9,9 +9,10 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-07-06T14:30:00Z
-updated: 2026-07-06T14:40:00Z
+updated: 2026-07-06T14:50:00Z
 aliases: []
 tags: [regress]
+sprint: "[[Sprint 2]]"
 ---
 
 The next number is read, then written, and two issues that overlap read the same number before either writes it. The sequence is the one thing in the product that was supposed to be impossible to get wrong, and it is wrong in the ordinary way: a read and a write with nothing holding them together.
