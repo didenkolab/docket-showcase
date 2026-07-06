@@ -2,14 +2,14 @@
 key: HARBOR-37
 title: Move the payment provider's keys out of the repository
 type: task
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: high
 assignee: '[[ola]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: []
 created: 2026-06-30T15:40:00Z
-updated: 2026-07-06T09:40:00Z
+updated: 2026-07-06T15:50:00Z
 aliases: []
 tags: [area/api]
 sprint: "[[Sprint 2]]"
