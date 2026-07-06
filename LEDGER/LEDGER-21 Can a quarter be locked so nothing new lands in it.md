@@ -1,8 +1,8 @@
 ---
 type: request
-asked_by:
-asked_on:
-wanted_by:
+asked_by: Elin Bergström, Bergström Accounting
+asked_on: 2026-07-06
+wanted_by: 2026-10-15
 key: LEDGER-21
 title: Can a quarter be locked so nothing new lands in it?
 status: Backlog
@@ -10,7 +10,7 @@ status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-07-06T09:50:00Z
-updated: 2026-07-06T09:50:00Z
+updated: 2026-07-06T09:52:00Z
 labels: ["[[tax]]"]
 tags: []
 aliases: []
