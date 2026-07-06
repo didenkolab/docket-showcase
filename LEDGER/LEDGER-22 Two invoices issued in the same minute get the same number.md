@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-07-06T14:30:00Z
-updated: 2026-07-06T14:34:00Z
+updated: 2026-07-06T14:40:00Z
 aliases: []
 tags: [regress]
 ---
@@ -22,3 +22,5 @@ The next number is read, then written, and two issues that overlap read the same
 - [ ] The duplicate pair already in the demo data is renumbered and recorded
 
 ## Comments
+
+**mateo · 2026-07-06 14:40** — Two invoices, both numbered 2026-0041, issued four seconds apart by the same business. I found it by clicking issue on two tabs, which is not a thing a person does on purpose but is exactly what the batch send will do a hundred times a minute. The sequence is read-then-write with a gap in the middle.
