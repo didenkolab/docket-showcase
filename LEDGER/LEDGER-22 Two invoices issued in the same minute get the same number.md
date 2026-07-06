@@ -2,14 +2,14 @@
 key: LEDGER-22
 title: Two invoices issued in the same minute get the same number
 type: bug
-status: Backlog
+status: Ready
 status_category: todo
 priority: high
 assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-07-06T14:30:00Z
-updated: 2026-07-06T14:51:00Z
+updated: 2026-07-06T15:10:00Z
 aliases: []
 tags: [regress]
 sprint: "[[Sprint 2]]"
