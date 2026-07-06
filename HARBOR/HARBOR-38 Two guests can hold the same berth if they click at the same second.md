@@ -2,14 +2,14 @@
 key: HARBOR-38
 title: Two guests can hold the same berth if they click at the same second
 type: bug
-status: In review
+status: QA
 status_category: doing
 priority: high
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-07-01T14:20:00Z
-updated: 2026-07-03T16:00:00Z
+updated: 2026-07-06T10:15:00Z
 aliases: []
 tags: [regress]
 sprint: "[[Sprint 2]]"
