@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-06-29T09:40:00Z
-updated: 2026-07-06T16:10:00Z
+updated: 2026-07-06T16:15:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -22,6 +22,6 @@ The screen a florist looks at on a Sunday evening. Lines with a description, a q
 
 - [x] An invoice is written as lines with quantity, unit price and a tax rate each
 - [x] The tax and the totals are visible while the invoice is being written
-- [ ] A half-written invoice survives closing the tab
+- [x] A half-written invoice survives closing the tab
 
 ## Comments
