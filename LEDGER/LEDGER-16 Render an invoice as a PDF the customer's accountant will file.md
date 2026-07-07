@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-06-29T09:45:00Z
-updated: 2026-07-01T10:10:00Z
+updated: 2026-07-07T16:25:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -21,7 +21,7 @@ What actually leaves the building is a PDF, and it is read by somebody who has n
 
 ## Acceptance
 
-- [ ] The PDF carries the registered details of both businesses and the invoice number
+- [x] The PDF carries the registered details of both businesses and the invoice number
 - [ ] An invoice of twenty lines still prints as a document rather than a spill
 - [ ] The same invoice rendered twice produces the same bytes
 
