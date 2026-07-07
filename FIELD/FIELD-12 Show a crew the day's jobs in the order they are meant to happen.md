@@ -9,7 +9,7 @@ assignee: '[[aiko]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[mobile]]"]
 created: 2026-06-29T09:40:00Z
-updated: 2026-07-07T15:55:00Z
+updated: 2026-07-07T16:00:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -21,7 +21,7 @@ This is the screen the crews will open thirty times a day and judge the whole pr
 ## Acceptance
 
 - [x] A crew sees today's jobs in the planned order, without choosing a date
-- [ ] The screen opens from a cold start in under two seconds
+- [x] The screen opens from a cold start in under two seconds
 - [ ] A job the office moves off the crew disappears from it
 
 ## Comments
