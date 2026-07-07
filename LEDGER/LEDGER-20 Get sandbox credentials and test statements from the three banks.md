@@ -9,7 +9,7 @@ assignee: '[[ola]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-06-30T15:30:00Z
-updated: 2026-07-02T13:40:00Z
+updated: 2026-07-07T11:00:00Z
 aliases: []
 tags: [area/api]
 sprint: "[[Sprint 2]]"
@@ -20,7 +20,7 @@ Two of the three banks take a fortnight to approve a developer account and one o
 
 ## Acceptance
 
-- [ ] A sandbox account and a test business exist at each of the three banks
+- [x] A sandbox account and a test business exist at each of the three banks
 - [ ] The credentials are in the deployment's secret store, not in the repository
 
 ## Comments
