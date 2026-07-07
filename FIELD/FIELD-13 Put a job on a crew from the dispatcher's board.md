@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[routing]]"]
 created: 2026-06-29T09:45:00Z
-updated: 2026-07-07T15:20:00Z
+updated: 2026-07-07T15:25:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -23,6 +23,6 @@ The office side of the same sentence: four columns, one per crew, and an unplann
 
 - [x] A job dragged onto a crew is on that crew's phone within the minute
 - [x] Two dispatchers moving different jobs do not overwrite each other
-- [ ] A job put on a crew that is already full says so rather than accepting it
+- [x] A job put on a crew that is already full says so rather than accepting it
 
 ## Comments
