@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-06-29T10:00:00Z
-updated: 2026-07-07T16:20:00Z
+updated: 2026-07-07T16:25:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -23,6 +23,6 @@ The sprint goal in one story: a guest confirms a booking, a card is charged, and
 
 - [x] Confirming a booking charges the card once and only on success
 - [x] A failed charge leaves the berth free and tells the guest why
-- [ ] The provider's payment reference is on the booking afterwards
+- [x] The provider's payment reference is on the booking afterwards
 
 ## Comments
