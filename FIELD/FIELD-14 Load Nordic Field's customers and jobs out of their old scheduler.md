@@ -2,14 +2,14 @@
 key: FIELD-14
 title: Load Nordic Field's customers and jobs out of their old scheduler
 type: task
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[ola]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: []
 created: 2026-06-29T10:10:00Z
-updated: 2026-07-06T09:50:00Z
+updated: 2026-07-07T10:30:00Z
 aliases: []
 tags: [customer/nordic-field]
 sprint: "[[Sprint 2]]"
