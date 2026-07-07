@@ -2,14 +2,14 @@
 key: HARBOR-35
 title: Carry the 3-D Secure redirect back to the booking
 type: subtask
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-33 Take the card payment when a booking is confirmed]]"
 labels: []
 created: 2026-06-29T11:05:00Z
-updated: 2026-07-07T10:20:00Z
+updated: 2026-07-07T15:10:00Z
 aliases: []
 tags: []
 estimate: 5
