@@ -2,14 +2,14 @@
 key: HARBOR-36
 title: Draw the month grid from the berth list
 type: subtask
-status: In progress
+status: In review
 status_category: doing
 priority: normal
 assignee: '[[priya]]'
 parent: "[[HARBOR-32 A month of every berth on one screen]]"
 labels: []
 created: 2026-06-30T10:10:00Z
-updated: 2026-07-01T10:35:00Z
+updated: 2026-07-07T15:20:00Z
 aliases: []
 tags: []
 estimate: 5
