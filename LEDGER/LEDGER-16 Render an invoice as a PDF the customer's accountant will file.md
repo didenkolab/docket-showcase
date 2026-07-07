@@ -2,14 +2,14 @@
 key: LEDGER-16
 title: Render an invoice as a PDF the customer's accountant will file
 type: story
-status: In progress
+status: In review
 status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-06-29T09:45:00Z
-updated: 2026-07-07T16:35:00Z
+updated: 2026-07-07T16:40:00Z
 aliases: []
 tags: []
 definition_of_done: team
