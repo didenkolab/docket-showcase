@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-07-08T11:20:00Z
-updated: 2026-07-08T11:27:00Z
+updated: 2026-07-08T11:30:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: hotfix
@@ -24,3 +24,5 @@ A guest whose confirmation is slow presses the button again, and the second pres
 - [ ] The three known double charges are refunded and listed here
 
 ## Comments
+
+**mateo · 2026-07-08 11:30** — Three reports this morning, all within twenty minutes of each other: Vik, Sandholm and the small marina at Bergen. Same shape each time — slow confirmation, guest presses again, two charges and one booking. I can reproduce it by throttling the connection to 3G.
