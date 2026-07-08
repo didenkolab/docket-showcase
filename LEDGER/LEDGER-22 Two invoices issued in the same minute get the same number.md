@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-07-06T14:30:00Z
-updated: 2026-07-08T15:30:00Z
+updated: 2026-07-08T15:35:00Z
 aliases: []
 tags: [regress]
 sprint: "[[Sprint 2]]"
@@ -21,7 +21,7 @@ The next number is read, then written, and two issues that overlap read the same
 ## Acceptance
 
 - [x] Two invoices issued at the same instant are given two different numbers
-- [ ] The duplicate pair already in the demo data is renumbered and recorded
+- [x] The duplicate pair already in the demo data is renumbered and recorded
 
 ## Comments
 
