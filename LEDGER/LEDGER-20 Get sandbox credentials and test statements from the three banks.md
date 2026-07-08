@@ -2,14 +2,14 @@
 key: LEDGER-20
 title: Get sandbox credentials and test statements from the three banks
 type: task
-status: In review
+status: QA
 status_category: doing
 priority: normal
 assignee: '[[ola]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-06-30T15:30:00Z
-updated: 2026-07-07T11:10:00Z
+updated: 2026-07-08T09:45:00Z
 aliases: []
 tags: [area/api]
 sprint: "[[Sprint 2]]"
