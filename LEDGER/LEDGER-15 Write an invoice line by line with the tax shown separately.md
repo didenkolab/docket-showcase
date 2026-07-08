@@ -2,14 +2,14 @@
 key: LEDGER-15
 title: Write an invoice line by line with the tax shown separately
 type: story
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[priya]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-06-29T09:40:00Z
-updated: 2026-07-07T10:40:00Z
+updated: 2026-07-08T15:30:00Z
 aliases: []
 tags: []
 definition_of_done: team
