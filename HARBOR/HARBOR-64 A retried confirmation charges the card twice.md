@@ -2,14 +2,14 @@
 key: HARBOR-64
 title: A retried confirmation charges the card twice
 type: bug
-status: Backlog
+status: Ready
 status_category: todo
 priority: critical
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-07-08T11:20:00Z
-updated: 2026-07-08T11:40:00Z
+updated: 2026-07-08T11:50:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: hotfix
