@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-06-29T09:40:00Z
-updated: 2026-07-06T09:50:00Z
+updated: 2026-07-08T15:45:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -22,7 +22,7 @@ Weather cancels more bookings than people do. The office needs one action that e
 
 ## Acceptance
 
-- [ ] Cancelling frees every night the booking held
+- [x] Cancelling frees every night the booking held
 - [ ] The cancelled booking is still readable, with who cancelled it and when
 - [ ] The invoice for it is marked cancelled rather than deleted
 
