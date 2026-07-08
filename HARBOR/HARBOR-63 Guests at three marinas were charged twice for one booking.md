@@ -2,13 +2,13 @@
 key: HARBOR-63
 title: Guests at three marinas were charged twice for one booking
 type: incident
-status: In progress
+status: In review
 status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 labels: ["[[payments]]"]
 created: 2026-07-08T09:50:00Z
-updated: 2026-07-08T09:52:00Z
+updated: 2026-07-08T13:20:00Z
 aliases: []
 tags: []
 severity: sev2
