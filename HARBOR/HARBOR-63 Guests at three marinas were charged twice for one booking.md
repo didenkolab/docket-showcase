@@ -8,9 +8,13 @@ priority: normal
 assignee: '[[tomasz]]'
 labels: ["[[payments]]"]
 created: 2026-07-08T09:50:00Z
-updated: 2026-07-08T09:50:00Z
+updated: 2026-07-08T09:52:00Z
 aliases: []
 tags: []
+severity: sev2
+detected_at: 2026-07-08T09:40:00Z
+resolved_at: 2026-07-08T13:15:00Z
+customers_affected: 3 marinas, 7 guests, 11 duplicate charges
 ---
 
 Between 09:40 and 10:05 on Wednesday 8 July, eleven card charges were taken for seven bookings across three marinas. Every one of them has the same shape: the confirmation call to the provider took longer than the guest was willing to wait, the guest pressed the button again, and the second press was a second charge against a booking that already had one.
