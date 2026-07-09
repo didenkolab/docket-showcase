@@ -2,14 +2,14 @@
 key: HARBOR-31
 title: Cancel a booking and give the berth back
 type: story
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[priya]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-06-29T09:40:00Z
-updated: 2026-07-09T11:10:00Z
+updated: 2026-07-09T16:30:00Z
 aliases: []
 tags: []
 definition_of_done: team
