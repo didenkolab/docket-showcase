@@ -28,3 +28,5 @@ A guest whose confirmation is slow presses the button again, and the second pres
 ## Comments
 
 **mateo · 2026-07-08 11:30** — Three reports this morning, all within twenty minutes of each other: Vik, Sandholm and the small marina at Bergen. Same shape each time — slow confirmation, guest presses again, two charges and one booking. I can reproduce it by throttling the connection to 3G.
+
+**tomasz · 2026-07-09 15:10** — Fixed by giving the confirmation an idempotency key derived from the booking and the guest's attempt, which the provider then honours on its side too. The three charges are refunded; references are on the incident.
