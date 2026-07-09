@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-07-08T11:20:00Z
-updated: 2026-07-09T15:10:00Z
+updated: 2026-07-09T15:15:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: hotfix
@@ -23,7 +23,7 @@ A guest whose confirmation is slow presses the button again, and the second pres
 
 - [x] Confirming the same booking twice charges the card once
 - [x] A duplicate confirmation returns the first charge rather than a new one
-- [ ] The three known double charges are refunded and listed here
+- [x] The three known double charges are refunded and listed here
 
 ## Comments
 
