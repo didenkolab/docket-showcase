@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-06-29T10:00:00Z
-updated: 2026-07-08T11:20:00Z
+updated: 2026-07-09T09:30:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -26,3 +26,5 @@ The sprint goal in one story: a guest confirms a booking, a card is charged, and
 - [x] The provider's payment reference is on the booking afterwards
 
 ## Comments
+
+**mateo · 2026-07-09 09:30** — Failing it in QA. Card declined on a real sandbox card leaves the booking in 'confirmed' with no payment on it — the failure path rolls back the charge and not the booking, so the berth is held for a guest who never paid. The happy path is fine and the redirect works on a phone.
