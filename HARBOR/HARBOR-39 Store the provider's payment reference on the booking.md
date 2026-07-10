@@ -2,14 +2,14 @@
 key: HARBOR-39
 title: Store the provider's payment reference on the booking
 type: subtask
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-33 Take the card payment when a booking is confirmed]]"
 labels: []
 created: 2026-07-02T10:20:00Z
-updated: 2026-07-10T09:40:00Z
+updated: 2026-07-10T11:40:00Z
 aliases: []
 tags: []
 estimate: 2
