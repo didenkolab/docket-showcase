@@ -7,10 +7,11 @@ status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 created: 2026-07-10T10:20:00Z
-updated: 2026-07-10T10:20:00Z
+updated: 2026-07-10T10:40:00Z
 labels: ["[[payments]]"]
 tags: []
 aliases: []
+explains: ["[[HARBOR-63 Guests at three marinas were charged twice for one booking]]"]
 ---
 
 ## What happened
