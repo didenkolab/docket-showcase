@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-06-23T11:20:00Z
-updated: 2026-07-03T16:00:00Z
+updated: 2026-07-10T16:00:00Z
 labels: []
 tags: []
 aliases: []
@@ -17,7 +17,7 @@ generated: true
 parent: "[[HARBOR-19 Berth booking]]"
 included_in: ["[[HARBOR-19 Berth booking]]"]
 tests: ["[[HARBOR-8 Import the marina's berth list from a spreadsheet]]", "[[HARBOR-30 Hold a berth for twenty minutes while the guest pays]]"]
-run_by: ["[[HARBOR-54 The marina's own spreadsheet becomes a berth list]]"]
+run_by: ["[[HARBOR-54 The marina's own spreadsheet becomes a berth list]]", "[[HARBOR-73 The marina's own spreadsheet becomes a berth list]]"]
 ---
 
 ## Scenario

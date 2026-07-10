@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-06-23T11:20:00Z
-updated: 2026-07-03T16:00:00Z
+updated: 2026-07-10T16:00:00Z
 labels: []
 tags: []
 aliases: []
@@ -16,7 +16,7 @@ automation_id: HARBOR-PAY-002
 parent: "[[HARBOR-20 What a stay costs and who pays for it]]"
 included_in: ["[[HARBOR-20 What a stay costs and who pays for it]]"]
 tests: ["[[HARBOR-7 Send the guest an invoice when a booking is confirmed]]", "[[HARBOR-33 Take the card payment when a booking is confirmed]]"]
-run_by: ["[[HARBOR-59 The rate on the day of the booking, not today's]]"]
+run_by: ["[[HARBOR-59 The rate on the day of the booking, not today's]]", "[[HARBOR-78 The rate on the day of the booking, not today's]]"]
 ---
 
 ## Scenario

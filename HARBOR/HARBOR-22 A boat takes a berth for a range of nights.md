@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-06-23T11:20:00Z
-updated: 2026-07-03T16:00:00Z
+updated: 2026-07-10T16:00:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: HARBOR-BKG-001
 parent: "[[HARBOR-19 Berth booking]]"
 included_in: ["[[HARBOR-19 Berth booking]]"]
-run_by: ["[[HARBOR-48 A boat takes a berth for a range of nights]]"]
+run_by: ["[[HARBOR-48 A boat takes a berth for a range of nights]]", "[[HARBOR-67 A boat takes a berth for a range of nights]]"]
 ---
 
 ## Scenario
