@@ -9,9 +9,10 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-07-13T09:40:00Z
-updated: 2026-07-13T09:44:00Z
+updated: 2026-07-13T09:47:00Z
 aliases: []
 tags: [area/api]
+definition_of_done: team
 ---
 
 Three banks cover every business Bergstrom keep the books for, and each of the three has its own idea of what a statement is: one paginates by day, one by transaction, and one will only tell you about the last ninety days and then silently gives you eighty-nine. One door into all three, and the rest of Ledgerline never learns which bank a line came from.
