@@ -9,10 +9,11 @@ assignee: '[[priya]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-07-13T09:35:00Z
-updated: 2026-07-13T09:42:00Z
+updated: 2026-07-13T09:55:00Z
 aliases: []
 tags: [needs-design]
 definition_of_done: team
+sprint: "[[Sprint 3]]"
 ---
 
 Boats get moved. A yacht arrives with a bent fin, the berth beside the fuel dock is needed for a delivery, and the harbour master rearranges half a pontoon in the ten minutes before lunch. Retyping a booking to move it is why the wall planner is still on the wall.
