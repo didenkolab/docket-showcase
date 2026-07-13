@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-07-08T11:20:00Z
-updated: 2026-07-13T09:49:00Z
+updated: 2026-07-13T11:01:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: hotfix
@@ -17,6 +17,7 @@ found_in: ["[[HARBOR-61 A retried confirmation charges the card once]]"]
 causes: ["[[HARBOR-63 Guests at three marinas were charged twice for one booking]]"]
 sprint: "[[Sprint 3]]"
 estimate: 3
+mitigates: ["[[HARBOR-65 Postmortem - the double charge of 8 July]]"]
 ---
 
 A guest whose confirmation is slow presses the button again, and the second press makes a second charge for the same booking. Three marinas have refunded a guest this week. The confirmation is not idempotent: nothing on our side says these two requests are the same intention.
