@@ -2,14 +2,14 @@
 key: FIELD-19
 title: Order a crew's stops so the day is driveable
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-07-13T09:55:00Z
-updated: 2026-07-13T10:15:00Z
+updated: 2026-07-13T11:35:00Z
 aliases: []
 tags: []
 definition_of_done: team
