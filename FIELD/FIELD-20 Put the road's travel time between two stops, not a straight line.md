@@ -9,9 +9,10 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-07-13T10:00:00Z
-updated: 2026-07-13T10:00:00Z
+updated: 2026-07-13T10:07:00Z
 aliases: []
 tags: []
+definition_of_done: team
 ---
 
 Two addresses eight kilometres apart are twelve minutes or fifty depending on which side of the water they are on, and a planner that measures in straight lines will confidently build a day nobody can drive. The times are asked for once per pair and kept, because the roads do not move.
