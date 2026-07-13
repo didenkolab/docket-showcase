@@ -9,9 +9,9 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: []
 created: 2026-07-13T10:20:00Z
-updated: 2026-07-13T10:20:00Z
+updated: 2026-07-13T10:24:00Z
 aliases: []
-tags: []
+tags: [area/api]
 ---
 
 The month query is the one request the office makes forty times a day, and on a four-hundred-berth marina it takes two and a half seconds. Bookings change rarely enough that the answer can be kept until one does.
