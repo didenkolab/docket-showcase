@@ -1,0 +1,25 @@
+---
+key: FIELD-20
+title: Put the road's travel time between two stops, not a straight line
+type: story
+status: Backlog
+status_category: todo
+priority: normal
+assignee: '[[tomasz]]'
+parent: "[[FIELD-2 Route planning]]"
+labels: ["[[routing]]"]
+created: 2026-07-13T10:00:00Z
+updated: 2026-07-13T10:00:00Z
+aliases: []
+tags: []
+---
+
+Two addresses eight kilometres apart are twelve minutes or fifty depending on which side of the water they are on, and a planner that measures in straight lines will confidently build a day nobody can drive. The times are asked for once per pair and kept, because the roads do not move.
+
+## Acceptance
+
+- [ ] A pair of addresses gets a driving time that accounts for the water between them
+- [ ] Times already asked for are reused rather than asked again
+- [ ] A pair we cannot get a time for is planned pessimistically, not optimistically
+
+## Comments
