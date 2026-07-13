@@ -9,9 +9,9 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-07-13T09:50:00Z
-updated: 2026-07-13T09:50:00Z
+updated: 2026-07-13T09:54:00Z
 aliases: []
-tags: []
+tags: [area/api]
 ---
 
 Every accountant will import the same month twice, because the first import was before the last few days landed and because the feed will re-send a month on its own. Two of every transaction is worse than none: it doubles a business's turnover and nobody spots it until the quarter will not balance.
