@@ -7,11 +7,12 @@ status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 created: 2026-07-10T10:20:00Z
-updated: 2026-07-13T10:40:00Z
+updated: 2026-07-13T11:00:00Z
 labels: ["[[payments]]"]
 tags: []
 aliases: []
 explains: ["[[HARBOR-63 Guests at three marinas were charged twice for one booking]]"]
+mitigated_by: ["[[HARBOR-64 A retried confirmation charges the card twice]]", "[[HARBOR-82 Reconcile the provider's webhook with the booking]]"]
 ---
 
 ## What happened
