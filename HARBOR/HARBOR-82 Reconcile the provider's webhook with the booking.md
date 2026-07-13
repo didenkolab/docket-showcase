@@ -9,12 +9,13 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-07-13T09:45:00Z
-updated: 2026-07-13T10:06:00Z
+updated: 2026-07-13T11:02:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: team
 sprint: "[[Sprint 3]]"
 estimate: 5
+mitigates: ["[[HARBOR-65 Postmortem - the double charge of 8 July]]"]
 ---
 
 The provider tells us what happened twice: once as the answer to our request and once, minutes or hours later, as a webhook. When those two disagree the webhook is right, and today nothing is listening to it.
