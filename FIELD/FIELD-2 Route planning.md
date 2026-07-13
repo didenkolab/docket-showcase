@@ -2,13 +2,13 @@
 key: FIELD-2
 title: Route planning
 type: epic
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[priya]]'
 labels: []
 created: 2026-06-15T09:38:00Z
-updated: 2026-06-15T12:05:00Z
+updated: 2026-07-13T09:25:00Z
 aliases: []
 tags: []
 ---
