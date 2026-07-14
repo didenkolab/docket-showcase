@@ -2,14 +2,14 @@
 key: HARBOR-82
 title: Reconcile the provider's webhook with the booking
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-07-13T09:45:00Z
-updated: 2026-07-13T11:02:00Z
+updated: 2026-07-14T10:10:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: team
