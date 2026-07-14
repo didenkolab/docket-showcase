@@ -7,7 +7,7 @@ status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 created: 2026-07-10T10:20:00Z
-updated: 2026-07-14T09:50:00Z
+updated: 2026-07-14T10:20:00Z
 labels: ["[[payments]]"]
 tags: []
 aliases: []
@@ -50,3 +50,7 @@ Anything that spends money now has idempotence in its acceptance, in writing, ra
 We are not building an automatic refund for a duplicate charge. Eleven refunds by hand took forty minutes; an automatic refunder that is wrong sends money to the wrong card, and the case is rare enough that a person should look at it.
 
 We are not disabling the confirmation button while the call is in flight and calling that the fix. It is worth doing and it is on the payments story, but it makes the same mistake we made in June: a browser cannot be the thing that guarantees a charge happens once.
+
+## Comments
+
+**mateo · 2026-07-14 10:20** — Checked what this says it is changing against the board: the fix and the reconciliation are both cards with numbers on them, and the acceptance line about idempotence is on the two payment stories in Sprint 3. The provider-side idempotency key is the only one that is prose here and it is inside the fix, so I am happy. Passing it.
