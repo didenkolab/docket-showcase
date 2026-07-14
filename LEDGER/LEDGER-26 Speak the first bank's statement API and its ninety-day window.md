@@ -2,14 +2,14 @@
 key: LEDGER-26
 title: Speak the first bank's statement API and its ninety-day window
 type: subtask
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[LEDGER-23 Fetch a statement from the three banks our first accountants use]]"
 labels: []
 created: 2026-07-13T10:20:00Z
-updated: 2026-07-13T10:21:00Z
+updated: 2026-07-14T09:55:00Z
 aliases: []
 tags: []
 estimate: 5
