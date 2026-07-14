@@ -2,12 +2,12 @@
 type: postmortem
 key: HARBOR-65
 title: 'Postmortem: the double charge of 8 July'
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[tomasz]]'
 created: 2026-07-10T10:20:00Z
-updated: 2026-07-14T10:20:00Z
+updated: 2026-07-14T15:20:00Z
 labels: ["[[payments]]"]
 tags: []
 aliases: []
