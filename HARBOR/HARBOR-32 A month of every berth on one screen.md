@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-06-29T09:50:00Z
-updated: 2026-07-13T09:29:00Z
+updated: 2026-07-14T16:05:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -20,7 +20,7 @@ This is the wall planner. Berths down the side, days across the top, one cell pe
 
 ## Acceptance
 
-- [ ] Every berth and every day of a month fit on one screen
+- [x] Every berth and every day of a month fit on one screen
 - [ ] A booking reads as one bar across the nights it holds
 - [ ] Scrolling a month of forty berths does not stutter
 
