@@ -2,14 +2,14 @@
 key: LEDGER-28
 title: A refund is booked as a credit note against the invoice it came from
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]", "[[payments]]"]
 created: 2026-07-14T10:00:00Z
-updated: 2026-07-14T10:07:00Z
+updated: 2026-07-15T10:30:00Z
 aliases: []
 tags: []
 definition_of_done: team
