@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[routing]]"]
 created: 2026-07-15T14:20:00Z
-updated: 2026-07-15T14:20:00Z
+updated: 2026-07-15T14:30:00Z
 aliases: []
 tags: []
 ---
@@ -22,3 +22,5 @@ The board asks whether the slot is free and then writes the job, and between the
 - [ ] The refusal names the job that took the slot so the dispatcher can move one
 
 ## Comments
+
+**mateo · 2026-07-15 14:30** — Reproduced it in ten seconds with two browser windows, which means the office will find it on the first Monday. Both windows accept the drop and the board shows both jobs; refresh and they are still both there. The check and the write are two separate questions with a gap in the middle.
