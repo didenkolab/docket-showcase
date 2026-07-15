@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-06-29T09:50:00Z
-updated: 2026-07-14T16:20:00Z
+updated: 2026-07-15T09:30:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -25,3 +25,5 @@ This is the wall planner. Berths down the side, days across the top, one cell pe
 - [x] Scrolling a month of forty berths does not stutter
 
 ## Comments
+
+**tomasz · 2026-07-15 09:30** — Back to you: it is lovely on forty berths and unusable on four hundred, and Sandholm have four hundred and six. The month query returns every cell rather than every booking, so the payload grows with the marina.
