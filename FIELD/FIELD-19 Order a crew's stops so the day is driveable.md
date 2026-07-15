@@ -9,11 +9,12 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-07-13T09:55:00Z
-updated: 2026-07-15T09:50:00Z
+updated: 2026-07-15T11:10:00Z
 aliases: []
 tags: []
 definition_of_done: team
 sprint: "[[Sprint 3]]"
+blocked_by: ["[[FIELD-20 Put the road's travel time between two stops, not a straight line]]"]
 ---
 
 Nine jobs handed to a crew in the order the office took the calls is a day with two crossings of the same island in it. Ordering them is not the interesting problem — keeping the order somebody deliberately chose is, because the crew knows things about the customer that the planner never will.
