@@ -2,14 +2,14 @@
 key: HARBOR-62
 title: Ask for the bookings, not for every cell
 type: subtask
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[priya]]'
 parent: "[[HARBOR-32 A month of every berth on one screen]]"
 labels: []
 created: 2026-07-06T11:20:00Z
-updated: 2026-07-16T14:40:00Z
+updated: 2026-07-16T15:20:00Z
 aliases: []
 tags: []
 estimate: 3
