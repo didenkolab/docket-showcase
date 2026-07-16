@@ -2,14 +2,14 @@
 key: LEDGER-25
 title: Importing the same statement twice does not produce two of everything
 type: story
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-07-13T09:50:00Z
-updated: 2026-07-14T11:10:00Z
+updated: 2026-07-16T09:45:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: team
