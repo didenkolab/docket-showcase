@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-07-16T14:20:00Z
-updated: 2026-07-16T14:24:00Z
+updated: 2026-07-16T14:30:00Z
 aliases: []
 tags: [regress]
 ---
@@ -22,3 +22,5 @@ One of the three banks reports a refund as a credit with a transaction code that
 - [ ] The demo data's three wrong-way lines are reimported and correct
 
 ## Comments
+
+**mateo · 2026-07-16 14:30** — Caught it against the second bank's test statements, which are the only ones with a reversal in them. Three lines, all credits, all of them reversals of card refunds, all imported as income. The sign on the amount is right and the code beside it says the opposite, and we only read the sign.
