@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-07-16T11:40:00Z
-updated: 2026-07-16T11:44:00Z
+updated: 2026-07-16T11:50:00Z
 aliases: []
 tags: [regress]
 ---
@@ -22,3 +22,5 @@ A booking that ended yesterday is still drawn as occupying its berth today, so t
 - [ ] A booking that ends today still shows the boat as moored until the morning
 
 ## Comments
+
+**mateo · 2026-07-16 11:50** — Sandholm rang about this one: pontoon C looked full on Tuesday and had four empty slips on it. Every booking whose last night was Monday was still drawn on Tuesday. It is an off-by-one on the last night, not a caching problem — it survives a hard reload.
