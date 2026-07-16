@@ -2,14 +2,14 @@
 key: FIELD-20
 title: Put the road's travel time between two stops, not a straight line
 type: story
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-07-13T10:00:00Z
-updated: 2026-07-15T11:11:00Z
+updated: 2026-07-16T09:40:00Z
 aliases: []
 tags: []
 definition_of_done: team
