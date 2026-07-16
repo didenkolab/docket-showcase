@@ -2,14 +2,14 @@
 key: FIELD-22
 title: Treat the depot and the last stop as fixed ends of the day
 type: subtask
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[FIELD-19 Order a crew's stops so the day is driveable]]"
 labels: []
 created: 2026-07-15T10:10:00Z
-updated: 2026-07-15T11:40:00Z
+updated: 2026-07-16T09:50:00Z
 aliases: []
 tags: []
 estimate: 3
