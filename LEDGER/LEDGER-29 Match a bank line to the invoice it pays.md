@@ -9,10 +9,11 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]", "[[invoicing]]"]
 created: 2026-07-16T09:40:00Z
-updated: 2026-07-16T09:47:00Z
+updated: 2026-07-16T10:00:00Z
 aliases: []
 tags: []
 definition_of_done: team
+sprint: "[[Sprint 3]]"
 ---
 
 This is the whole point of importing anything. A line of 4 218.60 arriving on the fourth with the invoice number in its reference is not a puzzle, and a person should never be shown it. What a person should be shown is the twenty per cent the machine could not be sure about, which is what the next story is for.
