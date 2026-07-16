@@ -9,11 +9,12 @@ assignee: '[[priya]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-06-29T09:50:00Z
-updated: 2026-07-15T09:40:00Z
+updated: 2026-07-16T11:01:00Z
 aliases: []
 tags: []
 definition_of_done: team
 sprint: "[[Sprint 3]]"
+blocks: ["[[HARBOR-81 Drag a booking to another berth]]"]
 ---
 
 This is the wall planner. Berths down the side, days across the top, one cell per berth-night, and it has to be legible from the other side of the harbour office. It is also the screen the office will keep open all day, which makes how it scrolls a feature rather than a detail.
