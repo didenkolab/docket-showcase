@@ -2,14 +2,14 @@
 key: LEDGER-29
 title: Match a bank line to the invoice it pays
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]", "[[invoicing]]"]
 created: 2026-07-16T09:40:00Z
-updated: 2026-07-16T10:00:00Z
+updated: 2026-07-16T11:30:00Z
 aliases: []
 tags: []
 definition_of_done: team
