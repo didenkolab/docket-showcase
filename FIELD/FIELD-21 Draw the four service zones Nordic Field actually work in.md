@@ -9,7 +9,7 @@ assignee: '[[ola]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: []
 created: 2026-07-13T10:20:00Z
-updated: 2026-07-16T11:00:00Z
+updated: 2026-07-16T11:05:00Z
 aliases: []
 tags: [customer/nordic-field]
 sprint: "[[Sprint 3]]"
@@ -21,6 +21,6 @@ The firm thinks in four areas — the island, the town, the eastern valley and t
 ## Acceptance
 
 - [x] The four zones exist with the boundaries the firm drew on a paper map
-- [ ] A job's zone is decided from its address without anybody choosing it
+- [x] A job's zone is decided from its address without anybody choosing it
 
 ## Comments
