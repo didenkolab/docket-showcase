@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: []
 created: 2026-07-13T10:20:00Z
-updated: 2026-07-17T15:30:00Z
+updated: 2026-07-17T15:35:00Z
 aliases: []
 tags: [area/api]
 sprint: "[[Sprint 3]]"
@@ -21,6 +21,6 @@ The month query is the one request the office makes forty times a day, and on a 
 ## Acceptance
 
 - [x] A month opens in under a second on a four-hundred-berth marina
-- [ ] A new or moved booking invalidates the month it touches
+- [x] A new or moved booking invalidates the month it touches
 
 ## Comments
