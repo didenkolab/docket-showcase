@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[routing]]"]
 created: 2026-07-15T14:20:00Z
-updated: 2026-07-17T16:10:00Z
+updated: 2026-07-17T16:15:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 3]]"
@@ -21,7 +21,7 @@ The board asks whether the slot is free and then writes the job, and between the
 ## Acceptance
 
 - [x] A slot that has been taken between the check and the write is refused
-- [ ] The refusal names the job that took the slot so the dispatcher can move one
+- [x] The refusal names the job that took the slot so the dispatcher can move one
 
 ## Comments
 
