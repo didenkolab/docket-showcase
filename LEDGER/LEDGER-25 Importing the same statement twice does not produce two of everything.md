@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-07-13T09:50:00Z
-updated: 2026-07-16T09:45:00Z
+updated: 2026-07-20T16:05:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: team
@@ -21,7 +21,7 @@ Every accountant will import the same month twice, because the first import was 
 
 ## Acceptance
 
-- [ ] A line already imported is recognised and left alone on a second import
+- [x] A line already imported is recognised and left alone on a second import
 - [ ] A line the bank corrected replaces the old one rather than joining it
 - [ ] The import says how many lines were new and how many it already had
 
