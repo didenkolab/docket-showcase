@@ -2,14 +2,14 @@
 key: FIELD-21
 title: Draw the four service zones Nordic Field actually work in
 type: task
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[ola]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: []
 created: 2026-07-13T10:20:00Z
-updated: 2026-07-17T09:50:00Z
+updated: 2026-07-20T10:30:00Z
 aliases: []
 tags: [customer/nordic-field]
 sprint: "[[Sprint 3]]"
