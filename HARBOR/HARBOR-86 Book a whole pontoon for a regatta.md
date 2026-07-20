@@ -9,9 +9,10 @@ assignee: '[[ingrid]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-07-20T11:30:00Z
-updated: 2026-07-20T11:34:00Z
+updated: 2026-07-20T11:37:00Z
 aliases: []
 tags: [customer/marina-vik]
+definition_of_done: team
 ---
 
 Three marinas have now asked the same thing: a club takes a whole finger pier for a weekend, pays once, and hands us a boat list on the Thursday. Today that is fourteen separate bookings and one very patient harbour master.
