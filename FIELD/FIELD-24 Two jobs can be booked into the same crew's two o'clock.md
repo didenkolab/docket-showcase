@@ -2,14 +2,14 @@
 key: FIELD-24
 title: Two jobs can be booked into the same crew's two o'clock
 type: bug
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: high
 assignee: '[[tomasz]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[routing]]"]
 created: 2026-07-15T14:20:00Z
-updated: 2026-07-20T10:20:00Z
+updated: 2026-07-20T15:40:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 3]]"
