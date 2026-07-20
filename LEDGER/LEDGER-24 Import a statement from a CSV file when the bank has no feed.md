@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-07-13T09:45:00Z
-updated: 2026-07-20T15:25:00Z
+updated: 2026-07-20T15:30:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -22,7 +22,7 @@ Three banks is not every bank, and the fourth one a business banks with will alw
 ## Acceptance
 
 - [x] A dropped CSV becomes the same statement shape the bank feeds produce
-- [ ] The columns are mapped by the person importing, and the mapping is remembered
+- [x] The columns are mapped by the person importing, and the mapping is remembered
 - [ ] A file that is not a statement is refused before anything is written
 
 ## Comments
