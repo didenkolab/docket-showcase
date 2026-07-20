@@ -9,7 +9,7 @@ assignee: '[[aiko]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[mobile]]"]
 created: 2026-07-13T09:50:00Z
-updated: 2026-07-14T09:50:00Z
+updated: 2026-07-20T15:55:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -21,7 +21,7 @@ A job that is written up in the evening is written up from memory, and a job tha
 
 ## Acceptance
 
-- [ ] A crew can finish a job with a note and a photograph in under a minute
+- [x] A crew can finish a job with a note and a photograph in under a minute
 - [ ] A job cannot be finished without saying whether a return visit is needed
 - [ ] The write-up is kept if the app is closed halfway through it
 
