@@ -9,9 +9,10 @@ assignee: '[[ingrid]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-07-20T11:20:00Z
-updated: 2026-07-20T11:20:00Z
+updated: 2026-07-20T11:27:00Z
 aliases: []
 tags: []
+definition_of_done: team
 ---
 
 An invoice goes unpaid for a fortnight and nobody notices until the quarter is being closed. A reminder a week after the due date and a second one a fortnight after that is what a bookkeeper does by hand, badly, when they remember.
