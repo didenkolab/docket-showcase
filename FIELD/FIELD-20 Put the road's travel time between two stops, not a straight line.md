@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-07-13T10:00:00Z
-updated: 2026-07-16T09:40:00Z
+updated: 2026-07-21T16:05:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -22,7 +22,7 @@ Two addresses eight kilometres apart are twelve minutes or fifty depending on wh
 
 ## Acceptance
 
-- [ ] A pair of addresses gets a driving time that accounts for the water between them
+- [x] A pair of addresses gets a driving time that accounts for the water between them
 - [ ] Times already asked for are reused rather than asked again
 - [ ] A pair we cannot get a time for is planned pessimistically, not optimistically
 
