@@ -2,14 +2,14 @@
 key: FIELD-18
 title: A crew writes up the job from the van, before it drives off
 type: story
-status: In review
+status: QA
 status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[mobile]]"]
 created: 2026-07-13T09:50:00Z
-updated: 2026-07-20T16:10:00Z
+updated: 2026-07-21T10:20:00Z
 aliases: []
 tags: []
 definition_of_done: team
