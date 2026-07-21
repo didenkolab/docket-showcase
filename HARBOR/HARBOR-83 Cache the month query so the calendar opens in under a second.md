@@ -2,14 +2,14 @@
 key: HARBOR-83
 title: Cache the month query so the calendar opens in under a second
 type: task
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: []
 created: 2026-07-13T10:20:00Z
-updated: 2026-07-20T10:20:00Z
+updated: 2026-07-21T11:30:00Z
 aliases: []
 tags: [area/api]
 sprint: "[[Sprint 3]]"
