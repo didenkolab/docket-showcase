@@ -2,14 +2,14 @@
 key: LEDGER-23
 title: Fetch a statement from the three banks our first accountants use
 type: story
-status: In progress
+status: In review
 status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-07-13T09:40:00Z
-updated: 2026-07-21T16:25:00Z
+updated: 2026-07-21T16:30:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: team
