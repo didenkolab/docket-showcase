@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-07-13T09:45:00Z
-updated: 2026-07-21T16:10:00Z
+updated: 2026-07-21T16:15:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: team
@@ -24,6 +24,6 @@ The provider tells us what happened twice: once as the answer to our request and
 
 - [x] A webhook the provider sends twice is applied once
 - [x] A charge the webhook reports and the booking does not know about raises an alert
-- [ ] A webhook for a booking that no longer exists is kept, not dropped
+- [x] A webhook for a booking that no longer exists is kept, not dropped
 
 ## Comments
