@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-07-13T09:50:00Z
-updated: 2026-07-20T16:20:00Z
+updated: 2026-07-21T09:30:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: team
@@ -26,3 +26,5 @@ Every accountant will import the same month twice, because the first import was 
 - [x] The import says how many lines were new and how many it already had
 
 ## Comments
+
+**priya · 2026-07-21 09:30** — Sending it back, sorry. Recognising a line by bank reference plus amount plus date is right until the bank corrects a line, which two of the three do by re-sending the month with the same reference and a different amount — and then we keep both. The correction case is in the acceptance and the import treats it as a new line.
