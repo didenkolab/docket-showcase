@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-07-13T09:40:00Z
-updated: 2026-07-14T09:50:00Z
+updated: 2026-07-21T16:15:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: team
@@ -20,7 +20,7 @@ Three banks cover every business Bergstrom keep the books for, and each of the t
 
 ## Acceptance
 
-- [ ] A statement can be fetched from each of the three banks for a chosen month
+- [x] A statement can be fetched from each of the three banks for a chosen month
 - [ ] The three banks' answers become one shape before anything else sees them
 - [ ] A bank that stops answering is reported rather than treated as an empty month
 
