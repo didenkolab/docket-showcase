@@ -2,14 +2,14 @@
 key: HARBOR-86
 title: Book a whole pontoon for a regatta
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-07-20T11:30:00Z
-updated: 2026-07-20T11:37:00Z
+updated: 2026-07-21T10:15:00Z
 aliases: []
 tags: [customer/marina-vik]
 definition_of_done: team
