@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-07-16T14:20:00Z
-updated: 2026-07-17T09:50:00Z
+updated: 2026-07-21T15:10:00Z
 aliases: []
 tags: [regress]
 sprint: "[[Sprint 3]]"
@@ -20,7 +20,7 @@ One of the three banks reports a refund as a credit with a transaction code that
 
 ## Acceptance
 
-- [ ] A reversal is imported with the direction its transaction code says
+- [x] A reversal is imported with the direction its transaction code says
 - [ ] The demo data's three wrong-way lines are reimported and correct
 
 ## Comments
