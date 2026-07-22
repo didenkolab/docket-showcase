@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-07-16T11:40:00Z
-updated: 2026-07-21T09:50:00Z
+updated: 2026-07-22T15:10:00Z
 aliases: []
 tags: [regress]
 sprint: "[[Sprint 3]]"
@@ -20,7 +20,7 @@ A booking that ended yesterday is still drawn as occupying its berth today, so t
 
 ## Acceptance
 
-- [ ] A booking that ended yesterday leaves its berth free today
+- [x] A booking that ended yesterday leaves its berth free today
 - [ ] A booking that ends today still shows the boat as moored until the morning
 
 ## Comments
