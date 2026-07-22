@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-07-13T09:35:00Z
-updated: 2026-07-22T16:00:00Z
+updated: 2026-07-22T16:05:00Z
 aliases: []
 tags: [needs-design]
 definition_of_done: team
@@ -24,6 +24,6 @@ Boats get moved. A yacht arrives with a bent fin, the berth beside the fuel dock
 
 - [x] A booking can be dragged to another berth and keeps its dates
 - [x] A drag onto an occupied berth is refused before it is dropped
-- [ ] The move is in the booking's history with who moved it
+- [x] The move is in the booking's history with who moved it
 
 ## Comments
