@@ -1,8 +1,8 @@
 ---
 type: request
-asked_by:
-asked_on:
-wanted_by:
+asked_by: Halvard Rue, dispatcher at Nordic Field Services
+asked_on: 2026-07-22
+wanted_by: 2026-09-30
 key: FIELD-25
 title: Text the customer when the crew is twenty minutes away
 status: Backlog
@@ -10,7 +10,7 @@ status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-07-22T11:20:00Z
-updated: 2026-07-22T11:20:00Z
+updated: 2026-07-22T11:22:00Z
 labels: ["[[routing]]"]
 tags: []
 aliases: []
