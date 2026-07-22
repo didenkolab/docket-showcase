@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-07-13T09:55:00Z
-updated: 2026-07-22T16:00:00Z
+updated: 2026-07-22T16:05:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -23,6 +23,6 @@ Nine jobs handed to a crew in the order the office took the calls is a day with 
 
 - [x] A day's stops come back in an order that does not cross itself
 - [x] A stop the crew or the office pinned stays where it was put
-- [ ] Reordering nine stops answers fast enough to do it while somebody watches
+- [x] Reordering nine stops answers fast enough to do it while somebody watches
 
 ## Comments
