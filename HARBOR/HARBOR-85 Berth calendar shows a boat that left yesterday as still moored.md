@@ -26,3 +26,5 @@ A booking that ended yesterday is still drawn as occupying its berth today, so t
 ## Comments
 
 **mateo · 2026-07-16 11:50** — Sandholm rang about this one: pontoon C looked full on Tuesday and had four empty slips on it. Every booking whose last night was Monday was still drawn on Tuesday. It is an off-by-one on the last night, not a caching problem — it survives a hard reload.
+
+**tomasz · 2026-07-22 15:10** — The check was `last_night >= today` where it wants `last_night >= today` on the checkout morning only. Fixed by asking the booking when the berth is free rather than when the guest leaves, which are a night apart on purpose.
