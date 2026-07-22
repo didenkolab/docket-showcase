@@ -2,14 +2,14 @@
 key: LEDGER-30
 title: A refund on the statement is imported as money coming in
 type: bug
-status: In review
+status: QA
 status_category: doing
 priority: high
 assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-07-16T14:20:00Z
-updated: 2026-07-21T15:20:00Z
+updated: 2026-07-22T09:40:00Z
 aliases: []
 tags: [regress]
 sprint: "[[Sprint 3]]"
