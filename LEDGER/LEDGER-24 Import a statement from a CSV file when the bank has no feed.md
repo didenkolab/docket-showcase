@@ -2,14 +2,14 @@
 key: LEDGER-24
 title: Import a statement from a CSV file when the bank has no feed
 type: story
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[priya]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-07-13T09:45:00Z
-updated: 2026-07-21T11:20:00Z
+updated: 2026-07-22T14:40:00Z
 aliases: []
 tags: []
 definition_of_done: team
