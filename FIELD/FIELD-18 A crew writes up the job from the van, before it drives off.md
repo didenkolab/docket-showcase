@@ -9,7 +9,7 @@ assignee: '[[aiko]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[mobile]]"]
 created: 2026-07-13T09:50:00Z
-updated: 2026-07-22T09:40:00Z
+updated: 2026-07-22T09:50:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -26,3 +26,5 @@ A job that is written up in the evening is written up from memory, and a job tha
 - [x] The write-up is kept if the app is closed halfway through it
 
 ## Comments
+
+**mateo · 2026-07-22 09:50** — Sending this back. Finishing a job with the return-visit switch on produces a job that is closed and a return visit that exists nowhere — I did it four times and got four dead ends. The acceptance says the crew cannot finish without answering the question, and it is right; what it does not say is that answering it yes has to put something on somebody's board.
