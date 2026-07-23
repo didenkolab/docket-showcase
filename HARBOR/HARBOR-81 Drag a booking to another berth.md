@@ -2,14 +2,14 @@
 key: HARBOR-81
 title: Drag a booking to another berth
 type: story
-status: In review
+status: QA
 status_category: doing
 priority: normal
 assignee: '[[priya]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-07-13T09:35:00Z
-updated: 2026-07-22T16:10:00Z
+updated: 2026-07-23T10:30:00Z
 aliases: []
 tags: [needs-design]
 definition_of_done: team
