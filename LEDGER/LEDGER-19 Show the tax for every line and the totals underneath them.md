@@ -9,10 +9,11 @@ assignee: '[[priya]]'
 parent: "[[LEDGER-15 Write an invoice line by line with the tax shown separately]]"
 labels: []
 created: 2026-06-29T10:25:00Z
-updated: 2026-07-07T15:40:00Z
+updated: 2026-07-24T16:30:00Z
 aliases: []
 tags: []
 estimate: 3
+tested_by: ["[[LEDGER-38 Every line shows the tax it is charged]]", "[[LEDGER-39 The totals underneath add the lines up]]"]
 ---
 
 Two lines at different rates is the ordinary case and the one every home-made invoice gets wrong: the totals block has to show net, each rate's tax on its own row, and the gross, because that is the block the accountant checks first.

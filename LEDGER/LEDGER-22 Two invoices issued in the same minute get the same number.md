@@ -9,11 +9,12 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-07-06T14:30:00Z
-updated: 2026-07-09T16:10:00Z
+updated: 2026-07-24T16:30:00Z
 aliases: []
 tags: [regress]
 sprint: "[[Sprint 2]]"
 estimate: 2
+tested_by: ["[[LEDGER-39 The totals underneath add the lines up]]", "[[LEDGER-40 Two invoices numbered from the same reading do not get the same number]]"]
 ---
 
 The next number is read, then written, and two issues that overlap read the same number before either writes it. The sequence is the one thing in the product that was supposed to be impossible to get wrong, and it is wrong in the ordinary way: a read and a write with nothing holding them together.

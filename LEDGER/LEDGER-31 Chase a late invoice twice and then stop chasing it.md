@@ -9,10 +9,11 @@ assignee: '[[ingrid]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-07-20T11:20:00Z
-updated: 2026-07-21T10:40:00Z
+updated: 2026-07-24T16:30:00Z
 aliases: []
 tags: []
 definition_of_done: team
+tested_by: ["[[LEDGER-41 A refund is a credit note against the invoice it undoes]]", "[[LEDGER-42 A late invoice is chased twice and then left alone]]"]
 ---
 
 An invoice goes unpaid for a fortnight and nobody notices until the quarter is being closed. A reminder a week after the due date and a second one a fortnight after that is what a bookkeeper does by hand, badly, when they remember.

@@ -9,11 +9,12 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-07-16T14:20:00Z
-updated: 2026-07-23T10:50:00Z
+updated: 2026-07-24T16:30:00Z
 aliases: []
 tags: [regress]
 sprint: "[[Sprint 3]]"
 estimate: 2
+tested_by: ["[[LEDGER-34 A statement that arrives as a file]]", "[[LEDGER-35 Money leaving the account is a negative line]]"]
 ---
 
 One of the three banks reports a refund as a credit with a transaction code that says it reverses a debit, and the importer reads the sign and ignores the code. A business that refunded a customer four hundred appears to have been paid four hundred, and the month's turnover is eight hundred out.

@@ -9,12 +9,13 @@ assignee: '[[priya]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-07-13T09:45:00Z
-updated: 2026-07-22T14:40:00Z
+updated: 2026-07-24T16:30:00Z
 aliases: []
 tags: []
 definition_of_done: team
 sprint: "[[Sprint 3]]"
 estimate: 3
+tested_by: ["[[LEDGER-33 The same statement twice is the same statement]]", "[[LEDGER-34 A statement that arrives as a file]]"]
 ---
 
 Three banks is not every bank, and the fourth one a business banks with will always be a small one that exports a CSV and nothing else. Dropping that file on a page has to produce the same statement the feeds produce, including the part where the columns are in an order nobody has seen before.
