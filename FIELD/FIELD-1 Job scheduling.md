@@ -8,7 +8,7 @@ priority: normal
 assignee: '[[ingrid]]'
 labels: []
 created: 2026-06-15T09:37:00Z
-updated: 2026-06-29T09:20:00Z
+updated: 2026-07-24T15:20:00Z
 aliases: []
 tags: []
 contributes_to: ["[[FIELD-6 Nine in ten jobs are written up before the crew gets back]]"]
@@ -18,7 +18,7 @@ A heating contractor's day is a whiteboard in the office and four phone calls to
 
 ## Acceptance
 
-- [ ] A crew opens the app and sees the day it is actually going to have
+- [x] A crew opens the app and sees the day it is actually going to have
 - [ ] The office can put a job on a crew and the crew knows within the minute
 - [ ] A job carries what happened last time somebody went to that address
 
