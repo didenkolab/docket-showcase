@@ -2,14 +2,14 @@
 key: HARBOR-85
 title: Berth calendar shows a boat that left yesterday as still moored
 type: bug
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: high
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-07-16T11:40:00Z
-updated: 2026-07-23T09:40:00Z
+updated: 2026-07-24T10:50:00Z
 aliases: []
 tags: [regress]
 sprint: "[[Sprint 3]]"
