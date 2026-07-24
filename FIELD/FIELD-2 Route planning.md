@@ -8,7 +8,7 @@ priority: normal
 assignee: '[[priya]]'
 labels: []
 created: 2026-06-15T09:38:00Z
-updated: 2026-07-13T09:25:00Z
+updated: 2026-07-24T15:35:00Z
 aliases: []
 tags: []
 ---
@@ -17,7 +17,7 @@ Nordic Field's four crews drive about nine hundred kilometres a week between the
 
 ## Acceptance
 
-- [ ] A crew's stops are ordered so the day is driveable, not just possible
+- [x] A crew's stops are ordered so the day is driveable, not just possible
 - [ ] The travel time between two stops is the road's, not a line on a map
 - [ ] A job that overruns moves the rest of the day rather than breaking it
 
