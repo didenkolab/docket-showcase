@@ -9,13 +9,14 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-07-13T10:00:00Z
-updated: 2026-07-22T15:50:00Z
+updated: 2026-07-27T17:00:00Z
 aliases: []
 tags: []
 definition_of_done: team
 sprint: "[[Sprint 3]]"
 estimate: 5
 blocks: ["[[FIELD-19 Order a crew's stops so the day is driveable]]"]
+tested_by: ["[[FIELD-33 The nearest stop first]]", "[[FIELD-34 A road we have never driven is guessed from the distance]]"]
 ---
 
 Two addresses eight kilometres apart are twelve minutes or fifty depending on which side of the water they are on, and a planner that measures in straight lines will confidently build a day nobody can drive. The times are asked for once per pair and kept, because the roads do not move.

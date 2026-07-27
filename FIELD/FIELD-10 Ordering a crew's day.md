@@ -9,9 +9,10 @@ assignee:
 parent: "[[FIELD-8 The Fieldnote suite]]"
 labels: []
 created: 2026-06-23T09:40:00Z
-updated: 2026-06-23T09:40:00Z
+updated: 2026-07-27T17:00:00Z
 aliases: []
 tags: []
+includes: ["[[FIELD-33 The nearest stop first]]", "[[FIELD-34 A road we have never driven is guessed from the distance]]", "[[FIELD-35 The depot is both ends of the day]]"]
 ---
 
 The cases settled by the scenarios in `features/fieldnote/routes.feature`.

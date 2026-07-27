@@ -9,12 +9,13 @@ assignee: '[[priya]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[routing]]"]
 created: 2026-06-29T09:45:00Z
-updated: 2026-07-09T11:20:00Z
+updated: 2026-07-27T17:00:00Z
 aliases: []
 tags: []
 definition_of_done: team
 sprint: "[[Sprint 2]]"
 estimate: 5
+tested_by: ["[[FIELD-31 A crew cannot be in two places at two o'clock]]", "[[FIELD-32 A job is handed to another crew from the board]]"]
 ---
 
 The office side of the same sentence: four columns, one per crew, and an unplanned pile down the left that the dispatcher empties by dragging. It has to survive being used by one person while another is looking at it, because on a Monday morning both of Nordic Field's office staff are on the same board.

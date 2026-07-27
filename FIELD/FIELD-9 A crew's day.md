@@ -9,9 +9,10 @@ assignee:
 parent: "[[FIELD-8 The Fieldnote suite]]"
 labels: []
 created: 2026-06-23T09:40:00Z
-updated: 2026-06-23T09:40:00Z
+updated: 2026-07-27T17:00:00Z
 aliases: []
 tags: []
+includes: ["[[FIELD-30 The day comes back in the order it is meant to happen]]", "[[FIELD-31 A crew cannot be in two places at two o'clock]]", "[[FIELD-32 A job is handed to another crew from the board]]"]
 ---
 
 The cases settled by the scenarios in `features/fieldnote/jobs.feature`.

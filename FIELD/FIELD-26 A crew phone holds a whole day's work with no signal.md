@@ -9,11 +9,12 @@ assignee: '[[aiko]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]", "[[mobile]]"]
 created: 2026-07-27T09:40:00Z
-updated: 2026-07-27T11:20:00Z
+updated: 2026-07-27T17:00:00Z
 aliases: []
 tags: []
 definition_of_done: team
 sprint: "[[Sprint 4]]"
+tested_by: ["[[FIELD-36 Work done with the phone offline survives the sync]]", "[[FIELD-37 A job the phone has never seen comes down from the board]]"]
 ---
 
 The sprint goal, as one card. A crew leaves the depot at seven, spends the day between a tunnel, a cellar and the mountain road, and comes back at four having done nine jobs — and every one of them has to be on the phone, editable, and still there when the van finally passes a mast.
