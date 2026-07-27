@@ -9,9 +9,10 @@ assignee: '[[ola]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: []
 created: 2026-07-27T10:15:00Z
-updated: 2026-07-27T10:15:00Z
+updated: 2026-07-27T10:35:00Z
 aliases: []
 tags: []
+sprint: "[[Sprint 4]]"
 ---
 
 Flight mode is not a dead zone. A phone that has been out of signal for six hours and comes back on a weak connection behaves differently from one somebody switched off, and the plan was to spend a day up the eastern valley finding out how.
