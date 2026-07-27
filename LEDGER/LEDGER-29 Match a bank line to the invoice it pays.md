@@ -9,11 +9,11 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]", "[[invoicing]]"]
 created: 2026-07-16T09:40:00Z
-updated: 2026-07-24T16:30:00Z
+updated: 2026-07-27T09:35:00Z
 aliases: []
 tags: []
 definition_of_done: team
-sprint: "[[Sprint 3]]"
+sprint: "[[Sprint 4]]"
 tested_by: ["[[LEDGER-35 Money leaving the account is a negative line]]", "[[LEDGER-36 A bank line is matched to the invoice it pays]]", "[[LEDGER-37 A line nobody can match is left for a person]]"]
 ---
 
