@@ -9,10 +9,11 @@ assignee: '[[aiko]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-07-27T09:40:00Z
-updated: 2026-07-27T09:47:00Z
+updated: 2026-07-27T09:50:00Z
 aliases: []
 tags: []
 definition_of_done: release
+sprint: "[[Sprint 4]]"
 ---
 
 The dockhand meeting the boat has a phone, a wet hand and one bar of signal that comes and goes behind the fuel dock. Check-in has to complete on the pontoon and reconcile later — an app that needs a connection at the moment the boat arrives is an app the marina will stop opening.
