@@ -2,13 +2,13 @@
 key: FIELD-3
 title: Offline mobile
 type: epic
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 labels: []
 created: 2026-06-15T09:39:00Z
-updated: 2026-06-22T11:35:00Z
+updated: 2026-07-27T09:25:00Z
 aliases: []
 tags: []
 contributes_to: ["[[FIELD-5 No crew loses work to a sync]]"]
