@@ -9,10 +9,11 @@ assignee: '[[aiko]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]"]
 created: 2026-07-27T09:45:00Z
-updated: 2026-07-27T09:52:00Z
+updated: 2026-07-27T10:05:00Z
 aliases: []
 tags: []
 definition_of_done: team
+sprint: "[[Sprint 4]]"
 ---
 
 A photograph of the old part, the meter reading and the finished pipework is what the office invoices from and what the firm produces when a customer says the work was never done. Six photographs at three megabytes each, taken in a cellar, have to survive a day in a pocket and a sync that runs while the van is moving.
