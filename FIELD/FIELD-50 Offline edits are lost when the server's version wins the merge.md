@@ -2,14 +2,14 @@
 key: FIELD-50
 title: Offline edits are lost when the server's version wins the merge
 type: bug
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: critical
 assignee: '[[tomasz]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]"]
 created: 2026-07-29T14:10:00Z
-updated: 2026-07-29T15:10:00Z
+updated: 2026-07-29T15:20:00Z
 aliases: []
 tags: [regress]
 definition_of_done: hotfix
