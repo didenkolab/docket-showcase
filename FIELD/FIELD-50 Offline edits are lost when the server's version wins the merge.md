@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]"]
 created: 2026-07-29T14:10:00Z
-updated: 2026-07-29T14:15:00Z
+updated: 2026-07-29T14:20:00Z
 aliases: []
 tags: [regress]
 definition_of_done: hotfix
@@ -25,3 +25,5 @@ When a job comes back from a phone and the server's copy has also changed, the m
 - [ ] The merge rule is written down as a decision rather than living in the code
 
 ## Comments
+
+**mateo · 2026-07-29 14:20** — Eleven crews, one afternoon. The Storelva crew rang the office to ask why their morning was empty and it went from there. Every job they finished in the eastern valley is back to the state it was in when they left the depot: no notes, no parts, no photographs, and two of them marked unfinished. This is everything four people did today.
