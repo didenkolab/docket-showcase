@@ -14,6 +14,7 @@ aliases: []
 tags: [regress]
 definition_of_done: hotfix
 sprint: "[[Sprint 4]]"
+found_in: ["[[FIELD-45 Work done with the phone offline survives the sync]]"]
 ---
 
 When a job comes back from a phone and the server's copy has also changed, the merge keeps the server's fields and drops the phone's. A day in a dead zone is exactly the case where the phone is right and the server is a stale copy from seven in the morning, so the rule throws away the only version of the work that anybody actually did.
