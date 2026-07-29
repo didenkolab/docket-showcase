@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]"]
 created: 2026-07-29T14:10:00Z
-updated: 2026-07-29T15:20:00Z
+updated: 2026-07-29T16:30:00Z
 aliases: []
 tags: [regress]
 definition_of_done: hotfix
@@ -32,3 +32,5 @@ When a job comes back from a phone and the server's copy has also changed, the m
 **mateo · 2026-07-29 14:20** — Eleven crews, one afternoon. The Storelva crew rang the office to ask why their morning was empty and it went from there. Every job they finished in the eastern valley is back to the state it was in when they left the depot: no notes, no parts, no photographs, and two of them marked unfinished. This is everything four people did today.
 
 **tomasz · 2026-07-29 15:10** — Found it. The merge is last-writer-wins on the whole job and the server counts as the writer whenever it has touched the row since the phone last saw it — and the planner touches every row at seven when it builds the day. So the phone always loses, and it loses hardest for the crews that were offline longest. I am taking it now; nothing else I have is worth a crew's day.
+
+**ingrid · 2026-07-29 16:30** — What we are telling Nordic Field: we lost this afternoon's write-ups for eleven crews, we know exactly which jobs, and we are asking those crews to write them again tomorrow morning rather than pretending we can recover them all. Tomasz thinks the notes are in the request logs and is looking. Nobody rings a crew to ask what they did today twice — so the second half of this card is the decision about who wins a merge, written down where somebody can disagree with it.
