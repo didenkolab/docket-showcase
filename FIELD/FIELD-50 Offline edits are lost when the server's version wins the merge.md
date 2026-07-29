@@ -9,9 +9,10 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]"]
 created: 2026-07-29T14:10:00Z
-updated: 2026-07-29T14:14:00Z
+updated: 2026-07-29T14:15:00Z
 aliases: []
 tags: [regress]
+definition_of_done: hotfix
 ---
 
 When a job comes back from a phone and the server's copy has also changed, the merge keeps the server's fields and drops the phone's. A day in a dead zone is exactly the case where the phone is right and the server is a stale copy from seven in the morning, so the rule throws away the only version of the work that anybody actually did.
