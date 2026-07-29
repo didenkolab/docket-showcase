@@ -2,14 +2,14 @@
 key: FIELD-47
 title: Keep the day's jobs, notes and photographs on the phone itself
 type: subtask
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[FIELD-26 A crew phone holds a whole day's work with no signal]]"
 labels: []
 created: 2026-07-28T10:10:00Z
-updated: 2026-07-28T11:40:00Z
+updated: 2026-07-29T09:50:00Z
 aliases: []
 tags: []
 estimate: 5
