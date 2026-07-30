@@ -2,13 +2,13 @@
 key: FIELD-51
 title: Eleven crews' offline work was overwritten when their phones reconnected
 type: incident
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[aiko]]'
 labels: ["[[offline-sync]]"]
 created: 2026-07-29T14:20:00Z
-updated: 2026-07-30T11:20:00Z
+updated: 2026-07-30T15:40:00Z
 aliases: []
 tags: []
 severity: sev1
