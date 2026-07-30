@@ -9,9 +9,10 @@ assignee: '[[priya]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-07-30T11:10:00Z
-updated: 2026-07-30T11:14:00Z
+updated: 2026-07-30T11:17:00Z
 aliases: []
 tags: [customer/bergstrom]
+definition_of_done: team
 ---
 
 Bergstrom's ninety businesses include forty that send the same invoice to the same customer every month with the date changed. They do it by opening last month's, editing it and saving it under a new name, which is how two of them ended up billing March twice.
