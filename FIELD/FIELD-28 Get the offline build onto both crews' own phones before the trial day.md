@@ -9,7 +9,7 @@ assignee: '[[ola]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: []
 created: 2026-07-27T10:10:00Z
-updated: 2026-07-30T11:00:00Z
+updated: 2026-07-30T11:05:00Z
 aliases: []
 tags: [device/older-fleet, customer/nordic-field]
 sprint: "[[Sprint 4]]"
@@ -21,6 +21,6 @@ The trial day is two crews driving the eastern valley with their own phones, one
 ## Acceptance
 
 - [x] Both crews' phones are running the offline build a week before the trial day
-- [ ] A new build reaches those phones the same day it is cut
+- [x] A new build reaches those phones the same day it is cut
 
 ## Comments
