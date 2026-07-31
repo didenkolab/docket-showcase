@@ -1,7 +1,7 @@
 ---
 type: key_result
 target: 90
-current: 35
+current: 58
 measure: Share of job notes whose first version reached us before the crew's last stop of the day
 quarter: 2026-Q3
 key: FIELD-6
@@ -11,7 +11,7 @@ status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 created: 2026-06-16T09:42:00Z
-updated: 2026-06-16T14:45:00Z
+updated: 2026-07-31T11:18:00Z
 labels: []
 tags: []
 aliases: []
