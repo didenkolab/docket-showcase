@@ -11,7 +11,7 @@ status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 created: 2026-06-16T09:32:00Z
-updated: 2026-06-16T14:25:00Z
+updated: 2026-07-31T11:03:00Z
 labels: []
 tags: []
 aliases: []
