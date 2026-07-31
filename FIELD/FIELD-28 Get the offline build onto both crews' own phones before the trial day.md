@@ -2,14 +2,14 @@
 key: FIELD-28
 title: Get the offline build onto both crews' own phones before the trial day
 type: task
-status: In review
+status: QA
 status_category: doing
 priority: normal
 assignee: '[[ola]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: []
 created: 2026-07-27T10:10:00Z
-updated: 2026-07-30T11:10:00Z
+updated: 2026-07-31T09:50:00Z
 aliases: []
 tags: [device/older-fleet, customer/nordic-field]
 sprint: "[[Sprint 4]]"
