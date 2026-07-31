@@ -2,14 +2,14 @@
 key: LEDGER-60
 title: Repeat last month's invoice without retyping it
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[priya]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-07-30T11:10:00Z
-updated: 2026-07-30T11:17:00Z
+updated: 2026-07-31T10:20:00Z
 aliases: []
 tags: [customer/bergstrom]
 definition_of_done: team
