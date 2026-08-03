@@ -8,7 +8,7 @@ priority: normal
 assignee: '[[aiko]]'
 labels: ["[[offline-sync]]"]
 created: 2026-07-29T14:20:00Z
-updated: 2026-07-30T15:40:00Z
+updated: 2026-08-03T10:51:00Z
 aliases: []
 tags: []
 severity: sev1
@@ -16,6 +16,7 @@ detected_at: 2026-07-29T14:05:00Z
 resolved_at: 2026-07-29T18:30:00Z
 customers_affected: 11 crews, 34 jobs, one afternoon
 caused_by: ["[[FIELD-50 Offline edits are lost when the server's version wins the merge]]"]
+explained_by: ["[[FIELD-52 Postmortem - the afternoon eleven crews lost]]"]
 ---
 
 On Wednesday 29 July the Storelva crew rang the dispatcher at 14:05 to ask why their morning was empty. It was empty because their phones had come back into signal at the depot and the sync had taken the server's version of every job they had touched. By 14:40 the same was true of eleven crews and thirty-four jobs: no notes, no parts used, no photographs, and two jobs back to unfinished after the customer had signed for them.
