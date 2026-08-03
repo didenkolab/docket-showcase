@@ -2,14 +2,14 @@
 key: LEDGER-57
 title: Match on amount, date and the reference the payer typed
 type: subtask
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[LEDGER-29 Match a bank line to the invoice it pays]]"
 labels: []
 created: 2026-07-27T10:20:00Z
-updated: 2026-08-03T10:10:00Z
+updated: 2026-08-03T15:20:00Z
 aliases: []
 tags: []
 estimate: 5
