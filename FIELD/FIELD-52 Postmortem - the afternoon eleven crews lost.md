@@ -7,10 +7,11 @@ status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 created: 2026-08-03T10:30:00Z
-updated: 2026-08-03T10:30:00Z
+updated: 2026-08-03T10:50:00Z
 labels: ["[[offline-sync]]"]
 tags: []
 aliases: []
+explains: ["[[FIELD-51 Eleven crews' offline work was overwritten when their phones reconnected]]"]
 ---
 
 ## What happened
