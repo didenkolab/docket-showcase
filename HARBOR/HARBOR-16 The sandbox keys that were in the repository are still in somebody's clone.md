@@ -3,7 +3,7 @@ type: risk
 likelihood: possible
 impact: major
 owner: ola
-reviewed_on: 2026-06-22
+reviewed_on: 2026-08-03
 key: HARBOR-16
 title: The sandbox keys that were in the repository are still in somebody's clone
 status: Ready
@@ -11,7 +11,7 @@ status_category: todo
 priority: normal
 assignee: '[[ola]]'
 created: 2026-06-22T10:50:00Z
-updated: 2026-07-01T14:33:00Z
+updated: 2026-08-03T14:25:00Z
 labels: ["[[payments]]"]
 tags: []
 aliases: []
