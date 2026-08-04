@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]", "[[invoicing]]"]
 created: 2026-07-16T09:40:00Z
-updated: 2026-07-28T11:20:00Z
+updated: 2026-08-04T16:05:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -22,7 +22,7 @@ This is the whole point of importing anything. A line of 4 218.60 arriving on th
 
 ## Acceptance
 
-- [ ] A line whose reference names an invoice is matched to it without being asked
+- [x] A line whose reference names an invoice is matched to it without being asked
 - [ ] A line that matches an amount and a date but nothing else is offered, not decided
 - [ ] A match can be undone, and undoing it puts the invoice back to unpaid
 
