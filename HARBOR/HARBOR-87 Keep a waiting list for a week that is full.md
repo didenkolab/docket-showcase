@@ -2,14 +2,14 @@
 key: HARBOR-87
 title: Keep a waiting list for a week that is full
 type: story
-status: Backlog
-status_category: todo
+status: Cancelled
+status_category: done
 priority: normal
 assignee: '[[ingrid]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-07-22T10:40:00Z
-updated: 2026-08-04T11:15:00Z
+updated: 2026-08-04T11:20:00Z
 aliases: []
 tags: []
 definition_of_done: team
