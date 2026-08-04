@@ -2,14 +2,14 @@
 key: FIELD-48
 title: Queue every edit the crew makes while the phone is dark
 type: subtask
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[FIELD-26 A crew phone holds a whole day's work with no signal]]"
 labels: []
 created: 2026-07-28T10:15:00Z
-updated: 2026-07-29T10:20:00Z
+updated: 2026-08-04T09:50:00Z
 aliases: []
 tags: []
 estimate: 5
