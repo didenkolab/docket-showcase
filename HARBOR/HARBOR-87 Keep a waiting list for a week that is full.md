@@ -9,7 +9,7 @@ assignee: '[[ingrid]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-07-22T10:40:00Z
-updated: 2026-07-22T10:47:00Z
+updated: 2026-08-04T11:10:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -23,3 +23,5 @@ When a week is full the office writes names on a pad and rings them if somebody 
 - [ ] A cancellation offers the berth to the first name on the list
 
 ## Comments
+
+**ingrid · 2026-08-04 11:10** — Cancelling this: it is the regatta story wearing a different hat. Both are 'hold a berth for somebody who is not paying yet', and building two of those gives us two sets of expiry rules to argue about. The regatta story keeps the waiting list in its acceptance instead.
