@@ -9,9 +9,10 @@ assignee: '[[priya]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-08-05T15:30:00Z
-updated: 2026-08-05T15:30:00Z
+updated: 2026-08-05T15:37:00Z
 aliases: []
 tags: []
+definition_of_done: team
 ---
 
 Two of the three marinas we sat with print the week on Monday morning and pin it up, because the pontoon has no screen and the dockhands do not carry laptops. The browser's own print of the calendar comes out as four illegible pages.
