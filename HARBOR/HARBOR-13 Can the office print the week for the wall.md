@@ -10,10 +10,11 @@ status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-06-18T10:20:00Z
-updated: 2026-06-18T10:22:00Z
+updated: 2026-08-05T16:20:00Z
 labels: ["[[bookings]]"]
 tags: []
 aliases: []
+became: ["[[HARBOR-122 Print the week for the harbour office wall]]"]
 ---
 
 ## What was asked
