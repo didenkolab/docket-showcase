@@ -2,14 +2,14 @@
 key: LEDGER-58
 title: Show the matched pair side by side before it is committed
 type: subtask
-status: In review
+status: QA
 status_category: doing
 priority: normal
 assignee: '[[priya]]'
 parent: "[[LEDGER-29 Match a bank line to the invoice it pays]]"
 labels: []
 created: 2026-07-27T10:25:00Z
-updated: 2026-08-04T15:20:00Z
+updated: 2026-08-05T10:20:00Z
 aliases: []
 tags: []
 estimate: 3
