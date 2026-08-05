@@ -2,14 +2,14 @@
 key: FIELD-49
 title: Send the queue when the phone finds a signal, oldest first
 type: subtask
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[FIELD-26 A crew phone holds a whole day's work with no signal]]"
 labels: []
 created: 2026-07-28T10:20:00Z
-updated: 2026-08-05T10:20:00Z
+updated: 2026-08-05T15:30:00Z
 aliases: []
 tags: []
 estimate: 3
