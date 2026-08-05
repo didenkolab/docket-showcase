@@ -9,7 +9,7 @@ assignee: '[[aiko]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]"]
 created: 2026-07-27T09:45:00Z
-updated: 2026-07-30T09:40:00Z
+updated: 2026-08-05T15:25:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -21,7 +21,7 @@ A photograph of the old part, the meter reading and the finished pipework is wha
 
 ## Acceptance
 
-- [ ] Photographs taken offline are attached to the job before it is sent
+- [x] Photographs taken offline are attached to the job before it is sent
 - [ ] Every photograph the crew took reaches the office, in the order they were taken
 - [ ] A photograph that fails to upload is retried rather than dropped
 
