@@ -9,7 +9,7 @@ assignee: '[[aiko]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]", "[[mobile]]"]
 created: 2026-07-27T09:40:00Z
-updated: 2026-07-28T09:50:00Z
+updated: 2026-08-05T15:55:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -21,7 +21,7 @@ The sprint goal, as one card. A crew leaves the depot at seven, spends the day b
 
 ## Acceptance
 
-- [ ] A day planned before the crew leaves is fully readable with the phone in flight mode
+- [x] A day planned before the crew leaves is fully readable with the phone in flight mode
 - [ ] Jobs finished offline are finished, not queued drafts the crew has to redo
 - [ ] Nothing the crew typed is lost when the app is closed or the phone is restarted
 
