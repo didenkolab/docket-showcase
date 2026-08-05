@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-03T16:00:00Z
-updated: 2026-07-27T16:00:00Z
+updated: 2026-08-05T16:00:00Z
 labels: []
 tags: []
 aliases: []
@@ -16,7 +16,7 @@ automation_id: HARBOR-GEN-8A6A81
 generated: true
 parent: "[[HARBOR-19 Berth booking]]"
 tests: ["[[HARBOR-31 Cancel a booking and give the berth back]]", "[[HARBOR-38 Two guests can hold the same berth if they click at the same second]]"]
-run_by: ["[[HARBOR-55 A cancelled booking gives its nights back to the free list]]", "[[HARBOR-74 A cancelled booking gives its nights back to the free list]]", "[[HARBOR-96 A cancelled booking gives its nights back to the free list]]", "[[HARBOR-112 A cancelled booking gives its nights back to the free list]]"]
+run_by: ["[[HARBOR-55 A cancelled booking gives its nights back to the free list]]", "[[HARBOR-74 A cancelled booking gives its nights back to the free list]]", "[[HARBOR-96 A cancelled booking gives its nights back to the free list]]", "[[HARBOR-112 A cancelled booking gives its nights back to the free list]]", "[[HARBOR-135 A cancelled booking gives its nights back to the free list]]"]
 included_in: ["[[HARBOR-19 Berth booking]]"]
 ---
 

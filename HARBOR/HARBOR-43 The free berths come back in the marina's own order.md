@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-03T16:00:00Z
-updated: 2026-07-27T16:00:00Z
+updated: 2026-08-05T16:00:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: HARBOR-BKG-005
 parent: "[[HARBOR-19 Berth booking]]"
 tests: ["[[HARBOR-6 Show which berths are free for a chosen week]]"]
-run_by: ["[[HARBOR-52 The free berths come back in the marina's own order]]", "[[HARBOR-71 The free berths come back in the marina's own order]]", "[[HARBOR-93 The free berths come back in the marina's own order]]", "[[HARBOR-109 The free berths come back in the marina's own order]]"]
+run_by: ["[[HARBOR-52 The free berths come back in the marina's own order]]", "[[HARBOR-71 The free berths come back in the marina's own order]]", "[[HARBOR-93 The free berths come back in the marina's own order]]", "[[HARBOR-109 The free berths come back in the marina's own order]]", "[[HARBOR-130 The free berths come back in the marina's own order]]"]
 included_in: ["[[HARBOR-19 Berth booking]]"]
 ---
 

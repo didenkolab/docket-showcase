@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-03T16:00:00Z
-updated: 2026-07-27T16:00:00Z
+updated: 2026-08-05T16:00:00Z
 labels: []
 tags: []
 aliases: []
@@ -16,7 +16,7 @@ automation_id: HARBOR-GEN-8DD76D
 generated: true
 parent: "[[HARBOR-20 What a stay costs and who pays for it]]"
 tests: ["[[HARBOR-35 Carry the 3-D Secure redirect back to the booking]]", "[[HARBOR-39 Store the provider's payment reference on the booking]]"]
-run_by: ["[[HARBOR-56 The guest comes back from the bank's page to their own booking]]", "[[HARBOR-75 The guest comes back from the bank's page to their own booking]]", "[[HARBOR-97 The guest comes back from the bank's page to their own booking]]", "[[HARBOR-113 The guest comes back from the bank's page to their own booking]]"]
+run_by: ["[[HARBOR-56 The guest comes back from the bank's page to their own booking]]", "[[HARBOR-75 The guest comes back from the bank's page to their own booking]]", "[[HARBOR-97 The guest comes back from the bank's page to their own booking]]", "[[HARBOR-113 The guest comes back from the bank's page to their own booking]]", "[[HARBOR-136 The guest comes back from the bank's page to their own booking]]"]
 included_in: ["[[HARBOR-20 What a stay costs and who pays for it]]"]
 ---
 
