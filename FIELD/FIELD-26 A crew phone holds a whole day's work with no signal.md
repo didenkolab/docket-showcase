@@ -2,14 +2,14 @@
 key: FIELD-26
 title: A crew phone holds a whole day's work with no signal
 type: story
-status: In progress
+status: In review
 status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]", "[[mobile]]"]
 created: 2026-07-27T09:40:00Z
-updated: 2026-08-05T16:05:00Z
+updated: 2026-08-05T16:10:00Z
 aliases: []
 tags: []
 definition_of_done: team
