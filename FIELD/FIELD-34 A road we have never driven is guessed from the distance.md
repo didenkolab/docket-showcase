@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-27T17:00:00Z
-updated: 2026-07-27T17:00:00Z
+updated: 2026-08-05T17:00:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: FIELD-RTE-002
 parent: "[[FIELD-10 Ordering a crew's day]]"
 tests: ["[[FIELD-20 Put the road's travel time between two stops, not a straight line]]", "[[FIELD-22 Treat the depot and the last stop as fixed ends of the day]]"]
-run_by: ["[[FIELD-43 A road we have never driven is guessed from the distance]]"]
+run_by: ["[[FIELD-43 A road we have never driven is guessed from the distance]]", "[[FIELD-62 A road we have never driven is guessed from the distance]]"]
 included_in: ["[[FIELD-10 Ordering a crew's day]]"]
 ---
 

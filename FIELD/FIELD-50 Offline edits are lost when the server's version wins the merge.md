@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]"]
 created: 2026-07-29T14:10:00Z
-updated: 2026-08-05T15:30:00Z
+updated: 2026-08-05T17:00:00Z
 aliases: []
 tags: [regress]
 definition_of_done: hotfix
@@ -18,6 +18,7 @@ found_in: ["[[FIELD-45 Work done with the phone offline survives the sync]]"]
 estimate: 8
 causes: ["[[FIELD-51 Eleven crews' offline work was overwritten when their phones reconnected]]"]
 relates: ["[[HARBOR-103 Check a guest in from the pontoon with no signal]]"]
+tested_by: ["[[FIELD-53 The edits made while the phone was dark are replayed in the order they were made]]", "[[FIELD-54 What the two sides disagreed about is written down]]", "[[FIELD-55 The dispatcher's crew and day win over the phone's]]"]
 ---
 
 When a job comes back from a phone and the server's copy has also changed, the merge keeps the server's fields and drops the phone's. A day in a dead zone is exactly the case where the phone is right and the server is a stale copy from seven in the morning, so the rule throws away the only version of the work that anybody actually did.

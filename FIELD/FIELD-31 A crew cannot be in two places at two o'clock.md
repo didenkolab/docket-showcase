@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-27T17:00:00Z
-updated: 2026-07-27T17:00:00Z
+updated: 2026-08-05T17:00:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: FIELD-JOB-002
 parent: "[[FIELD-9 A crew's day]]"
 tests: ["[[FIELD-24 Two jobs can be booked into the same crew's two o'clock]]", "[[FIELD-13 Put a job on a crew from the dispatcher's board]]"]
-run_by: ["[[FIELD-40 A crew cannot be in two places at two o'clock]]"]
+run_by: ["[[FIELD-40 A crew cannot be in two places at two o'clock]]", "[[FIELD-59 A crew cannot be in two places at two o'clock]]"]
 included_in: ["[[FIELD-9 A crew's day]]"]
 ---
 
