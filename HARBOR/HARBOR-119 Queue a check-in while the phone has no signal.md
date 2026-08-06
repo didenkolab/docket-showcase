@@ -2,14 +2,14 @@
 key: HARBOR-119
 title: Queue a check-in while the phone has no signal
 type: subtask
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[HARBOR-103 Check a guest in from the pontoon with no signal]]"
 labels: []
 created: 2026-07-28T10:10:00Z
-updated: 2026-08-06T10:10:00Z
+updated: 2026-08-06T15:20:00Z
 aliases: []
 tags: []
 estimate: 5
