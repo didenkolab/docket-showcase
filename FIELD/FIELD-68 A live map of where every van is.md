@@ -1,7 +1,7 @@
 ---
 type: request
-asked_by:
-asked_on:
+asked_by: Halvard Rue, dispatcher at Nordic Field Services
+asked_on: 2026-08-06
 wanted_by:
 key: FIELD-68
 title: A live map of where every van is
@@ -10,7 +10,7 @@ status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-08-06T10:50:00Z
-updated: 2026-08-06T10:50:00Z
+updated: 2026-08-06T10:52:00Z
 labels: ["[[routing]]"]
 tags: []
 aliases: []
