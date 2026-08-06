@@ -5,12 +5,12 @@ asked_on: 2026-06-18
 wanted_by: 2026-07-10
 key: HARBOR-13
 title: Can the office print the week for the wall?
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-06-18T10:20:00Z
-updated: 2026-08-05T16:20:00Z
+updated: 2026-08-06T11:00:00Z
 labels: ["[[bookings]]"]
 tags: []
 aliases: []
