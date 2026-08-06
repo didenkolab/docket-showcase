@@ -2,12 +2,12 @@
 type: postmortem
 key: FIELD-52
 title: 'Postmortem: the afternoon eleven crews lost'
-status: In review
+status: QA
 status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 created: 2026-08-03T10:30:00Z
-updated: 2026-08-05T11:20:00Z
+updated: 2026-08-06T10:40:00Z
 labels: ["[[offline-sync]]"]
 tags: []
 aliases: []
