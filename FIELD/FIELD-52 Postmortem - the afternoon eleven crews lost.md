@@ -7,7 +7,7 @@ status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 created: 2026-08-03T10:30:00Z
-updated: 2026-08-06T10:40:00Z
+updated: 2026-08-06T11:10:00Z
 labels: ["[[offline-sync]]"]
 tags: []
 aliases: []
@@ -51,3 +51,7 @@ The sync gets a scenario per conflict shape instead of one happy path, and it is
 We are not stopping the planner touching every row at seven. It is how the day is built and it is not the fault; a merge that cannot cope with the server having a normal morning is the fault.
 
 We are not resolving conflicts automatically by field, however tempting it looks in the code. Two fields of one job merged from two versions produce a job that nobody wrote and that the crew cannot recognise, and the first time that reaches a customer we will have spent the trust this cost us twice over.
+
+## Comments
+
+**mateo · 2026-08-06 11:10** — The two changes are cards and the decision is written. What is not a card is the sentence about load, and that is the one I would bet on happening again — a depot coming back at once is not the same as one phone coming back eleven times. Passing it, but I would like that on a board before the next season.
