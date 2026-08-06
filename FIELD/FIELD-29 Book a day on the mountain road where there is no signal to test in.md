@@ -2,14 +2,14 @@
 key: FIELD-29
 title: Book a day on the mountain road where there is no signal to test in
 type: task
-status: Ready
-status_category: todo
+status: Cancelled
+status_category: done
 priority: normal
 assignee: '[[ola]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: []
 created: 2026-07-27T10:15:00Z
-updated: 2026-08-06T11:30:00Z
+updated: 2026-08-06T11:40:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 4]]"
