@@ -2,14 +2,14 @@
 key: FIELD-27
 title: A job finished offline keeps its photographs
 type: story
-status: In review
+status: QA
 status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]"]
 created: 2026-07-27T09:45:00Z
-updated: 2026-08-05T15:40:00Z
+updated: 2026-08-06T10:40:00Z
 aliases: []
 tags: []
 definition_of_done: team
