@@ -9,11 +9,11 @@ assignee: '[[priya]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-07-30T11:00:00Z
-updated: 2026-07-31T10:10:00Z
+updated: 2026-08-10T09:23:00Z
 aliases: []
 tags: []
 definition_of_done: team
-sprint: "[[Sprint 4]]"
+sprint: "[[Sprint 5]]"
 estimate: 3
 ---
 
