@@ -9,9 +9,10 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-08-10T09:35:00Z
-updated: 2026-08-10T09:39:00Z
+updated: 2026-08-10T09:42:00Z
 aliases: []
 tags: [customer/marina-vik]
+definition_of_done: team
 ---
 
 A season berth is not two hundred nights at the nightly rate; it is five months at a monthly one, with the shoulder months cheaper than July. Vik Marina sells forty of them and has been doing the arithmetic in a spreadsheet since the vault opened.
