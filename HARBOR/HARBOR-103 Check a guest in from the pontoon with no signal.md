@@ -9,11 +9,11 @@ assignee: '[[aiko]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-07-27T09:40:00Z
-updated: 2026-08-05T16:00:00Z
+updated: 2026-08-10T09:50:00Z
 aliases: []
 tags: []
 definition_of_done: release
-sprint: "[[Sprint 4]]"
+sprint: "[[Sprint 5]]"
 tested_by: ["[[HARBOR-123 A guest is checked in with no signal to check them in on]]"]
 ---
 
