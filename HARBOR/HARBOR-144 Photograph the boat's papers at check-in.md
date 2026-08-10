@@ -9,11 +9,12 @@ assignee: '[[aiko]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-08-10T09:45:00Z
-updated: 2026-08-10T09:54:00Z
+updated: 2026-08-10T09:55:00Z
 aliases: []
 tags: [customer/marina-vik]
 definition_of_done: team
 sprint: "[[Sprint 5]]"
+estimate: 3
 ---
 
 Insurance and registration are checked on arrival and written on a paper form that lives in a drawer. A photograph attached to the booking is the same evidence, findable in October when somebody asks whether the boat was insured in July.
