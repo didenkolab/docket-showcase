@@ -9,9 +9,10 @@ assignee: '[[priya]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-08-11T11:30:00Z
-updated: 2026-08-11T11:34:00Z
+updated: 2026-08-11T11:37:00Z
 aliases: []
 tags: [needs-design]
+definition_of_done: team
 ---
 
 The dispatcher's board is a list, and a list of nine addresses does not tell anybody that two of them are on the wrong side of the water. A map of the day, one crew at a time, was meant to make the shape of it obvious.
