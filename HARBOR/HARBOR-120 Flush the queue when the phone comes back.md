@@ -2,14 +2,14 @@
 key: HARBOR-120
 title: Flush the queue when the phone comes back
 type: subtask
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[HARBOR-103 Check a guest in from the pontoon with no signal]]"
 labels: []
 created: 2026-07-28T10:15:00Z
-updated: 2026-08-11T10:20:00Z
+updated: 2026-08-11T15:40:00Z
 aliases: []
 tags: []
 estimate: 3
