@@ -9,7 +9,7 @@ assignee: '[[aiko]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-07-27T09:40:00Z
-updated: 2026-08-11T16:00:00Z
+updated: 2026-08-11T16:05:00Z
 aliases: []
 tags: []
 definition_of_done: release
@@ -25,6 +25,6 @@ The dockhand meeting the boat has a phone, a wet hand and one bar of signal that
 
 - [x] A check-in completes with the phone in flight mode
 - [x] The office sees it within a minute of the phone reconnecting
-- [ ] Two dockhands checking in the same boat produce one check-in, not two
+- [x] Two dockhands checking in the same boat produce one check-in, not two
 
 ## Comments
