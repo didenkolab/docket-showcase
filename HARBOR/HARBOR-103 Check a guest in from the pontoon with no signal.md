@@ -9,13 +9,14 @@ assignee: '[[aiko]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-07-27T09:40:00Z
-updated: 2026-08-10T17:33:00Z
+updated: 2026-08-11T10:41:00Z
 aliases: []
 tags: []
 definition_of_done: release
 sprint: "[[Sprint 5]]"
 tested_by: ["[[HARBOR-123 A guest is checked in with no signal to check them in on]]"]
 logged: ["[[HARBOR-146 Queue flush against a phone with no signal]]", "[[HARBOR-147 Showing the queued state on the check-in screen]]"]
+blocks: ["[[HARBOR-143 Scan the berth's QR code to open the right booking]]"]
 ---
 
 The dockhand meeting the boat has a phone, a wet hand and one bar of signal that comes and goes behind the fuel dock. Check-in has to complete on the pontoon and reconcile later — an app that needs a connection at the moment the boat arrives is an app the marina will stop opening.
