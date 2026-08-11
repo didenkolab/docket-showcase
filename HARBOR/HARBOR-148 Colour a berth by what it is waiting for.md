@@ -9,9 +9,9 @@ assignee: '[[priya]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-08-11T14:50:00Z
-updated: 2026-08-11T14:50:00Z
+updated: 2026-08-11T14:54:00Z
 aliases: []
-tags: []
+tags: [needs-design]
 ---
 
 The office wants to see, without clicking, which berths are held but unpaid, which are paid and unarrived, and which hold a boat that should have left yesterday. That is three states and one colour scale, and getting it wrong makes the calendar harder to read rather than easier.
