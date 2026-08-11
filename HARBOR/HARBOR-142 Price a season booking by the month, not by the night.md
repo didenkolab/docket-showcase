@@ -2,14 +2,14 @@
 key: HARBOR-142
 title: Price a season booking by the month, not by the night
 type: story
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-08-10T09:35:00Z
-updated: 2026-08-10T11:40:00Z
+updated: 2026-08-11T09:45:00Z
 aliases: []
 tags: [customer/marina-vik]
 definition_of_done: team
