@@ -9,12 +9,13 @@ assignee: '[[aiko]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-08-10T09:40:00Z
-updated: 2026-08-10T11:30:00Z
+updated: 2026-08-11T10:40:00Z
 aliases: []
 tags: []
 definition_of_done: team
 sprint: "[[Sprint 5]]"
 estimate: 5
+blocked_by: ["[[HARBOR-103 Check a guest in from the pontoon with no signal]]"]
 ---
 
 Finding the right booking on a phone in the rain means scrolling a list of forty-one berths. A weatherproof sticker on the pontoon cleat with the berth's code on it turns that into pointing a camera at it.
