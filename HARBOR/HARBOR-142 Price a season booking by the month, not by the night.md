@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-08-10T09:35:00Z
-updated: 2026-08-11T09:45:00Z
+updated: 2026-08-12T15:10:00Z
 aliases: []
 tags: [customer/marina-vik]
 definition_of_done: team
@@ -26,3 +26,5 @@ A season berth is not two hundred nights at the nightly rate; it is five months 
 - [ ] A season booking cut short is repriced rather than refunded night by night
 
 ## Comments
+
+**tomasz · 2026-08-12 15:10** — Parked in review until we settle what happens when a season booking is cut short — repricing it monthly and refunding the difference is not the same number as refunding the unused nights, and Vik have asked for both.
