@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-1 Season bookings]]"
 labels: ["[[bookings]]"]
 created: 2026-08-10T09:35:00Z
-updated: 2026-08-12T15:10:00Z
+updated: 2026-08-12T16:20:00Z
 aliases: []
 tags: [customer/marina-vik]
 definition_of_done: team
@@ -21,7 +21,7 @@ A season berth is not two hundred nights at the nightly rate; it is five months 
 
 ## Acceptance
 
-- [ ] A booking longer than a month is priced by the month
+- [x] A booking longer than a month is priced by the month
 - [ ] The shoulder-month rate applies to April, May, September and October
 - [ ] A season booking cut short is repriced rather than refunded night by night
 
