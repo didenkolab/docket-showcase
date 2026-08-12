@@ -2,14 +2,14 @@
 key: HARBOR-148
 title: Colour a berth by what it is waiting for
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[priya]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-08-11T14:50:00Z
-updated: 2026-08-11T14:57:00Z
+updated: 2026-08-12T10:10:00Z
 aliases: []
 tags: [needs-design]
 definition_of_done: team
