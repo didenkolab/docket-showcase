@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-08-13T14:30:00Z
-updated: 2026-08-13T14:34:00Z
+updated: 2026-08-13T14:40:00Z
 aliases: []
 tags: [customer/bergstrom]
 ---
@@ -22,3 +22,5 @@ The third bank's CSV is not UTF-8 and does not say so, and the importer assumes 
 - [ ] A file whose encoding cannot be established is refused with the reason
 
 ## Comments
+
+**mateo · 2026-08-13 14:40** — Bergstrom sent us a real month from the third bank, with permission and with the amounts scrambled, and forty of its four hundred lines have a payer name full of question marks. It is the same failure as reading a marina's berth spreadsheet, so I have linked the two — whatever we do here should be the thing Harbor does as well.
