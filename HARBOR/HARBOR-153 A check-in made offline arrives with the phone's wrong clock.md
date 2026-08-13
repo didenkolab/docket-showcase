@@ -9,9 +9,10 @@ assignee: '[[aiko]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-08-13T14:20:00Z
-updated: 2026-08-13T14:30:00Z
+updated: 2026-08-13T14:40:00Z
 aliases: []
 tags: [regress]
+sprint: "[[Sprint 5]]"
 ---
 
 A queued check-in carries the time the phone thought it was, and the older test phone is eleven minutes fast. The office sees arrivals in the wrong order and, twice, in the future.
