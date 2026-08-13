@@ -2,14 +2,14 @@
 key: HARBOR-144
 title: Photograph the boat's papers at check-in
 type: story
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-08-10T09:45:00Z
-updated: 2026-08-11T10:20:00Z
+updated: 2026-08-13T09:50:00Z
 aliases: []
 tags: [customer/marina-vik]
 definition_of_done: team
