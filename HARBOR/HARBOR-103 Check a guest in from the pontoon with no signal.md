@@ -2,14 +2,14 @@
 key: HARBOR-103
 title: Check a guest in from the pontoon with no signal
 type: story
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-07-27T09:40:00Z
-updated: 2026-08-12T17:43:00Z
+updated: 2026-08-13T11:30:00Z
 aliases: []
 tags: []
 definition_of_done: release
