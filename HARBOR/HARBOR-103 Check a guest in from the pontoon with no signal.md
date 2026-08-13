@@ -9,13 +9,13 @@ assignee: '[[aiko]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-07-27T09:40:00Z
-updated: 2026-08-13T11:30:00Z
+updated: 2026-08-13T17:13:00Z
 aliases: []
 tags: []
 definition_of_done: release
 sprint: "[[Sprint 5]]"
 tested_by: ["[[HARBOR-123 A guest is checked in with no signal to check them in on]]"]
-logged: ["[[HARBOR-146 Queue flush against a phone with no signal]]", "[[HARBOR-147 Showing the queued state on the check-in screen]]", "[[HARBOR-149 Pontoon flow written up for review]]", "[[HARBOR-150 Wet-hands pass over the check-in screen]]", "[[HARBOR-151 Check-in tested on the pontoon at Vik]]", "[[HARBOR-152 Fixing what came back from the pontoon]]"]
+logged: ["[[HARBOR-146 Queue flush against a phone with no signal]]", "[[HARBOR-147 Showing the queued state on the check-in screen]]", "[[HARBOR-149 Pontoon flow written up for review]]", "[[HARBOR-150 Wet-hands pass over the check-in screen]]", "[[HARBOR-151 Check-in tested on the pontoon at Vik]]", "[[HARBOR-152 Fixing what came back from the pontoon]]", "[[HARBOR-154 Second pass, and the papers photograph]]"]
 blocks: ["[[HARBOR-143 Scan the berth's QR code to open the right booking]]"]
 ---
 
