@@ -1,8 +1,8 @@
 ---
 type: request
-asked_by:
-asked_on:
-wanted_by:
+asked_by: Halvard Rue, dispatcher at Nordic Field Services
+asked_on: 2026-08-13
+wanted_by: 2026-10-01
 key: FIELD-70
 title: The customer signs for the work on the phone
 status: Backlog
@@ -10,7 +10,7 @@ status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-08-13T11:30:00Z
-updated: 2026-08-13T11:30:00Z
+updated: 2026-08-13T11:32:00Z
 labels: ["[[offline-sync]]"]
 tags: []
 aliases: []
