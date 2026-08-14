@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-06-23T11:20:00Z
-updated: 2026-08-05T16:00:00Z
+updated: 2026-08-14T16:00:00Z
 labels: []
 tags: []
 aliases: []
@@ -16,7 +16,7 @@ automation_id: HARBOR-BKG-003
 parent: "[[HARBOR-19 Berth booking]]"
 included_in: ["[[HARBOR-19 Berth booking]]"]
 tests: ["[[HARBOR-6 Show which berths are free for a chosen week]]", "[[HARBOR-8 Import the marina's berth list from a spreadsheet]]"]
-run_by: ["[[HARBOR-50 The morning a boat leaves, its berth is somebody else's night]]", "[[HARBOR-69 The morning a boat leaves, its berth is somebody else's night]]", "[[HARBOR-91 The morning a boat leaves, its berth is somebody else's night]]", "[[HARBOR-107 The morning a boat leaves, its berth is somebody else's night]]", "[[HARBOR-128 The morning a boat leaves, its berth is somebody else's night]]"]
+run_by: ["[[HARBOR-50 The morning a boat leaves, its berth is somebody else's night]]", "[[HARBOR-69 The morning a boat leaves, its berth is somebody else's night]]", "[[HARBOR-91 The morning a boat leaves, its berth is somebody else's night]]", "[[HARBOR-107 The morning a boat leaves, its berth is somebody else's night]]", "[[HARBOR-128 The morning a boat leaves, its berth is somebody else's night]]", "[[HARBOR-161 The morning a boat leaves, its berth is somebody else's night]]"]
 ---
 
 ## Scenario

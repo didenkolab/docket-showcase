@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-03T16:00:00Z
-updated: 2026-08-05T16:00:00Z
+updated: 2026-08-14T16:00:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: HARBOR-PAY-003
 parent: "[[HARBOR-20 What a stay costs and who pays for it]]"
 tests: ["[[HARBOR-33 Take the card payment when a booking is confirmed]]", "[[HARBOR-35 Carry the 3-D Secure redirect back to the booking]]"]
-run_by: ["[[HARBOR-60 The card is charged when the booking is confirmed]]", "[[HARBOR-79 The card is charged when the booking is confirmed]]", "[[HARBOR-101 The card is charged when the booking is confirmed]]", "[[HARBOR-117 The card is charged when the booking is confirmed]]", "[[HARBOR-140 The card is charged when the booking is confirmed]]"]
+run_by: ["[[HARBOR-60 The card is charged when the booking is confirmed]]", "[[HARBOR-79 The card is charged when the booking is confirmed]]", "[[HARBOR-101 The card is charged when the booking is confirmed]]", "[[HARBOR-117 The card is charged when the booking is confirmed]]", "[[HARBOR-140 The card is charged when the booking is confirmed]]", "[[HARBOR-175 The card is charged when the booking is confirmed]]"]
 included_in: ["[[HARBOR-20 What a stay costs and who pays for it]]"]
 ---
 
