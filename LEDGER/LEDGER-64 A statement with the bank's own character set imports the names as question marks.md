@@ -9,11 +9,12 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-08-13T14:30:00Z
-updated: 2026-08-13T15:10:00Z
+updated: 2026-08-14T10:20:00Z
 aliases: []
 tags: [customer/bergstrom]
 sprint: "[[Sprint 5]]"
 estimate: 3
+relates: ["[[HARBOR-8 Import the marina's berth list from a spreadsheet]]"]
 ---
 
 The third bank's CSV is not UTF-8 and does not say so, and the importer assumes it is. Every Norwegian and Swedish letter in a payer's name comes through as a question mark, which means the matcher cannot match on the name and Bergstrom cannot read the ones it failed on.
