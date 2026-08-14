@@ -2,14 +2,14 @@
 key: HARBOR-121
 title: A kiosk in the harbour office for guests who arrive after hours
 type: story
-status: Ready
-status_category: todo
+status: Cancelled
+status_category: done
 priority: normal
 assignee: '[[ingrid]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-07-30T11:10:00Z
-updated: 2026-08-14T11:35:00Z
+updated: 2026-08-14T11:40:00Z
 aliases: []
 tags: []
 definition_of_done: team
