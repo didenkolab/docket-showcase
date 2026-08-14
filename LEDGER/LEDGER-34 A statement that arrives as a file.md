@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-24T16:30:00Z
-updated: 2026-07-24T16:30:00Z
+updated: 2026-08-14T16:30:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: LEDGER-BNK-003
 parent: "[[LEDGER-11 Importing a bank statement]]"
 tests: ["[[LEDGER-24 Import a statement from a CSV file when the bank has no feed]]", "[[LEDGER-30 A refund on the statement is imported as money coming in]]"]
-run_by: ["[[LEDGER-46 A statement that arrives as a file]]"]
+run_by: ["[[LEDGER-46 A statement that arrives as a file]]", "[[LEDGER-70 A statement that arrives as a file]]"]
 included_in: ["[[LEDGER-11 Importing a bank statement]]"]
 ---
 

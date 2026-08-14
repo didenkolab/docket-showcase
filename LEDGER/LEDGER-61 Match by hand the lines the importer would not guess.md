@@ -9,12 +9,13 @@ assignee: '[[priya]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-08-10T09:55:00Z
-updated: 2026-08-12T09:50:00Z
+updated: 2026-08-14T16:30:00Z
 aliases: []
 tags: [needs-design]
 definition_of_done: team
 sprint: "[[Sprint 5]]"
 estimate: 5
+tested_by: ["[[LEDGER-37 A line nobody can match is left for a person]]"]
 ---
 
 One payment covering three invoices, a payment short by the bank's own fee, a customer who pays two months at once in a round number. This is the screen Bergstrom will live in for two days at the end of every month, so it has to be fast under the hands rather than pretty in a screenshot.

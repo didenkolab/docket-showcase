@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-24T16:30:00Z
-updated: 2026-07-24T16:30:00Z
+updated: 2026-08-14T16:30:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: LEDGER-BNK-005
 parent: "[[LEDGER-11 Importing a bank statement]]"
 tests: ["[[LEDGER-29 Match a bank line to the invoice it pays]]"]
-run_by: ["[[LEDGER-48 A bank line is matched to the invoice it pays]]"]
+run_by: ["[[LEDGER-48 A bank line is matched to the invoice it pays]]", "[[LEDGER-72 A bank line is matched to the invoice it pays]]"]
 included_in: ["[[LEDGER-11 Importing a bank statement]]"]
 ---
 

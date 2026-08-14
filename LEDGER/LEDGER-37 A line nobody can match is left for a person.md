@@ -8,15 +8,15 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-24T16:30:00Z
-updated: 2026-07-24T16:30:00Z
+updated: 2026-08-14T16:30:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: LEDGER-GEN-CF286D
 generated: true
 parent: "[[LEDGER-11 Importing a bank statement]]"
-tests: ["[[LEDGER-29 Match a bank line to the invoice it pays]]"]
-run_by: ["[[LEDGER-51 A line nobody can match is left for a person]]"]
+tests: ["[[LEDGER-29 Match a bank line to the invoice it pays]]", "[[LEDGER-61 Match by hand the lines the importer would not guess]]", "[[LEDGER-64 A statement with the bank's own character set imports the names as question marks]]"]
+run_by: ["[[LEDGER-51 A line nobody can match is left for a person]]", "[[LEDGER-77 A line nobody can match is left for a person]]"]
 included_in: ["[[LEDGER-11 Importing a bank statement]]"]
 ---
 
@@ -41,3 +41,10 @@ From `Importing a bank statement` in `bankimport.feature`.
 Derived, not declared — correct it by editing the `tests:` links above.
 
 - LEDGER-29 — the commit that wrote it
+
+## What this covers
+
+Derived, not declared — correct it by editing the `tests:` links above.
+
+- LEDGER-61 — the commit that wrote it
+- LEDGER-64 — the commit that wrote it

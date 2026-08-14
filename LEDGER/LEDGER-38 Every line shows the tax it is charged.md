@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-24T16:30:00Z
-updated: 2026-07-24T16:30:00Z
+updated: 2026-08-14T16:30:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: LEDGER-INV-003
 parent: "[[LEDGER-10 Invoice numbers and the lines under them]]"
 tests: ["[[LEDGER-15 Write an invoice line by line with the tax shown separately]]", "[[LEDGER-19 Show the tax for every line and the totals underneath them]]"]
-run_by: ["[[LEDGER-54 Every line shows the tax it is charged]]"]
+run_by: ["[[LEDGER-54 Every line shows the tax it is charged]]", "[[LEDGER-80 Every line shows the tax it is charged]]"]
 included_in: ["[[LEDGER-10 Invoice numbers and the lines under them]]"]
 ---
 

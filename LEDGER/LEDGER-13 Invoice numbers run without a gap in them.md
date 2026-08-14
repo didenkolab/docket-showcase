@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-06-23T11:20:00Z
-updated: 2026-07-24T16:30:00Z
+updated: 2026-08-14T16:30:00Z
 labels: []
 tags: []
 aliases: []
@@ -16,7 +16,7 @@ automation_id: LEDGER-INV-001
 parent: "[[LEDGER-10 Invoice numbers and the lines under them]]"
 included_in: ["[[LEDGER-10 Invoice numbers and the lines under them]]"]
 tests: ["[[LEDGER-4 Number invoices in one unbroken sequence per business year]]"]
-run_by: ["[[LEDGER-52 Invoice numbers run without a gap in them]]"]
+run_by: ["[[LEDGER-52 Invoice numbers run without a gap in them]]", "[[LEDGER-78 Invoice numbers run without a gap in them]]"]
 ---
 
 ## Scenario
