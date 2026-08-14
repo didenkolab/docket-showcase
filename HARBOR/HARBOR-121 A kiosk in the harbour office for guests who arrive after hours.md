@@ -9,10 +9,11 @@ assignee: '[[ingrid]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-07-30T11:10:00Z
-updated: 2026-08-14T11:30:00Z
+updated: 2026-08-14T11:35:00Z
 aliases: []
 tags: []
 definition_of_done: team
+duplicates: ["[[HARBOR-143 Scan the berth's QR code to open the right booking]]"]
 ---
 
 Boats arrive at eleven at night and the office is shut. Sandholm asked for a screen by the door that checks a guest in and prints the gate code.
