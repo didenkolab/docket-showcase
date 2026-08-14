@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-05T17:00:00Z
-updated: 2026-08-05T17:00:00Z
+updated: 2026-08-14T17:00:00Z
 labels: []
 tags: []
 aliases: []
@@ -16,7 +16,7 @@ automation_id: FIELD-GEN-2F9367
 generated: true
 parent: "[[FIELD-11 Putting a phone back together with the board]]"
 tests: ["[[FIELD-48 Queue every edit the crew makes while the phone is dark]]", "[[FIELD-50 Offline edits are lost when the server's version wins the merge]]"]
-run_by: ["[[FIELD-57 The edits made while the phone was dark are replayed in the order they were made]]"]
+run_by: ["[[FIELD-57 The edits made while the phone was dark are replayed in the order they were made]]", "[[FIELD-73 The edits made while the phone was dark are replayed in the order they were made]]"]
 included_in: ["[[FIELD-11 Putting a phone back together with the board]]"]
 ---
 

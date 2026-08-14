@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-27T17:00:00Z
-updated: 2026-08-05T17:00:00Z
+updated: 2026-08-14T17:00:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: FIELD-RTE-003
 parent: "[[FIELD-10 Ordering a crew's day]]"
 tests: ["[[FIELD-22 Treat the depot and the last stop as fixed ends of the day]]"]
-run_by: ["[[FIELD-44 The depot is both ends of the day]]", "[[FIELD-63 The depot is both ends of the day]]"]
+run_by: ["[[FIELD-44 The depot is both ends of the day]]", "[[FIELD-63 The depot is both ends of the day]]", "[[FIELD-80 The depot is both ends of the day]]"]
 included_in: ["[[FIELD-10 Ordering a crew's day]]"]
 ---
 

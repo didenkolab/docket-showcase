@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-27T17:00:00Z
-updated: 2026-08-05T17:00:00Z
+updated: 2026-08-14T17:00:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: FIELD-JOB-003
 parent: "[[FIELD-9 A crew's day]]"
-tests: ["[[FIELD-13 Put a job on a crew from the dispatcher's board]]"]
-run_by: ["[[FIELD-41 A job is handed to another crew from the board]]", "[[FIELD-60 A job is handed to another crew from the board]]"]
+tests: ["[[FIELD-13 Put a job on a crew from the dispatcher's board]]", "[[FIELD-18 A crew writes up the job from the van, before it drives off]]"]
+run_by: ["[[FIELD-41 A job is handed to another crew from the board]]", "[[FIELD-60 A job is handed to another crew from the board]]", "[[FIELD-76 A job is handed to another crew from the board]]"]
 included_in: ["[[FIELD-9 A crew's day]]"]
 ---
 
@@ -39,3 +39,9 @@ Identity is the case id, not this title: a title gets improved.
 Derived, not declared — correct it by editing the `tests:` links above.
 
 - FIELD-13 — the commit that wrote it
+
+## What this covers
+
+Derived, not declared — correct it by editing the `tests:` links above.
+
+- FIELD-18 — the commit that wrote it

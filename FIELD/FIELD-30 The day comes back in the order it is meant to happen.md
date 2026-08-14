@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-27T17:00:00Z
-updated: 2026-08-05T17:00:00Z
+updated: 2026-08-14T17:00:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: FIELD-JOB-001
 parent: "[[FIELD-9 A crew's day]]"
 tests: ["[[FIELD-12 Show a crew the day's jobs in the order they are meant to happen]]", "[[FIELD-24 Two jobs can be booked into the same crew's two o'clock]]"]
-run_by: ["[[FIELD-39 The day comes back in the order it is meant to happen]]", "[[FIELD-58 The day comes back in the order it is meant to happen]]"]
+run_by: ["[[FIELD-39 The day comes back in the order it is meant to happen]]", "[[FIELD-58 The day comes back in the order it is meant to happen]]", "[[FIELD-74 The day comes back in the order it is meant to happen]]"]
 included_in: ["[[FIELD-9 A crew's day]]"]
 ---
 
