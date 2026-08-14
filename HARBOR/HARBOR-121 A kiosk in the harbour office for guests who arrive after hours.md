@@ -9,7 +9,7 @@ assignee: '[[ingrid]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-07-30T11:10:00Z
-updated: 2026-08-04T10:10:00Z
+updated: 2026-08-14T11:30:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -23,3 +23,5 @@ Boats arrive at eleven at night and the office is shut. Sandholm asked for a scr
 - [ ] The kiosk works when the office network is down
 
 ## Comments
+
+**ingrid · 2026-08-14 11:30** — Cancelling. This is the same job as the QR sticker: Sandholm asked for a screen by the door and Vik asked for a sticker on the cleat, and both mean 'let the guest check themselves in against a berth'. The sticker shipped this week and costs nothing to weatherproof; a kiosk is a device we would have to own. Sandholm have seen the sticker and are happy.
