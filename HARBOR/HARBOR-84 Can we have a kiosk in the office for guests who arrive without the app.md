@@ -5,12 +5,12 @@ asked_on: 2026-07-14
 wanted_by: 2026-08-01
 key: HARBOR-84
 title: Can we have a kiosk in the office for guests who arrive without the app?
-status: Backlog
-status_category: todo
+status: Cancelled
+status_category: done
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-07-14T10:40:00Z
-updated: 2026-07-14T10:42:00Z
+updated: 2026-08-14T12:10:00Z
 labels: ["[[mobile]]"]
 tags: []
 aliases: []
