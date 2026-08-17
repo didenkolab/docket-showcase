@@ -9,7 +9,7 @@ assignee: '[[ola]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-08-10T10:10:00Z
-updated: 2026-08-13T10:20:00Z
+updated: 2026-08-17T11:10:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 5]]"
@@ -20,7 +20,7 @@ Fetching when somebody opens the page means the first page of the morning takes 
 
 ## Acceptance
 
-- [ ] Every connected business is fetched once overnight, spread across the window
+- [x] Every connected business is fetched once overnight, spread across the window
 - [ ] A bank that refused is retried and then reported, not silently skipped
 
 ## Comments
