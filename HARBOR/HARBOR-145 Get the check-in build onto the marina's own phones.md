@@ -9,7 +9,7 @@ assignee: '[[ola]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: []
 created: 2026-08-10T10:10:00Z
-updated: 2026-08-17T11:00:00Z
+updated: 2026-08-17T11:05:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 5]]"
@@ -21,6 +21,6 @@ The launch is on a pontoon at Vik with two dockhands' own phones, one of which i
 ## Acceptance
 
 - [x] Both dockhands' phones are running the check-in build before the launch weekend
-- [ ] A new build reaches those phones the same day it is cut
+- [x] A new build reaches those phones the same day it is cut
 
 ## Comments
