@@ -2,14 +2,14 @@
 key: HARBOR-145
 title: Get the check-in build onto the marina's own phones
 type: task
-status: In progress
+status: In review
 status_category: doing
 priority: normal
 assignee: '[[ola]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: []
 created: 2026-08-10T10:10:00Z
-updated: 2026-08-17T11:05:00Z
+updated: 2026-08-17T11:10:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 5]]"
