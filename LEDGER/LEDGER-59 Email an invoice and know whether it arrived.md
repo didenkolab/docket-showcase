@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-07-30T11:00:00Z
-updated: 2026-08-14T16:30:00Z
+updated: 2026-08-17T15:55:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -22,7 +22,7 @@ An invoice nobody received is an invoice nobody is going to pay, and today the o
 
 ## Acceptance
 
-- [ ] Sending records the address, the moment, and what the mail server answered
+- [x] Sending records the address, the moment, and what the mail server answered
 - [ ] A bounce is visible on the invoice rather than in somebody's inbox
 - [ ] The same invoice can be sent again without becoming a second invoice
 
