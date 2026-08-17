@@ -2,14 +2,14 @@
 key: LEDGER-62
 title: Fetch each business's statements overnight instead of when a page is opened
 type: task
-status: In progress
+status: In review
 status_category: doing
 priority: normal
 assignee: '[[ola]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-08-10T10:10:00Z
-updated: 2026-08-17T11:15:00Z
+updated: 2026-08-17T11:20:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 5]]"
