@@ -2,14 +2,14 @@
 key: LEDGER-31
 title: Chase a late invoice twice and then stop chasing it
 type: story
-status: Ready
-status_category: todo
+status: Cancelled
+status_category: done
 priority: normal
 assignee: '[[ingrid]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-07-20T11:20:00Z
-updated: 2026-08-18T11:20:00Z
+updated: 2026-08-18T11:30:00Z
 aliases: []
 tags: []
 definition_of_done: team
