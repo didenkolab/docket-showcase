@@ -9,7 +9,7 @@ assignee: '[[ingrid]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-07-20T11:20:00Z
-updated: 2026-07-24T16:30:00Z
+updated: 2026-08-18T11:20:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -24,3 +24,5 @@ An invoice goes unpaid for a fortnight and nobody notices until the quarter is b
 - [ ] Reminders stop when the invoice is paid, and stop after the second one either way
 
 ## Comments
+
+**ingrid · 2026-08-18 11:20** — Cancelling this rather than carrying it a fourth sprint. Two of the three accountants we sat with chase late payers by ringing them, and the third does it from her own mail client with a template she likes better than anything we would write. Nobody asked for this; we wrote it down because it sounded like something an invoicing product has. The half worth building is knowing which invoices are late, and that is already on the invoice list.
