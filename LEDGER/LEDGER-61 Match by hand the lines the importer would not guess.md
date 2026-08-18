@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-08-10T09:55:00Z
-updated: 2026-08-18T16:10:00Z
+updated: 2026-08-18T16:15:00Z
 aliases: []
 tags: [needs-design]
 definition_of_done: team
@@ -24,6 +24,6 @@ One payment covering three invoices, a payment short by the bank's own fee, a cu
 
 - [x] A line can be split across several invoices, and the split has to add up
 - [x] An unmatched line can be booked as something other than a payment
-- [ ] The screen can be worked through with the keyboard alone
+- [x] The screen can be worked through with the keyboard alone
 
 ## Comments
