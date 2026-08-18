@@ -2,14 +2,14 @@
 key: HARBOR-143
 title: Scan the berth's QR code to open the right booking
 type: story
-status: In review
+status: QA
 status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-08-10T09:40:00Z
-updated: 2026-08-17T16:20:00Z
+updated: 2026-08-18T10:30:00Z
 aliases: []
 tags: []
 definition_of_done: team
