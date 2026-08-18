@@ -9,7 +9,7 @@ assignee: '[[aiko]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-08-10T09:45:00Z
-updated: 2026-08-18T15:25:00Z
+updated: 2026-08-18T15:30:00Z
 aliases: []
 tags: [customer/marina-vik]
 definition_of_done: team
@@ -22,7 +22,7 @@ Insurance and registration are checked on arrival and written on a paper form th
 ## Acceptance
 
 - [x] A photograph taken at check-in is attached to the booking
-- [ ] Photographs taken offline are uploaded when the phone reconnects
+- [x] Photographs taken offline are uploaded when the phone reconnects
 - [ ] The office can see the photograph without downloading anything
 
 ## Comments
