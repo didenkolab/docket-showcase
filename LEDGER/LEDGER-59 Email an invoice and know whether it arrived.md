@@ -2,14 +2,14 @@
 key: LEDGER-59
 title: Email an invoice and know whether it arrived
 type: story
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[priya]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]"]
 created: 2026-07-30T11:00:00Z
-updated: 2026-08-18T11:00:00Z
+updated: 2026-08-19T14:50:00Z
 aliases: []
 tags: []
 definition_of_done: team
