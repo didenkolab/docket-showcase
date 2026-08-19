@@ -2,14 +2,14 @@
 key: HARBOR-178
 title: Take a deposit now and the rest on arrival
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-08-18T15:10:00Z
-updated: 2026-08-18T17:23:00Z
+updated: 2026-08-19T10:20:00Z
 aliases: []
 tags: []
 definition_of_done: team
