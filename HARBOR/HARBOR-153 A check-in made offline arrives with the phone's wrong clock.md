@@ -9,7 +9,7 @@ assignee: '[[aiko]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-08-13T14:20:00Z
-updated: 2026-08-19T15:10:00Z
+updated: 2026-08-19T15:15:00Z
 aliases: []
 tags: [regress]
 sprint: "[[Sprint 5]]"
@@ -22,7 +22,7 @@ A queued check-in carries the time the phone thought it was, and the older test 
 ## Acceptance
 
 - [x] A check-in is stamped with a time the server can trust
-- [ ] The phone's own idea of the time is kept too, for when they disagree
+- [x] The phone's own idea of the time is kept too, for when they disagree
 
 ## Comments
 
