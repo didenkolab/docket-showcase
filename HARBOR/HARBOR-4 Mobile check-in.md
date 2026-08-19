@@ -8,7 +8,7 @@ priority: normal
 assignee: '[[aiko]]'
 labels: []
 created: 2026-06-15T09:33:00Z
-updated: 2026-07-27T09:20:00Z
+updated: 2026-08-19T16:55:00Z
 aliases: []
 tags: []
 contributes_to: ["[[HARBOR-11 Nine in ten arrivals are checked in from the pontoon]]"]
@@ -19,7 +19,7 @@ The pontoon has no signal, a wet phone and a berth holder who wants to be on the
 
 ## Acceptance
 
-- [ ] A berth holder is checked in from the pontoon with no signal
+- [x] A berth holder is checked in from the pontoon with no signal
 - [ ] The office sees the check-in as soon as the phone reconnects
 - [ ] The boat's papers are photographed and kept with the booking
 
