@@ -2,14 +2,14 @@
 key: LEDGER-64
 title: A statement with the bank's own character set imports the names as question marks
 type: bug
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-08-13T14:30:00Z
-updated: 2026-08-14T16:30:00Z
+updated: 2026-08-19T09:50:00Z
 aliases: []
 tags: [customer/bergstrom]
 sprint: "[[Sprint 5]]"
