@@ -2,14 +2,14 @@
 key: HARBOR-153
 title: A check-in made offline arrives with the phone's wrong clock
 type: bug
-status: In review
+status: QA
 status_category: doing
 priority: high
 assignee: '[[aiko]]'
 parent: "[[HARBOR-4 Mobile check-in]]"
 labels: ["[[mobile]]"]
 created: 2026-08-13T14:20:00Z
-updated: 2026-08-19T15:20:00Z
+updated: 2026-08-20T10:10:00Z
 aliases: []
 tags: [regress]
 sprint: "[[Sprint 5]]"
