@@ -2,14 +2,14 @@
 key: LEDGER-61
 title: Match by hand the lines the importer would not guess
 type: story
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[priya]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-08-10T09:55:00Z
-updated: 2026-08-19T10:40:00Z
+updated: 2026-08-20T15:10:00Z
 aliases: []
 tags: [needs-design]
 definition_of_done: team
