@@ -2,14 +2,14 @@
 key: LEDGER-83
 title: Round the tax per line or per invoice, whichever the country says
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-19T11:40:00Z
-updated: 2026-08-19T11:47:00Z
+updated: 2026-08-20T10:30:00Z
 aliases: []
 tags: []
 definition_of_done: team
