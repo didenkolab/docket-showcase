@@ -2,13 +2,13 @@
 key: HARBOR-4
 title: Mobile check-in
 type: epic
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[aiko]]'
 labels: []
 created: 2026-06-15T09:33:00Z
-updated: 2026-08-20T17:20:00Z
+updated: 2026-08-21T15:30:00Z
 aliases: []
 tags: []
 contributes_to: ["[[HARBOR-11 Nine in ten arrivals are checked in from the pontoon]]"]
