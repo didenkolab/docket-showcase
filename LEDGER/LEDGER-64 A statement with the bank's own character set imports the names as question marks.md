@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-2 Bank import]]"
 labels: ["[[bank-import]]"]
 created: 2026-08-13T14:30:00Z
-updated: 2026-08-19T09:50:00Z
+updated: 2026-08-21T15:35:00Z
 aliases: []
 tags: [customer/bergstrom]
 sprint: "[[Sprint 5]]"
@@ -22,7 +22,7 @@ The third bank's CSV is not UTF-8 and does not say so, and the importer assumes 
 
 ## Acceptance
 
-- [ ] A statement file's encoding is detected rather than assumed
+- [x] A statement file's encoding is detected rather than assumed
 - [ ] A file whose encoding cannot be established is refused with the reason
 
 ## Comments
