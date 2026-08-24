@@ -9,9 +9,10 @@ assignee: '[[priya]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-24T09:50:00Z
-updated: 2026-08-24T09:54:00Z
+updated: 2026-08-24T09:57:00Z
 aliases: []
 tags: [needs-design]
+definition_of_done: team
 ---
 
 Bergstrom produce this ninety times a quarter, and today each one is a spreadsheet assembled by hand from four exports. The report is the boxes the tax office asks for, each one clickable down to the documents that made the number, because the question an accountant is asked is never the total but where it came from.
