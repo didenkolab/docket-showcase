@@ -9,9 +9,10 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-24T09:45:00Z
-updated: 2026-08-24T09:45:00Z
+updated: 2026-08-24T09:52:00Z
 aliases: []
 tags: []
+definition_of_done: release
 ---
 
 Closing is the moment the numbers stop being an opinion. After it, an invoice dated inside the quarter has to be refused rather than accepted quietly, a correction has to become a document of its own in the open quarter, and the closing itself has to be undoable by somebody senior and impossible by accident.
