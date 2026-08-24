@@ -10,10 +10,11 @@ status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-08-13T11:30:00Z
-updated: 2026-08-13T11:32:00Z
+updated: 2026-08-24T12:20:00Z
 labels: ["[[offline-sync]]"]
 tags: []
 aliases: []
+became: ["[[FIELD-93 The customer signs for the work on the phone and it survives the sync]]"]
 ---
 
 ## What was asked
