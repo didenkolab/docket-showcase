@@ -11,11 +11,12 @@ status_category: todo
 priority: normal
 assignee: '[[ola]]'
 created: 2026-06-22T10:30:00Z
-updated: 2026-08-03T14:15:00Z
+updated: 2026-08-24T14:20:00Z
 labels: ["[[bookings]]"]
 tags: []
 aliases: []
 threatens: ["[[HARBOR-4 Mobile check-in]]"]
+mitigated_by: ["[[HARBOR-185 Write the runbook for the season launch weekend]]"]
 ---
 
 ## What could happen
