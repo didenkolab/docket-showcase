@@ -9,9 +9,10 @@ assignee: '[[priya]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-08-24T09:55:00Z
-updated: 2026-08-24T09:55:00Z
+updated: 2026-08-24T10:02:00Z
 aliases: []
 tags: []
+definition_of_done: team
 ---
 
 An hour's job that takes three is the normal case, not the exception, and today the whole afternoon quietly becomes wrong while the office finds out by being rung. Replanning is what turns an overrun into three moved appointments and one phone call the office chooses to make.
