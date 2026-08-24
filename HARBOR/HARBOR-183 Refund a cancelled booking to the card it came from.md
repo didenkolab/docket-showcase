@@ -2,14 +2,14 @@
 key: HARBOR-183
 title: Refund a cancelled booking to the card it came from
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-08-24T10:00:00Z
-updated: 2026-08-24T10:21:00Z
+updated: 2026-08-24T11:50:00Z
 aliases: []
 tags: []
 definition_of_done: team
