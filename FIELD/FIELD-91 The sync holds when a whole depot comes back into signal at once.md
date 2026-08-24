@@ -9,10 +9,11 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]"]
 created: 2026-08-24T10:05:00Z
-updated: 2026-08-24T10:12:00Z
+updated: 2026-08-24T10:25:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: team
+sprint: "[[Sprint 6]]"
 ---
 
 Half of the sprint goal. The merge rule from the incident is right and slow: it reads every change a phone made before it decides anything, and four crews driving into the depot yard at the same time is forty days of changes arriving in one minute. It has to hold up under that with the phones on the yard's own weak signal, which is the shape the next customer will have four times over.
