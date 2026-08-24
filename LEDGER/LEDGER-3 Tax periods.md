@@ -2,13 +2,13 @@
 key: LEDGER-3
 title: Tax periods
 type: epic
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 labels: []
 created: 2026-06-15T09:36:00Z
-updated: 2026-06-16T14:32:00Z
+updated: 2026-08-24T10:50:00Z
 aliases: []
 tags: []
 contributes_to: ["[[LEDGER-6 Three businesses close Q3 out of Ledgerline]]"]
