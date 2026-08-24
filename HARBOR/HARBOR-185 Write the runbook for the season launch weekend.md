@@ -8,9 +8,10 @@ priority: normal
 assignee: '[[ola]]'
 labels: []
 created: 2026-08-24T10:20:00Z
-updated: 2026-08-24T10:20:00Z
+updated: 2026-08-24T10:40:00Z
 aliases: []
 tags: []
+sprint: "[[Sprint 6]]"
 ---
 
 Two marinas go live over one weekend and the person who knows how any of it is deployed is on a boat with no signal. The runbook is who to ring, what to look at, and how to put it back — written down rather than remembered.
