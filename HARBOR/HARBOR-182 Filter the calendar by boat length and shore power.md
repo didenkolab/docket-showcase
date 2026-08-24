@@ -9,10 +9,11 @@ assignee: '[[priya]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-08-24T09:50:00Z
-updated: 2026-08-24T09:57:00Z
+updated: 2026-08-24T10:10:00Z
 aliases: []
 tags: []
 definition_of_done: team
+sprint: "[[Sprint 6]]"
 ---
 
 A harbour master looking for somewhere to put a fifteen-metre boat with a shore power lead does not want the whole marina, they want the eleven berths that could take it. The calendar already knows both facts about every berth.
