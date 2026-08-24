@@ -7,11 +7,12 @@ status_category: done
 priority: normal
 assignee: '[[aiko]]'
 created: 2026-08-03T10:30:00Z
-updated: 2026-08-06T15:10:00Z
+updated: 2026-08-24T14:30:00Z
 labels: ["[[offline-sync]]"]
 tags: []
 aliases: []
 explains: ["[[FIELD-51 Eleven crews' offline work was overwritten when their phones reconnected]]"]
+mitigated_by: ["[[FIELD-90 Show the crew what disagreed and let them choose]]", "[[FIELD-91 The sync holds when a whole depot comes back into signal at once]]"]
 ---
 
 ## What happened
