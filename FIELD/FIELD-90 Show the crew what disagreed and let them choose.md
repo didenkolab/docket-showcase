@@ -2,14 +2,14 @@
 key: FIELD-90
 title: Show the crew what disagreed and let them choose
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]", "[[mobile]]"]
 created: 2026-08-24T10:00:00Z
-updated: 2026-08-24T10:20:00Z
+updated: 2026-08-24T11:45:00Z
 aliases: []
 tags: [needs-design]
 definition_of_done: team
