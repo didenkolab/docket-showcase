@@ -2,14 +2,14 @@
 key: HARBOR-182
 title: Filter the calendar by boat length and shore power
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[priya]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-08-24T09:50:00Z
-updated: 2026-08-24T10:11:00Z
+updated: 2026-08-24T11:30:00Z
 aliases: []
 tags: []
 definition_of_done: team
