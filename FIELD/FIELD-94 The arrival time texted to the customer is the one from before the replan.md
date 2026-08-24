@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-08-24T14:20:00Z
-updated: 2026-08-24T14:20:00Z
+updated: 2026-08-24T14:30:00Z
 aliases: []
 tags: []
 ---
@@ -23,3 +23,5 @@ The message to the customer is composed from the day as it was planned in the mo
 - [ ] The office can see what was sent and when
 
 ## Comments
+
+**mateo · 2026-08-24 14:30** — Found it against the replanning branch, so it is not in front of a customer yet. The estimate is read once when the day is planned and carried in the message queue for hours.
