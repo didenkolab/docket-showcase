@@ -9,9 +9,9 @@ assignee: '[[aiko]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]", "[[mobile]]"]
 created: 2026-08-24T10:10:00Z
-updated: 2026-08-24T10:10:00Z
+updated: 2026-08-24T10:14:00Z
 aliases: []
-tags: []
+tags: [device/older-fleet]
 ---
 
 Six photographs from a cellar are eighteen megabytes going up a connection that exists for forty seconds at a time on the mountain road. Sending them whole means sending them again, and again, until the crew gets back to town — which is why the phones come home with a day of photographs still on them.
