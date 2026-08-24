@@ -9,9 +9,10 @@ assignee: '[[priya]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]", "[[invoicing]]"]
 created: 2026-08-24T10:05:00Z
-updated: 2026-08-24T10:05:00Z
+updated: 2026-08-24T10:12:00Z
 aliases: []
 tags: []
+definition_of_done: team
 ---
 
 The confirmation email is written for a guest and the accountant needs a document: the marina's registered name and number, the tax lines separated out, and the same invoice number the booking carries.
