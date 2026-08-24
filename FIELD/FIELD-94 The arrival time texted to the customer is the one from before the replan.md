@@ -9,9 +9,10 @@ assignee: '[[priya]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-08-24T14:20:00Z
-updated: 2026-08-24T14:30:00Z
+updated: 2026-08-24T14:40:00Z
 aliases: []
 tags: []
+sprint: "[[Sprint 6]]"
 ---
 
 The message to the customer is composed from the day as it was planned in the morning, and the day is replanned every time a job overruns. The customer is told half past one, the crew arrives at four, and the firm is the one that looks disorganised for a number nobody at Nordic Field ever typed.
