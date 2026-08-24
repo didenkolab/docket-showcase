@@ -5,12 +5,12 @@ asked_on: 2026-07-06
 wanted_by: 2026-10-15
 key: LEDGER-21
 title: Can a quarter be locked so nothing new lands in it?
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-07-06T09:50:00Z
-updated: 2026-08-24T12:00:00Z
+updated: 2026-08-24T12:10:00Z
 labels: ["[[tax]]"]
 tags: []
 aliases: []
