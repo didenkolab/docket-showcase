@@ -1,0 +1,25 @@
+---
+key: FIELD-94
+title: The arrival time texted to the customer is the one from before the replan
+type: bug
+status: Backlog
+status_category: todo
+priority: high
+assignee: '[[priya]]'
+parent: "[[FIELD-2 Route planning]]"
+labels: ["[[routing]]"]
+created: 2026-08-24T14:20:00Z
+updated: 2026-08-24T14:20:00Z
+aliases: []
+tags: []
+---
+
+The message to the customer is composed from the day as it was planned in the morning, and the day is replanned every time a job overruns. The customer is told half past one, the crew arrives at four, and the firm is the one that looks disorganised for a number nobody at Nordic Field ever typed.
+
+## Acceptance
+
+- [ ] The message is composed when it is sent, from the day as it stands then
+- [ ] A replan that moves a stop more than an hour offers to tell the customer
+- [ ] The office can see what was sent and when
+
+## Comments
