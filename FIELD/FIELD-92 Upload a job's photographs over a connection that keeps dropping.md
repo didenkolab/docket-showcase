@@ -9,10 +9,11 @@ assignee: '[[aiko]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]", "[[mobile]]"]
 created: 2026-08-24T10:10:00Z
-updated: 2026-08-24T10:17:00Z
+updated: 2026-08-24T10:30:00Z
 aliases: []
 tags: [device/older-fleet]
 definition_of_done: team
+sprint: "[[Sprint 6]]"
 ---
 
 Six photographs from a cellar are eighteen megabytes going up a connection that exists for forty seconds at a time on the mountain road. Sending them whole means sending them again, and again, until the crew gets back to town — which is why the phones come home with a day of photographs still on them.
