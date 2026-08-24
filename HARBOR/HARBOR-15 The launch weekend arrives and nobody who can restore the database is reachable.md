@@ -6,12 +6,12 @@ owner: ola
 reviewed_on: 2026-08-03
 key: HARBOR-15
 title: The launch weekend arrives and nobody who can restore the database is reachable
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[ola]]'
 created: 2026-06-22T10:30:00Z
-updated: 2026-08-24T14:20:00Z
+updated: 2026-08-24T14:23:00Z
 labels: ["[[bookings]]"]
 tags: []
 aliases: []
