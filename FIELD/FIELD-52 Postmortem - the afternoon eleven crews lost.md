@@ -7,7 +7,7 @@ status_category: done
 priority: normal
 assignee: '[[aiko]]'
 created: 2026-08-03T10:30:00Z
-updated: 2026-08-24T14:30:00Z
+updated: 2026-08-24T14:35:00Z
 labels: ["[[offline-sync]]"]
 tags: []
 aliases: []
@@ -56,3 +56,5 @@ We are not resolving conflicts automatically by field, however tempting it looks
 ## Comments
 
 **mateo · 2026-08-06 11:10** — The two changes are cards and the decision is written. What is not a card is the sentence about load, and that is the one I would bet on happening again — a depot coming back at once is not the same as one phone coming back eleven times. Passing it, but I would like that on a board before the next season.
+
+**aiko · 2026-08-24 14:35** — Both changes are on the Sprint 6 board now, linked from here, and the load case mateo asked for is one of them.
