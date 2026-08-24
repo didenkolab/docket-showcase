@@ -10,10 +10,11 @@ status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-07-06T09:50:00Z
-updated: 2026-07-06T09:52:00Z
+updated: 2026-08-24T12:00:00Z
 labels: ["[[tax]]"]
 tags: []
 aliases: []
+became: ["[[LEDGER-85 Close a quarter so nothing can be booked into it afterwards]]"]
 ---
 
 ## What was asked
