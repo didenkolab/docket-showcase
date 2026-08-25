@@ -2,14 +2,14 @@
 key: FIELD-88
 title: A yearly service visit that plans itself twelve months ahead
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[routing]]"]
 created: 2026-08-24T09:50:00Z
-updated: 2026-08-24T10:11:00Z
+updated: 2026-08-25T11:20:00Z
 aliases: []
 tags: []
 definition_of_done: team
