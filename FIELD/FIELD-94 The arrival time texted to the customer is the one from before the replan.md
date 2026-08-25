@@ -2,14 +2,14 @@
 key: FIELD-94
 title: The arrival time texted to the customer is the one from before the replan
 type: bug
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: high
 assignee: '[[priya]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-08-24T14:20:00Z
-updated: 2026-08-24T15:10:00Z
+updated: 2026-08-25T09:50:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
