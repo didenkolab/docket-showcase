@@ -2,14 +2,14 @@
 key: FIELD-91
 title: The sync holds when a whole depot comes back into signal at once
 type: story
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]"]
 created: 2026-08-24T10:05:00Z
-updated: 2026-08-24T14:32:00Z
+updated: 2026-08-25T09:40:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: team
