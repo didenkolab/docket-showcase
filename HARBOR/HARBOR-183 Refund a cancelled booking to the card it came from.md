@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-08-24T10:00:00Z
-updated: 2026-08-24T11:50:00Z
+updated: 2026-08-25T11:00:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -26,3 +26,5 @@ Cancelling gives the berth back; it does not give the money back. Today the harb
 - [ ] The refund appears on the accounting side as a credit note, not as a negative invoice
 
 ## Comments
+
+**ingrid · 2026-08-25 11:00** — Holding the last acceptance box until credit notes land on the Ledgerline side — we agreed a refund is a credit note rather than an invoice with a minus in front of it, and doing half of that now would mean doing all of it twice.
