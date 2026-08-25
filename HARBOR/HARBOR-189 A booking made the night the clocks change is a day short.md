@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: []
 created: 2026-08-25T11:30:00Z
-updated: 2026-08-25T11:30:00Z
+updated: 2026-08-25T11:40:00Z
 aliases: []
 tags: []
 ---
@@ -22,3 +22,5 @@ Nights are counted by subtracting two timestamps and dividing by twenty-four hou
 - [ ] The invoice for such a range charges for every night the boat was there
 
 ## Comments
+
+**mateo · 2026-08-25 11:40** — Found it on purpose rather than in the wild: booked 24 to 31 October at Vik and got six nights and six nights' money. It will be real in eight weeks, so it is worth doing now while nobody has been overcharged.
