@@ -9,10 +9,11 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: []
 created: 2026-08-25T11:30:00Z
-updated: 2026-08-25T11:50:00Z
+updated: 2026-08-25T11:51:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
+estimate: 2
 ---
 
 Nights are counted by subtracting two timestamps and dividing by twenty-four hours, which is right for every night of the year except the two the clocks change on. A week over the October change is billed as six nights.
