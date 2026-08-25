@@ -10,7 +10,7 @@ status_category: done
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-08-06T10:50:00Z
-updated: 2026-08-25T12:10:00Z
+updated: 2026-08-25T12:20:00Z
 labels: ["[[routing]]"]
 tags: []
 aliases: []
@@ -27,3 +27,7 @@ Work out, at a glance, which crew can take the job that has just come in and wha
 ## What we did about it
 
 No, not as a map. A wall of moving dots tells a dispatcher where everybody is and not what to do about it, and it costs a live position feed off every phone for the whole day, which is the battery the crew needs for the job. What he is getting instead is the day rearranging itself when a job overruns, with what changed shown to him before it is applied.
+
+## Comments
+
+**ingrid · 2026-08-25 12:20** — Answered this properly rather than building it. Halvard asked for a map and what he needs is for the day to stay driveable when a job overruns — he watches the map to work out by hand what to move, which is the work we should be doing for him. The reflow story is in Sprint 6 and he is getting that instead. The map spike is cancelled.
