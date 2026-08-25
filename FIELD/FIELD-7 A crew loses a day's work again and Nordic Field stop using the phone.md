@@ -11,11 +11,12 @@ status_category: todo
 priority: normal
 assignee: '[[aiko]]'
 created: 2026-06-22T11:30:00Z
-updated: 2026-08-03T14:35:00Z
+updated: 2026-08-25T14:20:00Z
 labels: ["[[offline-sync]]"]
 tags: []
 aliases: []
 threatens: ["[[FIELD-3 Offline mobile]]"]
+mitigated_by: ["[[FIELD-91 The sync holds when a whole depot comes back into signal at once]]"]
 ---
 
 ## What could happen
