@@ -6,12 +6,12 @@ owner: aiko
 reviewed_on: 2026-08-03
 key: FIELD-7
 title: A crew loses a day's work again and Nordic Field stop using the phone
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[aiko]]'
 created: 2026-06-22T11:30:00Z
-updated: 2026-08-25T14:20:00Z
+updated: 2026-08-25T14:23:00Z
 labels: ["[[offline-sync]]"]
 tags: []
 aliases: []
