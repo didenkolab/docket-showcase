@@ -9,11 +9,12 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]", "[[payments]]"]
 created: 2026-07-14T10:00:00Z
-updated: 2026-07-24T16:30:00Z
+updated: 2026-08-25T11:21:00Z
 aliases: []
 tags: []
 definition_of_done: team
 tested_by: ["[[LEDGER-40 Two invoices numbered from the same reading do not get the same number]]", "[[LEDGER-41 A refund is a credit note against the invoice it undoes]]"]
+blocks: ["[[HARBOR-183 Refund a cancelled booking to the card it came from]]"]
 ---
 
 Money going back to a customer is not an invoice with a minus sign in front of it. It is its own document, with its own number, that points at the invoice it reverses and carries the same tax rates that invoice carried — because the quarter the refund lands in and the quarter the invoice landed in are usually not the same quarter, and the tax has to unwind where it was charged.
