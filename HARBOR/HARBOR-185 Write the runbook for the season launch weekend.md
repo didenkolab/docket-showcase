@@ -2,13 +2,13 @@
 key: HARBOR-185
 title: Write the runbook for the season launch weekend
 type: task
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[ola]]'
 labels: []
 created: 2026-08-24T10:20:00Z
-updated: 2026-08-24T14:21:00Z
+updated: 2026-08-25T10:40:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
