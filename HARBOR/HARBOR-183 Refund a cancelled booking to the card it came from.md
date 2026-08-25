@@ -9,12 +9,13 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-08-24T10:00:00Z
-updated: 2026-08-25T11:00:00Z
+updated: 2026-08-25T11:20:00Z
 aliases: []
 tags: []
 definition_of_done: team
 sprint: "[[Sprint 6]]"
 estimate: 8
+blocked_by: ["[[LEDGER-28 A refund is booked as a credit note against the invoice it came from]]"]
 ---
 
 Cancelling gives the berth back; it does not give the money back. Today the harbour office refunds by hand in the provider's own dashboard and writes the reference on a sticky note. A refund has to be a thing Harbor did, with a reason on it, and it has to become a credit note on the accounting side.
