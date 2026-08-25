@@ -2,14 +2,14 @@
 key: FIELD-69
 title: Draw the day's route on a map the dispatcher can read at a glance
 type: story
-status: Ready
-status_category: todo
+status: Cancelled
+status_category: done
 priority: normal
 assignee: '[[priya]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-08-11T11:30:00Z
-updated: 2026-08-25T11:30:00Z
+updated: 2026-08-25T11:40:00Z
 aliases: []
 tags: [needs-design]
 definition_of_done: team
