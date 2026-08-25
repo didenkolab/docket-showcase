@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]", "[[payments]]"]
 created: 2026-07-14T10:00:00Z
-updated: 2026-08-25T11:21:00Z
+updated: 2026-08-25T11:40:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -26,3 +26,5 @@ Money going back to a customer is not an invoice with a minus sign in front of i
 - [ ] The credit note carries the tax rates of the invoice, not today's
 
 ## Comments
+
+**ingrid · 2026-08-25 11:40** — Leaving this unsized on purpose until planning. Harbor's refunds story is now waiting on it, which means the two have to be estimated in the same room: the half of this that Harbor needs is a credit note produced by a refund, and the half Bergstrom asked for is a credit note somebody writes by hand against an invoice nobody is refunding. They may not be the same story.
