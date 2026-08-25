@@ -5,12 +5,12 @@ asked_on: 2026-08-06
 wanted_by:
 key: FIELD-68
 title: A live map of where every van is
-status: Backlog
-status_category: todo
+status: Cancelled
+status_category: done
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-08-06T10:50:00Z
-updated: 2026-08-06T10:52:00Z
+updated: 2026-08-25T12:10:00Z
 labels: ["[[routing]]"]
 tags: []
 aliases: []
