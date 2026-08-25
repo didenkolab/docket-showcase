@@ -2,14 +2,14 @@
 key: LEDGER-87
 title: Load four years of rate tables for Norway and Sweden
 type: task
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[ola]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-24T10:15:00Z
-updated: 2026-08-24T10:36:00Z
+updated: 2026-08-25T09:35:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
