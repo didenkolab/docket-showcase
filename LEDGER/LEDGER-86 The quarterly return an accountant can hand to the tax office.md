@@ -2,14 +2,14 @@
 key: LEDGER-86
 title: The quarterly return an accountant can hand to the tax office
 type: story
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[priya]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-24T09:50:00Z
-updated: 2026-08-25T10:40:00Z
+updated: 2026-08-26T09:50:00Z
 aliases: []
 tags: [needs-design]
 definition_of_done: team
