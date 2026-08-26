@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-08-26T14:10:00Z
-updated: 2026-08-26T14:10:00Z
+updated: 2026-08-26T14:20:00Z
 aliases: []
 tags: []
 ---
@@ -22,3 +22,5 @@ The coast-road zone is reached by a crossing that stops at six, and the travel t
 - [ ] A day that has to cross late is flagged to the office rather than silently reordered
 
 ## Comments
+
+**mateo · 2026-08-26 14:20** — The Kvaløya crew found this one for us, politely. Job at seventeen ten on the far side, last crossing at eighteen, and the planner had them leaving the previous job at seventeen forty. They drove round. It has been planning like this since the travel times went in, so it is not new — it is just that nobody had a late job over there until this week.
