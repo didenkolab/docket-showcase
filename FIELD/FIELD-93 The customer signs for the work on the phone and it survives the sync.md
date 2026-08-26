@@ -2,14 +2,14 @@
 key: FIELD-93
 title: The customer signs for the work on the phone and it survives the sync
 type: story
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[mobile]]"]
 created: 2026-08-24T10:15:00Z
-updated: 2026-08-24T12:21:00Z
+updated: 2026-08-26T11:30:00Z
 aliases: []
 tags: []
 definition_of_done: team
