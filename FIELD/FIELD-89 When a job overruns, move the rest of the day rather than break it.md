@@ -2,14 +2,14 @@
 key: FIELD-89
 title: When a job overruns, move the rest of the day rather than break it
 type: story
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[priya]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-08-24T09:55:00Z
-updated: 2026-08-24T11:40:00Z
+updated: 2026-08-26T09:50:00Z
 aliases: []
 tags: []
 definition_of_done: team
