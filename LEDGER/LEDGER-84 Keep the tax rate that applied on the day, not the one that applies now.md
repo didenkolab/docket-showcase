@@ -9,12 +9,13 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-24T09:40:00Z
-updated: 2026-08-25T09:50:00Z
+updated: 2026-08-26T11:11:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
 estimate: 5
 definition_of_done: team
+blocks: ["[[LEDGER-86 The quarterly return an accountant can hand to the tax office]]"]
 ---
 
 Rates change on a date somebody in a ministry chose, and every document already issued keeps the rate it was issued under for as long as it exists. A rate table with one current value in it is the bug that arrives eighteen months later, when a credit note against an old invoice quietly uses today's number.
