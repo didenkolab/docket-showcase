@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-08-24T14:20:00Z
-updated: 2026-08-25T09:50:00Z
+updated: 2026-08-26T16:10:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
@@ -20,7 +20,7 @@ The message to the customer is composed from the day as it was planned in the mo
 
 ## Acceptance
 
-- [ ] The message is composed when it is sent, from the day as it stands then
+- [x] The message is composed when it is sent, from the day as it stands then
 - [ ] A replan that moves a stop more than an hour offers to tell the customer
 - [ ] The office can see what was sent and when
 
