@@ -9,9 +9,10 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]", "[[tax]]"]
 created: 2026-08-27T11:20:00Z
-updated: 2026-08-27T11:30:00Z
+updated: 2026-08-27T11:40:00Z
 aliases: []
 tags: []
+sprint: "[[Sprint 6]]"
 ---
 
 The invoice screen adds each line's tax and rounds once; the PDF rounds each line's tax and then adds. On most invoices the two agree, and on an invoice with seven lines at a reduced rate they are a cent apart — which means the document we send and the document we keep say different things.
