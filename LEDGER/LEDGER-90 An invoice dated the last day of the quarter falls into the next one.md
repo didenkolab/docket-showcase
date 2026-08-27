@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-27T11:10:00Z
-updated: 2026-08-27T11:10:00Z
+updated: 2026-08-27T11:20:00Z
 aliases: []
 tags: []
 ---
@@ -22,3 +22,5 @@ A quarter is held as a start and an end, and the end is compared with a less-tha
 - [ ] The demo data's misfiled invoices move to the right quarter when reimported
 
 ## Comments
+
+**mateo · 2026-08-27 11:20** — Found it while building the quarter-close scenarios rather than in the wild, which is luck. Invoice dated 30 June appears in the July-to-September return. The start of the quarter is inclusive and the end is not, so the two ends of every quarter disagree about which side the boundary is on.
