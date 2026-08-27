@@ -1,7 +1,7 @@
 ---
 title: Architecture
 type: design
-updated: 2026-06-16
+updated: 2026-08-27
 ---
 
 # Architecture
@@ -18,11 +18,17 @@ So one thing is shared, and it is the smallest thing that makes that possible: *
 
 ## What is not shared, on purpose
 
-There is no shared customer record. A marina in Harbor and a business in Ledgerline are different rows even when they are the same organisation, because what Harbor knows about a marina — berth count, pontoon layout, shore power — is nothing an accounting product should carry, and merging them would mean the union of two products' opinions about what a customer is.
+There is no shared customer record. A marina in Harbor and a business in Ledgerline are different rows even when they are the same organisation, because what Harbor knows about a marina is nothing an accounting product should carry.
 
 There is no shared scheduling. Harbor's bookings and Fieldnote's jobs are both "somebody has a slot" and it is a false friend: a berth is booked for nights and a job is booked for hours, one is sold and the other is assigned, and the day we merge them is the day both get worse.
 
-The one place we have deliberately allowed a dependency is money. Harbor and Ledgerline take payment through the same provider and the same internal module, and the reason is written down as a decision rather than left in the code.
+## The two seams that turned out to be real
+
+Two dependencies have grown between the products this quarter, and both were predicted on the first day.
+
+**Money crosses from Harbor to Ledgerline.** A refund in Harbor is a credit note in [[ledgerline|Ledgerline]], and since [[0006-refunds-are-credit-notes|ADR-0006]] it is only ever a credit note: `HARBOR-183` is blocked by `LEDGER-28` and will stay that way, because the direction is now a rule. The cost is that Harbor's refund flow depends on Ledgerline being up, which is a coupling we would not have chosen and did choose.
+
+**Offline crosses from Fieldnote to Harbor.** Queueing work on a phone with no signal and reconciling it later is one problem, and it appeared in [[fieldnote|Fieldnote]]'s jobs and [[harbor|Harbor]]'s pontoon check-in within a fortnight of each other. The two share [[0004-the-phone-is-the-source-of-truth-for-a-job|ADR-0004]] rather than a library — the conflict rule is the same and the code is not, because a job and a check-in disagree in different shapes.
 
 ## What this costs
 
