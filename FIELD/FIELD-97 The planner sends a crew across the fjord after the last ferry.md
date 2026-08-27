@@ -2,14 +2,14 @@
 key: FIELD-97
 title: The planner sends a crew across the fjord after the last ferry
 type: bug
-status: Backlog
+status: Ready
 status_category: todo
 priority: high
 assignee: '[[tomasz]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-08-26T14:10:00Z
-updated: 2026-08-26T14:31:00Z
+updated: 2026-08-27T09:40:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
