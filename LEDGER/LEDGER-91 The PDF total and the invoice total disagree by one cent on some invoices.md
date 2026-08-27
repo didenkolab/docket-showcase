@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-1 Invoices and credit notes]]"
 labels: ["[[invoicing]]", "[[tax]]"]
 created: 2026-08-27T11:20:00Z
-updated: 2026-08-27T11:20:00Z
+updated: 2026-08-27T11:30:00Z
 aliases: []
 tags: []
 ---
@@ -22,3 +22,5 @@ The invoice screen adds each line's tax and rounds once; the PDF rounds each lin
 - [ ] The invoices in the demo data that disagree are listed and corrected
 
 ## Comments
+
+**mateo · 2026-08-27 11:30** — A florist in Aalesund noticed before we did, which is the embarrassing part. Seven lines, two rates, screen says 4 218.60 and the PDF says 4 218.59. It is not the rounding rule that is wrong, it is that we have two of them.
