@@ -9,11 +9,12 @@ assignee: '[[priya]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-08-24T14:20:00Z
-updated: 2026-08-27T10:20:00Z
+updated: 2026-08-27T11:50:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
 estimate: 3
+relates: ["[[FIELD-89 When a job overruns, move the rest of the day rather than break it]]"]
 ---
 
 The message to the customer is composed from the day as it was planned in the morning, and the day is replanned every time a job overruns. The customer is told half past one, the crew arrives at four, and the firm is the one that looks disorganised for a number nobody at Nordic Field ever typed.
