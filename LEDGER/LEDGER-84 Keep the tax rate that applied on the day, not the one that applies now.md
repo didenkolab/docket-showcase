@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-24T09:40:00Z
-updated: 2026-08-28T16:00:00Z
+updated: 2026-08-28T16:05:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
@@ -24,6 +24,6 @@ Rates change on a date somebody in a ministry chose, and every document already 
 
 - [x] A rate is looked up by the date of the document, not by today
 - [x] A rate change is entered once, with the date it takes effect
-- [ ] Reissuing a document from last year produces last year's tax
+- [x] Reissuing a document from last year produces last year's tax
 
 ## Comments
