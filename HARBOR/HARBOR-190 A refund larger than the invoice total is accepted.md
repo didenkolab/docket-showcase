@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-08-28T11:10:00Z
-updated: 2026-08-28T11:10:00Z
+updated: 2026-08-28T11:20:00Z
 aliases: []
 tags: []
 ---
@@ -22,3 +22,5 @@ The refund endpoint checks that the booking was paid and not how much it was pai
 - [ ] Several partial refunds cannot add up to more than the invoice
 
 ## Comments
+
+**mateo · 2026-08-28 11:20** — Found by the payments scenarios rather than by a marina, thankfully: HARBOR-PAY-004 refunds 400 against an invoice for 90 and passes. Nobody has done it in the wild because the number is typed by us and not by a guest, but it will be typed by a harbour master the moment refunds ship.
