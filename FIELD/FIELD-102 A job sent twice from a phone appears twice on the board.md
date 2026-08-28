@@ -2,14 +2,14 @@
 key: FIELD-102
 title: A job sent twice from a phone appears twice on the board
 type: bug
-status: Backlog
+status: Ready
 status_category: todo
 priority: high
 assignee: '[[tomasz]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]"]
 created: 2026-08-28T11:20:00Z
-updated: 2026-08-28T11:45:00Z
+updated: 2026-08-28T14:30:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
