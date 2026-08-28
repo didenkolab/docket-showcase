@@ -10,7 +10,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-28T17:00:00Z
-updated: 2026-08-28T17:00:00Z
+updated: 2026-08-28T17:20:00Z
 labels: []
 tags: []
 aliases: []
@@ -28,3 +28,7 @@ ASSERT FAILED: ['P-1', 'P-2']
 ```
 
 Case `FIELD-GEN-04E49B`, from the Cucumber report — nothing here was typed by hand.
+
+## Comments
+
+**mateo · 2026-08-28 17:20** — Off by one photo, see the story: the newest picture on the phone is held back on the theory that it may still be uploading, so a job with six comes back with five. No bug filed yet — it is a five-minute fix and a very bad demo.
