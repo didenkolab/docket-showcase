@@ -2,14 +2,14 @@
 key: HARBOR-187
 title: Rehearse restoring the booking database from a backup
 type: subtask
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[ola]]'
 parent: "[[HARBOR-185 Write the runbook for the season launch weekend]]"
 labels: []
 created: 2026-08-24T11:05:00Z
-updated: 2026-08-26T09:50:00Z
+updated: 2026-08-28T10:20:00Z
 aliases: []
 tags: []
 ---
