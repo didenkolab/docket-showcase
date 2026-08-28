@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]"]
 created: 2026-08-28T11:20:00Z
-updated: 2026-08-28T11:20:00Z
+updated: 2026-08-28T11:30:00Z
 aliases: []
 tags: []
 ---
@@ -22,3 +22,5 @@ A phone that sends its queue, loses the signal before it hears the answer and se
 - [ ] A duplicate that already reached the board can be merged into the original
 
 ## Comments
+
+**mateo · 2026-08-28 11:30** — Two of the crews' phones did this on the trial week and I have been able to make it happen on demand: send the queue standing in the tunnel entrance, walk in, walk out. Same job, two rows, both finished, both invoiceable. It is the sync loss's cousin — the phone is being careful about not losing work and nothing at the other end is being careful about not counting it twice.
