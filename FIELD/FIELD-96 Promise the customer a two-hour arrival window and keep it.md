@@ -9,10 +9,11 @@ assignee: '[[ingrid]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[routing]]"]
 created: 2026-08-26T11:20:00Z
-updated: 2026-08-26T11:27:00Z
+updated: 2026-08-28T17:00:00Z
 aliases: []
 tags: []
 definition_of_done: team
+tested_by: ["[[FIELD-71 The crew write the job up from the van]]", "[[FIELD-104 The customer is promised two hours, not a minute]]"]
 ---
 
 Every customer asks the same question when the job is booked — when will they come — and today the office answers with a morning or an afternoon, because that is all it can honestly promise. A two-hour window is the thing the crews would be measured against, so it cannot be sized until the replanning story says what happens to it when the day goes wrong.
