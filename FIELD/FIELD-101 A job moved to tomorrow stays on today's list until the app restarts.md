@@ -9,7 +9,7 @@ assignee: '[[aiko]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[mobile]]"]
 created: 2026-08-28T11:10:00Z
-updated: 2026-08-28T11:14:00Z
+updated: 2026-08-28T11:20:00Z
 aliases: []
 tags: [device/older-fleet]
 ---
@@ -22,3 +22,5 @@ The phone is told the job has moved and removes it from the server's answer, but
 - [ ] The same is true of a job moved onto the crew mid-morning
 
 ## Comments
+
+**mateo · 2026-08-28 11:20** — Only on the older phones, and only when the day is left open — which is exactly what a crew does, because the phone sits in the cradle all day. The newer ones rebuild the list when the screen comes back on and hide it.
