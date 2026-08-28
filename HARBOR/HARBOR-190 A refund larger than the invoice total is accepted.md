@@ -9,11 +9,12 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-08-28T11:10:00Z
-updated: 2026-08-28T14:20:00Z
+updated: 2026-08-28T16:00:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
 estimate: 3
+tested_by: ["[[HARBOR-192 A stay of a month or more is priced by the month]]", "[[HARBOR-193 A refund larger than the invoice it credits is refused]]"]
 ---
 
 The refund endpoint checks that the booking was paid and not how much it was paid. A refund of four hundred against an invoice of ninety is accepted and sent to the provider, which happily sends the money.

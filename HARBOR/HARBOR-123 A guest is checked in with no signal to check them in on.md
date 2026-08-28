@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-05T16:00:00Z
-updated: 2026-08-14T16:00:00Z
+updated: 2026-08-28T16:00:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: HARBOR-CHK-001
 parent: "[[HARBOR-21 Checking a guest in from the pontoon]]"
 tests: ["[[HARBOR-103 Check a guest in from the pontoon with no signal]]", "[[HARBOR-120 Flush the queue when the phone comes back]]"]
-run_by: ["[[HARBOR-132 A guest is checked in with no signal to check them in on]]", "[[HARBOR-165 A guest is checked in with no signal to check them in on]]"]
+run_by: ["[[HARBOR-132 A guest is checked in with no signal to check them in on]]", "[[HARBOR-165 A guest is checked in with no signal to check them in on]]", "[[HARBOR-201 A guest is checked in with no signal to check them in on]]"]
 included_in: ["[[HARBOR-21 Checking a guest in from the pontoon]]"]
 ---
 

@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-14T16:00:00Z
-updated: 2026-08-14T16:00:00Z
+updated: 2026-08-28T16:00:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: HARBOR-CHK-004
 parent: "[[HARBOR-21 Checking a guest in from the pontoon]]"
 tests: ["[[HARBOR-153 A check-in made offline arrives with the phone's wrong clock]]"]
-run_by: ["[[HARBOR-168 A phone with the wrong clock keeps the order it saw]]"]
+run_by: ["[[HARBOR-168 A phone with the wrong clock keeps the order it saw]]", "[[HARBOR-204 A phone with the wrong clock keeps the order it saw]]"]
 included_in: ["[[HARBOR-21 Checking a guest in from the pontoon]]"]
 ---
 

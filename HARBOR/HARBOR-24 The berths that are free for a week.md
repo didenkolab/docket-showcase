@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-06-23T11:20:00Z
-updated: 2026-08-14T16:00:00Z
+updated: 2026-08-28T16:00:00Z
 labels: []
 tags: []
 aliases: []
@@ -16,7 +16,7 @@ automation_id: HARBOR-BKG-004
 parent: "[[HARBOR-19 Berth booking]]"
 included_in: ["[[HARBOR-19 Berth booking]]"]
 tests: ["[[HARBOR-6 Show which berths are free for a chosen week]]"]
-run_by: ["[[HARBOR-51 The berths that are free for a week]]", "[[HARBOR-70 The berths that are free for a week]]", "[[HARBOR-92 The berths that are free for a week]]", "[[HARBOR-108 The berths that are free for a week]]", "[[HARBOR-129 The berths that are free for a week]]", "[[HARBOR-162 The berths that are free for a week]]"]
+run_by: ["[[HARBOR-51 The berths that are free for a week]]", "[[HARBOR-70 The berths that are free for a week]]", "[[HARBOR-92 The berths that are free for a week]]", "[[HARBOR-108 The berths that are free for a week]]", "[[HARBOR-129 The berths that are free for a week]]", "[[HARBOR-162 The berths that are free for a week]]", "[[HARBOR-198 The berths that are free for a week]]"]
 ---
 
 ## Scenario
