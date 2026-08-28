@@ -10,13 +10,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-28T16:00:00Z
-updated: 2026-08-28T16:00:00Z
+updated: 2026-08-28T16:20:00Z
 labels: []
 tags: []
 aliases: []
 parent: "[[HARBOR-194 Cucumber on staging at 2f5065b]]"
 automation_id: HARBOR-PAY-004
 runs: ["[[HARBOR-193 A refund larger than the invoice it credits is refused]]"]
+found: ["[[HARBOR-190 A refund larger than the invoice total is accepted]]"]
 ---
 
 ## What happened
@@ -28,3 +29,7 @@ ASSERT FAILED: {'ok': True, 'charge': Charge(reference='rf-1', booking_ref='H-10
 ```
 
 Case `HARBOR-PAY-004`, from the Cucumber report — nothing here was typed by hand.
+
+## Comments
+
+**mateo · 2026-08-28 16:20** — Written as a scenario this morning and failing this afternoon, which is the right order for once.
