@@ -9,10 +9,11 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]"]
 created: 2026-08-28T11:20:00Z
-updated: 2026-08-28T11:40:00Z
+updated: 2026-08-28T11:41:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
+estimate: 3
 ---
 
 A phone that sends its queue, loses the signal before it hears the answer and sends again produces two of the same finished job, and the office invoices one of them and wonders about the other. The queue is ordered and retried; what it is not is idempotent, which is the same lesson the payments work learned in July.
