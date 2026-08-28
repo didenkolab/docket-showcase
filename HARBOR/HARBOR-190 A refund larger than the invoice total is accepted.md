@@ -2,14 +2,14 @@
 key: HARBOR-190
 title: A refund larger than the invoice total is accepted
 type: bug
-status: Backlog
+status: Ready
 status_category: todo
 priority: high
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-08-28T11:10:00Z
-updated: 2026-08-28T11:31:00Z
+updated: 2026-08-28T14:20:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
