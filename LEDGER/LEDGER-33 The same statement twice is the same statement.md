@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-24T16:30:00Z
-updated: 2026-08-14T16:30:00Z
+updated: 2026-08-28T16:30:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: LEDGER-BNK-002
 parent: "[[LEDGER-11 Importing a bank statement]]"
 tests: ["[[LEDGER-25 Importing the same statement twice does not produce two of everything]]", "[[LEDGER-24 Import a statement from a CSV file when the bank has no feed]]"]
-run_by: ["[[LEDGER-45 The same statement twice is the same statement]]", "[[LEDGER-69 The same statement twice is the same statement]]"]
+run_by: ["[[LEDGER-45 The same statement twice is the same statement]]", "[[LEDGER-69 The same statement twice is the same statement]]", "[[LEDGER-100 The same statement twice is the same statement]]"]
 included_in: ["[[LEDGER-11 Importing a bank statement]]"]
 ---
 

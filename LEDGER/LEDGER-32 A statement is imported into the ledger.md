@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-24T16:30:00Z
-updated: 2026-08-14T16:30:00Z
+updated: 2026-08-28T16:30:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: LEDGER-BNK-001
 parent: "[[LEDGER-11 Importing a bank statement]]"
 tests: ["[[LEDGER-23 Fetch a statement from the three banks our first accountants use]]", "[[LEDGER-25 Importing the same statement twice does not produce two of everything]]"]
-run_by: ["[[LEDGER-44 A statement is imported into the ledger]]", "[[LEDGER-68 A statement is imported into the ledger]]"]
+run_by: ["[[LEDGER-44 A statement is imported into the ledger]]", "[[LEDGER-68 A statement is imported into the ledger]]", "[[LEDGER-99 A statement is imported into the ledger]]"]
 included_in: ["[[LEDGER-11 Importing a bank statement]]"]
 ---
 

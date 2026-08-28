@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-14T16:30:00Z
-updated: 2026-08-14T16:30:00Z
+updated: 2026-08-28T16:30:00Z
 labels: []
 tags: []
 aliases: []
@@ -16,7 +16,7 @@ automation_id: LEDGER-GEN-128989
 generated: true
 parent: "[[LEDGER-11 Importing a bank statement]]"
 tests: ["[[LEDGER-64 A statement with the bank's own character set imports the names as question marks]]"]
-run_by: ["[[LEDGER-73 A name in the bank's own character set survives the import]]"]
+run_by: ["[[LEDGER-73 A name in the bank's own character set survives the import]]", "[[LEDGER-104 A name in the bank's own character set survives the import]]"]
 included_in: ["[[LEDGER-11 Importing a bank statement]]"]
 ---
 

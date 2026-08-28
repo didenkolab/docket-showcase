@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-24T16:30:00Z
-updated: 2026-08-14T16:30:00Z
+updated: 2026-08-28T16:30:00Z
 labels: []
 tags: []
 aliases: []
@@ -16,7 +16,7 @@ automation_id: LEDGER-GEN-CF286D
 generated: true
 parent: "[[LEDGER-11 Importing a bank statement]]"
 tests: ["[[LEDGER-29 Match a bank line to the invoice it pays]]", "[[LEDGER-61 Match by hand the lines the importer would not guess]]", "[[LEDGER-64 A statement with the bank's own character set imports the names as question marks]]"]
-run_by: ["[[LEDGER-51 A line nobody can match is left for a person]]", "[[LEDGER-77 A line nobody can match is left for a person]]"]
+run_by: ["[[LEDGER-51 A line nobody can match is left for a person]]", "[[LEDGER-77 A line nobody can match is left for a person]]", "[[LEDGER-109 A line nobody can match is left for a person]]"]
 included_in: ["[[LEDGER-11 Importing a bank statement]]"]
 ---
 
