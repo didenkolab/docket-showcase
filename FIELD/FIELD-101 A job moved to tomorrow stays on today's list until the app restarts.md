@@ -2,14 +2,14 @@
 key: FIELD-101
 title: A job moved to tomorrow stays on today's list until the app restarts
 type: bug
-status: Backlog
+status: Ready
 status_category: todo
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[FIELD-1 Job scheduling]]"
 labels: ["[[mobile]]"]
 created: 2026-08-28T11:10:00Z
-updated: 2026-08-28T11:31:00Z
+updated: 2026-08-28T14:20:00Z
 aliases: []
 tags: [device/older-fleet]
 sprint: "[[Sprint 6]]"
