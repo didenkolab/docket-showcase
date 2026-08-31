@@ -1,7 +1,7 @@
 ---
 type: key_result
 target: 90
-current: 94
+current: 96
 measure: Share of month-view loads under one second on Sandholm's four hundred and six berths
 quarter: 2026-Q3
 key: HARBOR-12
@@ -11,7 +11,7 @@ status_category: doing
 priority: normal
 assignee: '[[priya]]'
 created: 2026-06-16T09:34:00Z
-updated: 2026-07-31T11:06:00Z
+updated: 2026-08-31T11:06:00Z
 labels: []
 tags: []
 aliases: []
