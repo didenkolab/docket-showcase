@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]", "[[invoicing]]"]
 created: 2026-08-24T10:05:00Z
-updated: 2026-08-31T11:30:00Z
+updated: 2026-08-31T16:10:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -22,7 +22,7 @@ The confirmation email is written for a guest and the accountant needs a documen
 
 ## Acceptance
 
-- [ ] The receipt carries the marina's registered details and the invoice number
+- [x] The receipt carries the marina's registered details and the invoice number
 - [ ] Tax is shown as its own line rather than folded into the total
 - [ ] The receipt can be re-sent without producing a second invoice number
 
