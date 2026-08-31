@@ -1,7 +1,7 @@
 ---
 type: key_result
 target: 90
-current: 61
+current: 78
 measure: Share of imported statement lines the matcher settled on its own over the last thirty days
 quarter: 2026-Q3
 key: LEDGER-7
@@ -11,7 +11,7 @@ status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 created: 2026-06-16T09:38:00Z
-updated: 2026-07-31T11:12:00Z
+updated: 2026-08-31T11:12:00Z
 labels: []
 tags: []
 aliases: []
