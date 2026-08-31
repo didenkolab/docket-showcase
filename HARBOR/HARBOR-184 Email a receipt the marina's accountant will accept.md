@@ -2,14 +2,14 @@
 key: HARBOR-184
 title: Email a receipt the marina's accountant will accept
 type: story
-status: In progress
+status: In review
 status_category: doing
 priority: normal
 assignee: '[[priya]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]", "[[invoicing]]"]
 created: 2026-08-24T10:05:00Z
-updated: 2026-08-31T16:15:00Z
+updated: 2026-08-31T16:20:00Z
 aliases: []
 tags: []
 definition_of_done: team
