@@ -1,7 +1,7 @@
 ---
 type: key_result
 target: 3
-current: 0
+current: 1
 measure: Businesses whose quarterly return was produced from the tax report and not retyped
 quarter: 2026-Q3
 key: LEDGER-6
@@ -11,7 +11,7 @@ status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 created: 2026-06-16T09:36:00Z
-updated: 2026-07-31T11:09:00Z
+updated: 2026-08-31T11:09:00Z
 labels: []
 tags: []
 aliases: []
