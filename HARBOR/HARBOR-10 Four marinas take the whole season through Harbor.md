@@ -1,7 +1,7 @@
 ---
 type: key_result
 target: 4
-current: 3
+current: 4
 measure: Marinas whose berth list is in Harbor and whose July and August bookings were made in it
 quarter: 2026-Q3
 key: HARBOR-10
@@ -11,7 +11,7 @@ status_category: doing
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-06-16T09:30:00Z
-updated: 2026-07-31T11:00:00Z
+updated: 2026-08-31T11:00:00Z
 labels: []
 tags: []
 aliases: []
