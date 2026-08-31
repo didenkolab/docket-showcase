@@ -1,8 +1,8 @@
 ---
 type: request
-asked_by:
-asked_on:
-wanted_by:
+asked_by: Jonas Vik, harbourmaster at Vik Marina
+asked_on: 2026-08-31
+wanted_by: 2027-04-01
 key: HARBOR-216
 title: Can a guest pay half at booking and the rest on arrival?
 status: Backlog
@@ -10,7 +10,7 @@ status_category: todo
 priority: normal
 assignee: '[[ingrid]]'
 created: 2026-08-31T10:30:00Z
-updated: 2026-08-31T10:30:00Z
+updated: 2026-08-31T10:32:00Z
 labels: ["[[payments]]"]
 tags: []
 aliases: []
