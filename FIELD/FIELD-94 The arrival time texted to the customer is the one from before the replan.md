@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-08-24T14:20:00Z
-updated: 2026-08-27T11:50:00Z
+updated: 2026-09-01T11:10:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
@@ -28,3 +28,5 @@ The message to the customer is composed from the day as it was planned in the mo
 ## Comments
 
 **mateo · 2026-08-24 14:30** — Found it against the replanning branch, so it is not in front of a customer yet. The estimate is read once when the day is planned and carried in the message queue for hours.
+
+**mateo · 2026-09-01 11:10** — Still sitting with me, and it is my fault rather than the fix's. I do not want to pass it on the demo data — the whole point is a day that gets replanned twice, and I want to watch it against the crews' real week before I sign it off. Ola is loading last week's jobs for me.
