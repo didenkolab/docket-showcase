@@ -8,7 +8,7 @@ priority: normal
 assignee: '[[ola]]'
 labels: []
 created: 2026-08-24T10:20:00Z
-updated: 2026-08-25T10:40:00Z
+updated: 2026-09-01T15:15:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
@@ -19,7 +19,7 @@ Two marinas go live over one weekend and the person who knows how any of it is d
 
 ## Acceptance
 
-- [ ] Somebody who has never deployed Harbor can follow it end to end
+- [x] Somebody who has never deployed Harbor can follow it end to end
 - [ ] It says how to restore the booking database and how long that takes
 - [ ] It says who is on call and how the marina reaches them
 
