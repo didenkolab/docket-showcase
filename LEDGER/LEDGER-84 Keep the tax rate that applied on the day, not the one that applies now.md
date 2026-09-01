@@ -2,14 +2,14 @@
 key: LEDGER-84
 title: Keep the tax rate that applied on the day, not the one that applies now
 type: story
-status: QA
-status_category: doing
+status: Done
+status_category: done
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-24T09:40:00Z
-updated: 2026-08-31T10:20:00Z
+updated: 2026-09-01T15:30:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
