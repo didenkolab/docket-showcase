@@ -9,9 +9,10 @@ assignee: '[[ola]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-11T11:20:00Z
-updated: 2026-09-01T11:30:00Z
+updated: 2026-09-01T11:35:00Z
 aliases: []
 tags: []
+duplicates: ["[[LEDGER-85 Close a quarter so nothing can be booked into it afterwards]]"]
 ---
 
 A closed quarter has to still be readable long after the software that produced it has been rewritten twice, which usually means a file somewhere rather than a row in a database that has since been migrated.
