@@ -2,14 +2,14 @@
 key: LEDGER-63
 title: Keep a closed quarter where an auditor can read it in five years
 type: task
-status: Ready
-status_category: todo
+status: Cancelled
+status_category: done
 priority: normal
 assignee: '[[ola]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-11T11:20:00Z
-updated: 2026-09-01T11:35:00Z
+updated: 2026-09-01T11:40:00Z
 aliases: []
 tags: []
 duplicates: ["[[LEDGER-85 Close a quarter so nothing can be booked into it afterwards]]"]
