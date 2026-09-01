@@ -9,7 +9,7 @@ assignee: '[[ola]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-11T11:20:00Z
-updated: 2026-08-12T10:30:00Z
+updated: 2026-09-01T11:30:00Z
 aliases: []
 tags: []
 ---
@@ -22,3 +22,5 @@ A closed quarter has to still be readable long after the software that produced 
 - [ ] The written form can be read back and checked against the live data
 
 ## Comments
+
+**ola · 2026-09-01 11:30** — Folding this into closing the period rather than doing it beside it. Writing the quarter out is what closing a quarter should mean — a close that leaves no artefact behind is a flag on a row, and a flag on a row is exactly the thing an auditor in five years cannot read. Tomasz has put it in that story's acceptance and I would rather it lived there than here.
