@@ -2,14 +2,14 @@
 key: LEDGER-85
 title: Close a quarter so nothing can be booked into it afterwards
 type: story
-status: Ready
-status_category: todo
+status: In progress
+status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-24T09:45:00Z
-updated: 2026-08-28T16:30:00Z
+updated: 2026-09-01T09:50:00Z
 aliases: []
 tags: []
 definition_of_done: release
