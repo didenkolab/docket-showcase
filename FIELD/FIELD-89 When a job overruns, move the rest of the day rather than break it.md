@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-08-24T09:55:00Z
-updated: 2026-08-26T09:50:00Z
+updated: 2026-09-02T16:00:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -21,7 +21,7 @@ An hour's job that takes three is the normal case, not the exception, and today 
 
 ## Acceptance
 
-- [ ] An overrunning job pushes the crew's remaining stops and says which ones moved
+- [x] An overrunning job pushes the crew's remaining stops and says which ones moved
 - [ ] A stop that can no longer be reached today is offered to another crew or tomorrow
 - [ ] The office sees the replan before the customer does
 
