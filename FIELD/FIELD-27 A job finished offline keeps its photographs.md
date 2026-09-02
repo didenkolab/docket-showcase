@@ -9,7 +9,7 @@ assignee: '[[aiko]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]"]
 created: 2026-07-27T09:45:00Z
-updated: 2026-08-07T11:20:00Z
+updated: 2026-09-02T11:40:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -26,3 +26,5 @@ A photograph of the old part, the meter reading and the finished pipework is wha
 - [x] A photograph that fails to upload is retried rather than dropped
 
 ## Comments
+
+**mateo · 2026-09-02 11:40** — Late note against a finished story, because I would rather it lived here than in my head. Running the offline day again this week on the older phone, the job arrives with five photographs and the crew took six. The sixth is on the phone and never leaves it. One device, one photograph, every time I run it — which is the sort of off-by-one that is a five-minute fix and a very bad demo.
