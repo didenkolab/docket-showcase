@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: ["[[bookings]]"]
 created: 2026-08-24T09:50:00Z
-updated: 2026-09-02T16:10:00Z
+updated: 2026-09-02T16:15:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -22,7 +22,7 @@ A harbour master looking for somewhere to put a fifteen-metre boat with a shore 
 ## Acceptance
 
 - [x] The calendar can be narrowed to berths that fit a given length
-- [ ] Berths without shore power can be hidden
+- [x] Berths without shore power can be hidden
 - [ ] The filter survives a page reload, because it is how somebody works all morning
 
 ## Comments
