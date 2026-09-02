@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-27T11:10:00Z
-updated: 2026-08-31T09:50:00Z
+updated: 2026-09-02T15:55:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
@@ -21,7 +21,7 @@ A quarter is held as a start and an end, and the end is compared with a less-tha
 
 ## Acceptance
 
-- [ ] An invoice dated the last day of a quarter is reported in that quarter
+- [x] An invoice dated the last day of a quarter is reported in that quarter
 - [ ] The demo data's misfiled invoices move to the right quarter when reimported
 
 ## Comments
