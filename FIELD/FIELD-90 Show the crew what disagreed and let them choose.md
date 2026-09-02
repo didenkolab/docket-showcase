@@ -9,7 +9,7 @@ assignee: '[[aiko]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]", "[[mobile]]"]
 created: 2026-08-24T10:00:00Z
-updated: 2026-09-01T17:03:00Z
+updated: 2026-09-02T15:15:00Z
 aliases: []
 tags: [needs-design]
 definition_of_done: team
@@ -22,7 +22,7 @@ The half of the merge decision that the incident could not fix in an afternoon: 
 
 ## Acceptance
 
-- [ ] A job with a genuine conflict is shown to the crew as two versions side by side
+- [x] A job with a genuine conflict is shown to the crew as two versions side by side
 - [ ] Choosing one keeps the other where the office can still see it
 - [ ] A crew that ignores the question is asked again rather than quietly resolved
 
