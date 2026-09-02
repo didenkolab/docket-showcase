@@ -2,14 +2,14 @@
 key: LEDGER-90
 title: An invoice dated the last day of the quarter falls into the next one
 type: bug
-status: In progress
+status: In review
 status_category: doing
 priority: high
 assignee: '[[tomasz]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-27T11:10:00Z
-updated: 2026-09-02T15:55:00Z
+updated: 2026-09-02T16:00:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
