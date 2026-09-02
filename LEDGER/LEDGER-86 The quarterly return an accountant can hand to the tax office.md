@@ -9,7 +9,7 @@ assignee: '[[priya]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-24T09:50:00Z
-updated: 2026-08-26T11:10:00Z
+updated: 2026-09-02T16:10:00Z
 aliases: []
 tags: [needs-design]
 definition_of_done: team
@@ -22,7 +22,7 @@ Bergstrom produce this ninety times a quarter, and today each one is a spreadshe
 
 ## Acceptance
 
-- [ ] Every box on the return can be opened to the documents behind it
+- [x] Every box on the return can be opened to the documents behind it
 - [ ] The report can be produced again later and comes out identical
 - [ ] A quarter with an unmatched bank line says so rather than reporting anyway
 
