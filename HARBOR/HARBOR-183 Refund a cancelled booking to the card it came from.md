@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-08-24T10:00:00Z
-updated: 2026-08-27T09:50:00Z
+updated: 2026-09-02T15:25:00Z
 aliases: []
 tags: []
 definition_of_done: team
@@ -22,7 +22,7 @@ Cancelling gives the berth back; it does not give the money back. Today the harb
 
 ## Acceptance
 
-- [ ] A cancelled booking can be refunded to the card that paid for it
+- [x] A cancelled booking can be refunded to the card that paid for it
 - [ ] A refund carries a reason and who authorised it
 - [ ] The refund appears on the accounting side as a credit note, not as a negative invoice
 
