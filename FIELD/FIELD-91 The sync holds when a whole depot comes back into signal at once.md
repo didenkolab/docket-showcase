@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]"]
 created: 2026-08-24T10:05:00Z
-updated: 2026-08-25T14:21:00Z
+updated: 2026-09-03T11:15:00Z
 aliases: []
 tags: [area/api]
 definition_of_done: team
@@ -22,7 +22,7 @@ Half of the sprint goal. The merge rule from the incident is right and slow: it 
 
 ## Acceptance
 
-- [ ] Four crews' full days sync together without a phone timing out
+- [x] Four crews' full days sync together without a phone timing out
 - [ ] A phone that loses the signal mid-sync resumes rather than starting again
 - [ ] The reconciliation is measured, so we find out from a graph rather than a crew
 
