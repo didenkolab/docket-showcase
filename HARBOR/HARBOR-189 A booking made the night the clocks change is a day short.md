@@ -2,14 +2,14 @@
 key: HARBOR-189
 title: A booking made the night the clocks change is a day short
 type: bug
-status: In review
+status: QA
 status_category: doing
 priority: normal
 assignee: '[[tomasz]]'
 parent: "[[HARBOR-2 Berth calendar]]"
 labels: []
 created: 2026-08-25T11:30:00Z
-updated: 2026-09-01T16:00:00Z
+updated: 2026-09-03T10:40:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
