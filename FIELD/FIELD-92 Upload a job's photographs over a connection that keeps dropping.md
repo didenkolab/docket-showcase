@@ -2,14 +2,14 @@
 key: FIELD-92
 title: Upload a job's photographs over a connection that keeps dropping
 type: story
-status: In progress
+status: In review
 status_category: doing
 priority: normal
 assignee: '[[aiko]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]", "[[mobile]]"]
 created: 2026-08-24T10:10:00Z
-updated: 2026-09-03T16:05:00Z
+updated: 2026-09-03T16:10:00Z
 aliases: []
 tags: [device/older-fleet]
 definition_of_done: team
