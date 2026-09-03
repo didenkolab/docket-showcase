@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-08-28T11:10:00Z
-updated: 2026-09-01T10:10:00Z
+updated: 2026-09-03T16:15:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
@@ -22,7 +22,7 @@ The refund endpoint checks that the booking was paid and not how much it was pai
 
 ## Acceptance
 
-- [ ] A refund larger than what is left on the invoice is refused
+- [x] A refund larger than what is left on the invoice is refused
 - [ ] Several partial refunds cannot add up to more than the invoice
 
 ## Comments
