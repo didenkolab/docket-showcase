@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[LEDGER-3 Tax periods]]"
 labels: ["[[tax]]"]
 created: 2026-08-24T09:45:00Z
-updated: 2026-09-01T11:36:00Z
+updated: 2026-09-03T15:15:00Z
 aliases: []
 tags: []
 definition_of_done: release
@@ -24,7 +24,7 @@ Closing is the moment the numbers stop being an opinion. After it, an invoice da
 
 ## Acceptance
 
-- [ ] A closed quarter refuses any new entry dated inside it, and says why
+- [x] A closed quarter refuses any new entry dated inside it, and says why
 - [ ] A correction to a closed quarter becomes a document in the open one
 - [ ] Reopening a quarter is recorded with who did it and why
 
