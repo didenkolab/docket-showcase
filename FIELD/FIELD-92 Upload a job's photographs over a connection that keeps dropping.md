@@ -9,7 +9,7 @@ assignee: '[[aiko]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]", "[[mobile]]"]
 created: 2026-08-24T10:10:00Z
-updated: 2026-09-01T11:41:00Z
+updated: 2026-09-03T16:00:00Z
 aliases: []
 tags: [device/older-fleet]
 definition_of_done: team
@@ -23,7 +23,7 @@ Six photographs from a cellar are eighteen megabytes going up a connection that 
 
 ## Acceptance
 
-- [ ] A photograph is uploaded in pieces and resumes where it stopped
+- [x] A photograph is uploaded in pieces and resumes where it stopped
 - [ ] Photographs go up after the job's text, so the office is not waiting on them
 - [ ] The crew can see which photographs have reached the office
 
