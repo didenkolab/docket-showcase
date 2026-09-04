@@ -10,7 +10,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-09-04T15:40:00Z
-updated: 2026-09-04T15:40:00Z
+updated: 2026-09-04T15:50:00Z
 labels: []
 tags: []
 aliases: []
@@ -28,3 +28,7 @@ ASSERT FAILED: ['P-1', 'P-2']
 ```
 
 Case `FIELD-GEN-04E49B`, from the Cucumber report — nothing here was typed by hand.
+
+## Comments
+
+**mateo · 2026-09-04 15:50** — Off by one photo again, on the release candidate. Nobody has picked it up because it is not written down; that is the lesson rather than the bug.
