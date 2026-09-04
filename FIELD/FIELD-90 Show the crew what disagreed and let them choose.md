@@ -9,13 +9,13 @@ assignee: '[[aiko]]'
 parent: "[[FIELD-3 Offline mobile]]"
 labels: ["[[offline-sync]]", "[[mobile]]"]
 created: 2026-08-24T10:00:00Z
-updated: 2026-09-03T17:13:00Z
+updated: 2026-09-04T16:43:00Z
 aliases: []
 tags: [needs-design]
 definition_of_done: team
 sprint: "[[Sprint 6]]"
 mitigates: ["[[FIELD-52 Postmortem - the afternoon eleven crews lost]]"]
-logged: ["[[FIELD-98 Keeping both versions of a job]]", "[[FIELD-99 What the server should do with a version it cannot place]]", "[[FIELD-100 The screen that shows a crew what disagreed]]", "[[FIELD-103 Conflicts through the sync queue end to end]]", "[[FIELD-123 Choosing a version, and what happens to the other]]", "[[FIELD-124 Two phones, one job, no signal]]", "[[FIELD-125 Photographs and signatures through a conflict]]", "[[FIELD-126 A depot's worth of reconnections, first go]]", "[[FIELD-127 Conflict scenarios written down]]"]
+logged: ["[[FIELD-98 Keeping both versions of a job]]", "[[FIELD-99 What the server should do with a version it cannot place]]", "[[FIELD-100 The screen that shows a crew what disagreed]]", "[[FIELD-103 Conflicts through the sync queue end to end]]", "[[FIELD-123 Choosing a version, and what happens to the other]]", "[[FIELD-124 Two phones, one job, no signal]]", "[[FIELD-125 Photographs and signatures through a conflict]]", "[[FIELD-126 A depot's worth of reconnections, first go]]", "[[FIELD-127 Conflict scenarios written down]]", "[[FIELD-150 Conflict screen on a real crew phone]]"]
 ---
 
 The half of the merge decision that the incident could not fix in an afternoon: when the phone and the office have both changed the same thing, somebody has to choose, and the only person who knows which is right is the one who was standing in the cellar. Today those pairs go to a table nobody reads.
