@@ -9,7 +9,7 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-08-28T11:10:00Z
-updated: 2026-09-04T10:15:00Z
+updated: 2026-09-04T10:20:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
@@ -29,3 +29,5 @@ The refund endpoint checks that the booking was paid and not how much it was pai
 ## Comments
 
 **mateo · 2026-08-28 11:20** — Found by the payments scenarios rather than by a marina, thankfully: HARBOR-PAY-004 refunds 400 against an invoice for 90 and passes. Nobody has done it in the wild because the number is typed by us and not by a guest, but it will be typed by a harbour master the moment refunds ship.
+
+**tomasz · 2026-09-04 10:20** — Marking this as blocking the refunds story rather than the other way round: refunds can carry on being built, it must not ship while this is open. The refunds card deliberately does not say it is blocked — it is not waiting on anybody, it is being written.
