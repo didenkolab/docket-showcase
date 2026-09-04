@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-28T17:00:00Z
-updated: 2026-08-28T17:00:00Z
+updated: 2026-09-04T15:40:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: FIELD-RTE-004
 parent: "[[FIELD-10 Ordering a crew's day]]"
-tests: ["[[FIELD-97 The planner sends a crew across the fjord after the last ferry]]"]
-run_by: ["[[FIELD-118 A stop the crew would reach after the last ferry is handed back]]"]
+tests: ["[[FIELD-97 The planner sends a crew across the fjord after the last ferry]]", "[[FIELD-89 When a job overruns, move the rest of the day rather than break it]]"]
+run_by: ["[[FIELD-118 A stop the crew would reach after the last ferry is handed back]]", "[[FIELD-144 A stop the crew would reach after the last ferry is handed back]]"]
 included_in: ["[[FIELD-10 Ordering a crew's day]]"]
 ---
 
@@ -42,3 +42,9 @@ Identity is the case id, not this title: a title gets improved.
 Derived, not declared — correct it by editing the `tests:` links above.
 
 - FIELD-97 — the commit that wrote it
+
+## What this covers
+
+Derived, not declared — correct it by editing the `tests:` links above.
+
+- FIELD-89 — the commit that wrote it

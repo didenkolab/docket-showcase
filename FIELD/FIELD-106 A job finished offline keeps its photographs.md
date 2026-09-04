@@ -8,15 +8,15 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-28T17:00:00Z
-updated: 2026-08-28T17:00:00Z
+updated: 2026-09-04T15:40:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: FIELD-GEN-04E49B
 generated: true
 parent: "[[FIELD-11 Putting a phone back together with the board]]"
-tests: ["[[FIELD-92 Upload a job's photographs over a connection that keeps dropping]]"]
-run_by: ["[[FIELD-108 A job finished offline keeps its photographs]]"]
+tests: ["[[FIELD-92 Upload a job's photographs over a connection that keeps dropping]]", "[[FIELD-102 A job sent twice from a phone appears twice on the board]]"]
+run_by: ["[[FIELD-108 A job finished offline keeps its photographs]]", "[[FIELD-132 A job finished offline keeps its photographs]]"]
 included_in: ["[[FIELD-11 Putting a phone back together with the board]]"]
 ---
 
@@ -43,3 +43,9 @@ From `Putting a phone back together with the board` in `sync.feature`.
 Derived, not declared — correct it by editing the `tests:` links above.
 
 - FIELD-92 — the commit that wrote it
+
+## What this covers
+
+Derived, not declared — correct it by editing the `tests:` links above.
+
+- FIELD-102 — the commit that wrote it

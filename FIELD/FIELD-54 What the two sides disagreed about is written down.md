@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-05T17:00:00Z
-updated: 2026-08-28T17:00:00Z
+updated: 2026-09-04T15:40:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: FIELD-SYN-003
 parent: "[[FIELD-11 Putting a phone back together with the board]]"
 tests: ["[[FIELD-50 Offline edits are lost when the server's version wins the merge]]"]
-run_by: ["[[FIELD-66 What the two sides disagreed about is written down]]", "[[FIELD-83 What the two sides disagreed about is written down]]", "[[FIELD-121 What the two sides disagreed about is written down]]"]
+run_by: ["[[FIELD-66 What the two sides disagreed about is written down]]", "[[FIELD-83 What the two sides disagreed about is written down]]", "[[FIELD-121 What the two sides disagreed about is written down]]", "[[FIELD-147 What the two sides disagreed about is written down]]"]
 included_in: ["[[FIELD-11 Putting a phone back together with the board]]"]
 ---
 

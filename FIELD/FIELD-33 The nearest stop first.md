@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-27T17:00:00Z
-updated: 2026-08-28T17:00:00Z
+updated: 2026-09-04T15:40:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: FIELD-RTE-001
 parent: "[[FIELD-10 Ordering a crew's day]]"
 tests: ["[[FIELD-19 Order a crew's stops so the day is driveable]]", "[[FIELD-20 Put the road's travel time between two stops, not a straight line]]"]
-run_by: ["[[FIELD-42 The nearest stop first]]", "[[FIELD-61 The nearest stop first]]", "[[FIELD-78 The nearest stop first]]", "[[FIELD-115 The nearest stop first]]"]
+run_by: ["[[FIELD-42 The nearest stop first]]", "[[FIELD-61 The nearest stop first]]", "[[FIELD-78 The nearest stop first]]", "[[FIELD-115 The nearest stop first]]", "[[FIELD-141 The nearest stop first]]"]
 included_in: ["[[FIELD-10 Ordering a crew's day]]"]
 ---
 

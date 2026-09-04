@@ -9,12 +9,13 @@ assignee: '[[priya]]'
 parent: "[[FIELD-2 Route planning]]"
 labels: ["[[routing]]"]
 created: 2026-08-24T09:55:00Z
-updated: 2026-09-02T16:10:00Z
+updated: 2026-09-04T15:40:00Z
 aliases: []
 tags: []
 definition_of_done: team
 sprint: "[[Sprint 6]]"
 estimate: 8
+tested_by: ["[[FIELD-105 A stop the crew would reach after the last ferry is handed back]]", "[[FIELD-129 When a job overruns, the rest of the day moves]]"]
 ---
 
 An hour's job that takes three is the normal case, not the exception, and today the whole afternoon quietly becomes wrong while the office finds out by being rung. Replanning is what turns an overrun into three moved appointments and one phone call the office chooses to make.
