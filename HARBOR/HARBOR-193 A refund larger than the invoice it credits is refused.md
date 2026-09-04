@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-28T16:00:00Z
-updated: 2026-08-28T16:00:00Z
+updated: 2026-09-04T15:00:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: HARBOR-PAY-004
 parent: "[[HARBOR-20 What a stay costs and who pays for it]]"
 tests: ["[[HARBOR-190 A refund larger than the invoice total is accepted]]"]
-run_by: ["[[HARBOR-213 A refund larger than the invoice it credits is refused]]"]
+run_by: ["[[HARBOR-213 A refund larger than the invoice it credits is refused]]", "[[HARBOR-238 A refund larger than the invoice it credits is refused]]"]
 included_in: ["[[HARBOR-20 What a stay costs and who pays for it]]"]
 ---
 

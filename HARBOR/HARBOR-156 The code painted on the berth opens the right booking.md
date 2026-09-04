@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-14T16:00:00Z
-updated: 2026-08-28T16:00:00Z
+updated: 2026-09-04T15:00:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: HARBOR-CHK-003
 parent: "[[HARBOR-21 Checking a guest in from the pontoon]]"
 tests: ["[[HARBOR-143 Scan the berth's QR code to open the right booking]]", "[[HARBOR-153 A check-in made offline arrives with the phone's wrong clock]]"]
-run_by: ["[[HARBOR-167 The code painted on the berth opens the right booking]]", "[[HARBOR-203 The code painted on the berth opens the right booking]]"]
+run_by: ["[[HARBOR-167 The code painted on the berth opens the right booking]]", "[[HARBOR-203 The code painted on the berth opens the right booking]]", "[[HARBOR-227 The code painted on the berth opens the right booking]]"]
 included_in: ["[[HARBOR-21 Checking a guest in from the pontoon]]"]
 ---
 

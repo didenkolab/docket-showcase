@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-28T16:00:00Z
-updated: 2026-08-28T16:00:00Z
+updated: 2026-09-04T15:00:00Z
 labels: []
 tags: []
 aliases: []
@@ -16,7 +16,7 @@ automation_id: HARBOR-GEN-B9965B
 generated: true
 parent: "[[HARBOR-20 What a stay costs and who pays for it]]"
 tests: ["[[HARBOR-142 Price a season booking by the month, not by the night]]", "[[HARBOR-190 A refund larger than the invoice total is accepted]]"]
-run_by: ["[[HARBOR-208 A stay of a month or more is priced by the month]]"]
+run_by: ["[[HARBOR-208 A stay of a month or more is priced by the month]]", "[[HARBOR-232 A stay of a month or more is priced by the month]]"]
 included_in: ["[[HARBOR-20 What a stay costs and who pays for it]]"]
 ---
 

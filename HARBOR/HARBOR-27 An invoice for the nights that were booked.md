@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-06-23T11:20:00Z
-updated: 2026-08-28T16:00:00Z
+updated: 2026-09-04T15:00:00Z
 labels: []
 tags: []
 aliases: []
@@ -16,7 +16,7 @@ automation_id: HARBOR-PAY-001
 parent: "[[HARBOR-20 What a stay costs and who pays for it]]"
 included_in: ["[[HARBOR-20 What a stay costs and who pays for it]]"]
 tests: ["[[HARBOR-7 Send the guest an invoice when a booking is confirmed]]"]
-run_by: ["[[HARBOR-58 An invoice for the nights that were booked]]", "[[HARBOR-77 An invoice for the nights that were booked]]", "[[HARBOR-99 An invoice for the nights that were booked]]", "[[HARBOR-115 An invoice for the nights that were booked]]", "[[HARBOR-138 An invoice for the nights that were booked]]", "[[HARBOR-173 An invoice for the nights that were booked]]", "[[HARBOR-210 An invoice for the nights that were booked]]"]
+run_by: ["[[HARBOR-58 An invoice for the nights that were booked]]", "[[HARBOR-77 An invoice for the nights that were booked]]", "[[HARBOR-99 An invoice for the nights that were booked]]", "[[HARBOR-115 An invoice for the nights that were booked]]", "[[HARBOR-138 An invoice for the nights that were booked]]", "[[HARBOR-173 An invoice for the nights that were booked]]", "[[HARBOR-210 An invoice for the nights that were booked]]", "[[HARBOR-235 An invoice for the nights that were booked]]"]
 ---
 
 ## Scenario

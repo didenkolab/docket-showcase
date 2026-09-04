@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-03T16:00:00Z
-updated: 2026-08-28T16:00:00Z
+updated: 2026-09-04T15:00:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: HARBOR-BKG-006
 parent: "[[HARBOR-19 Berth booking]]"
 tests: ["[[HARBOR-30 Hold a berth for twenty minutes while the guest pays]]", "[[HARBOR-31 Cancel a booking and give the berth back]]"]
-run_by: ["[[HARBOR-53 A berth is held for twenty minutes while the guest pays]]", "[[HARBOR-72 A berth is held for twenty minutes while the guest pays]]", "[[HARBOR-94 A berth is held for twenty minutes while the guest pays]]", "[[HARBOR-110 A berth is held for twenty minutes while the guest pays]]", "[[HARBOR-131 A berth is held for twenty minutes while the guest pays]]", "[[HARBOR-164 A berth is held for twenty minutes while the guest pays]]", "[[HARBOR-200 A berth is held for twenty minutes while the guest pays]]"]
+run_by: ["[[HARBOR-53 A berth is held for twenty minutes while the guest pays]]", "[[HARBOR-72 A berth is held for twenty minutes while the guest pays]]", "[[HARBOR-94 A berth is held for twenty minutes while the guest pays]]", "[[HARBOR-110 A berth is held for twenty minutes while the guest pays]]", "[[HARBOR-131 A berth is held for twenty minutes while the guest pays]]", "[[HARBOR-164 A berth is held for twenty minutes while the guest pays]]", "[[HARBOR-200 A berth is held for twenty minutes while the guest pays]]", "[[HARBOR-224 A berth is held for twenty minutes while the guest pays]]"]
 included_in: ["[[HARBOR-19 Berth booking]]"]
 ---
 

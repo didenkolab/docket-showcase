@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-05T16:00:00Z
-updated: 2026-08-28T16:00:00Z
+updated: 2026-09-04T15:00:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: HARBOR-CHK-002
 parent: "[[HARBOR-21 Checking a guest in from the pontoon]]"
 tests: ["[[HARBOR-120 Flush the queue when the phone comes back]]", "[[HARBOR-143 Scan the berth's QR code to open the right booking]]"]
-run_by: ["[[HARBOR-133 A morning's queue goes up in the order it happened]]", "[[HARBOR-166 A morning's queue goes up in the order it happened]]", "[[HARBOR-202 A morning's queue goes up in the order it happened]]"]
+run_by: ["[[HARBOR-133 A morning's queue goes up in the order it happened]]", "[[HARBOR-166 A morning's queue goes up in the order it happened]]", "[[HARBOR-202 A morning's queue goes up in the order it happened]]", "[[HARBOR-226 A morning's queue goes up in the order it happened]]"]
 included_in: ["[[HARBOR-21 Checking a guest in from the pontoon]]"]
 ---
 
