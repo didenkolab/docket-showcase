@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-14T16:30:00Z
-updated: 2026-08-28T16:30:00Z
+updated: 2026-09-04T15:20:00Z
 labels: []
 tags: []
 aliases: []
@@ -16,7 +16,7 @@ automation_id: LEDGER-GEN-5C3E57
 generated: true
 parent: "[[LEDGER-10 Invoice numbers and the lines under them]]"
 tests: ["[[LEDGER-59 Email an invoice and know whether it arrived]]"]
-run_by: ["[[LEDGER-75 An invoice that bounced is not an invoice that arrived]]", "[[LEDGER-107 An invoice that bounced is not an invoice that arrived]]"]
+run_by: ["[[LEDGER-75 An invoice that bounced is not an invoice that arrived]]", "[[LEDGER-107 An invoice that bounced is not an invoice that arrived]]", "[[LEDGER-131 An invoice that bounced is not an invoice that arrived]]"]
 included_in: ["[[LEDGER-10 Invoice numbers and the lines under them]]"]
 ---
 

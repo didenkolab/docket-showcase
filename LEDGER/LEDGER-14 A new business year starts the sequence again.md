@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-06-23T11:20:00Z
-updated: 2026-08-28T16:30:00Z
+updated: 2026-09-04T15:20:00Z
 labels: []
 tags: []
 aliases: []
@@ -16,7 +16,7 @@ automation_id: LEDGER-INV-002
 parent: "[[LEDGER-10 Invoice numbers and the lines under them]]"
 included_in: ["[[LEDGER-10 Invoice numbers and the lines under them]]"]
 tests: ["[[LEDGER-4 Number invoices in one unbroken sequence per business year]]", "[[LEDGER-15 Write an invoice line by line with the tax shown separately]]"]
-run_by: ["[[LEDGER-53 A new business year starts the sequence again]]", "[[LEDGER-79 A new business year starts the sequence again]]", "[[LEDGER-111 A new business year starts the sequence again]]"]
+run_by: ["[[LEDGER-53 A new business year starts the sequence again]]", "[[LEDGER-79 A new business year starts the sequence again]]", "[[LEDGER-111 A new business year starts the sequence again]]", "[[LEDGER-135 A new business year starts the sequence again]]"]
 ---
 
 ## Scenario

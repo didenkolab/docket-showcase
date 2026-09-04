@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-24T16:30:00Z
-updated: 2026-08-28T16:30:00Z
+updated: 2026-09-04T15:20:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: LEDGER-INV-005
 parent: "[[LEDGER-10 Invoice numbers and the lines under them]]"
 tests: ["[[LEDGER-28 A refund is booked as a credit note against the invoice it came from]]", "[[LEDGER-31 Chase a late invoice twice and then stop chasing it]]"]
-run_by: ["[[LEDGER-56 A refund is a credit note against the invoice it undoes]]", "[[LEDGER-82 A refund is a credit note against the invoice it undoes]]", "[[LEDGER-114 A refund is a credit note against the invoice it undoes]]"]
+run_by: ["[[LEDGER-56 A refund is a credit note against the invoice it undoes]]", "[[LEDGER-82 A refund is a credit note against the invoice it undoes]]", "[[LEDGER-114 A refund is a credit note against the invoice it undoes]]", "[[LEDGER-138 A refund is a credit note against the invoice it undoes]]"]
 included_in: ["[[LEDGER-10 Invoice numbers and the lines under them]]"]
 ---
 

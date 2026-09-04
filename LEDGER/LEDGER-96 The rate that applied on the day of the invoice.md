@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-28T16:30:00Z
-updated: 2026-08-28T16:30:00Z
+updated: 2026-09-04T15:20:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: LEDGER-TAX-004
 parent: "[[LEDGER-12 Tax rates, quarters, and closing one]]"
 tests: ["[[LEDGER-84 Keep the tax rate that applied on the day, not the one that applies now]]", "[[LEDGER-90 An invoice dated the last day of the quarter falls into the next one]]"]
-run_by: ["[[LEDGER-118 The rate that applied on the day of the invoice]]"]
+run_by: ["[[LEDGER-118 The rate that applied on the day of the invoice]]", "[[LEDGER-142 The rate that applied on the day of the invoice]]"]
 included_in: ["[[LEDGER-12 Tax rates, quarters, and closing one]]"]
 ---
 

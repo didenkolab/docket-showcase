@@ -8,7 +8,7 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-24T16:30:00Z
-updated: 2026-08-28T16:30:00Z
+updated: 2026-09-04T15:20:00Z
 labels: []
 tags: []
 aliases: []
@@ -16,7 +16,7 @@ automation_id: LEDGER-GEN-502246
 generated: true
 parent: "[[LEDGER-10 Invoice numbers and the lines under them]]"
 tests: ["[[LEDGER-31 Chase a late invoice twice and then stop chasing it]]", "[[LEDGER-59 Email an invoice and know whether it arrived]]"]
-run_by: ["[[LEDGER-49 A late invoice is chased twice and then left alone]]", "[[LEDGER-74 A late invoice is chased twice and then left alone]]", "[[LEDGER-106 A late invoice is chased twice and then left alone]]"]
+run_by: ["[[LEDGER-49 A late invoice is chased twice and then left alone]]", "[[LEDGER-74 A late invoice is chased twice and then left alone]]", "[[LEDGER-106 A late invoice is chased twice and then left alone]]", "[[LEDGER-130 A late invoice is chased twice and then left alone]]"]
 included_in: ["[[LEDGER-10 Invoice numbers and the lines under them]]"]
 ---
 

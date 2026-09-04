@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-28T16:30:00Z
-updated: 2026-08-28T16:30:00Z
+updated: 2026-09-04T15:20:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: LEDGER-TAX-002
 parent: "[[LEDGER-12 Tax rates, quarters, and closing one]]"
 tests: ["[[LEDGER-83 Round the tax per line or per invoice, whichever the country says]]", "[[LEDGER-85 Close a quarter so nothing can be booked into it afterwards]]"]
-run_by: ["[[LEDGER-116 The tax is rounded once, on the total]]"]
+run_by: ["[[LEDGER-116 The tax is rounded once, on the total]]", "[[LEDGER-140 The tax is rounded once, on the total]]"]
 included_in: ["[[LEDGER-12 Tax rates, quarters, and closing one]]"]
 ---
 

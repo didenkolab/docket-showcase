@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-07-24T16:30:00Z
-updated: 2026-08-28T16:30:00Z
+updated: 2026-09-04T15:20:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: LEDGER-BNK-004
 parent: "[[LEDGER-11 Importing a bank statement]]"
 tests: ["[[LEDGER-30 A refund on the statement is imported as money coming in]]", "[[LEDGER-29 Match a bank line to the invoice it pays]]"]
-run_by: ["[[LEDGER-47 Money leaving the account is a negative line]]", "[[LEDGER-71 Money leaving the account is a negative line]]", "[[LEDGER-102 Money leaving the account is a negative line]]"]
+run_by: ["[[LEDGER-47 Money leaving the account is a negative line]]", "[[LEDGER-71 Money leaving the account is a negative line]]", "[[LEDGER-102 Money leaving the account is a negative line]]", "[[LEDGER-126 Money leaving the account is a negative line]]"]
 included_in: ["[[LEDGER-11 Importing a bank statement]]"]
 ---
 

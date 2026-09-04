@@ -8,14 +8,14 @@ status_category: todo
 priority: normal
 assignee:
 created: 2026-08-28T16:30:00Z
-updated: 2026-08-28T16:30:00Z
+updated: 2026-09-04T15:20:00Z
 labels: []
 tags: []
 aliases: []
 automation_id: LEDGER-TAX-001
 parent: "[[LEDGER-12 Tax rates, quarters, and closing one]]"
 tests: ["[[LEDGER-83 Round the tax per line or per invoice, whichever the country says]]"]
-run_by: ["[[LEDGER-115 The tax is rounded on every line]]"]
+run_by: ["[[LEDGER-115 The tax is rounded on every line]]", "[[LEDGER-139 The tax is rounded on every line]]"]
 included_in: ["[[LEDGER-12 Tax rates, quarters, and closing one]]"]
 ---
 
