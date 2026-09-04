@@ -9,13 +9,13 @@ assignee: '[[tomasz]]'
 parent: "[[HARBOR-3 Card payments]]"
 labels: ["[[payments]]"]
 created: 2026-08-28T11:10:00Z
-updated: 2026-09-04T10:20:00Z
+updated: 2026-09-04T15:10:00Z
 aliases: []
 tags: []
 sprint: "[[Sprint 6]]"
 estimate: 3
 tested_by: ["[[HARBOR-192 A stay of a month or more is priced by the month]]", "[[HARBOR-193 A refund larger than the invoice it credits is refused]]"]
-found_in: ["[[HARBOR-213 A refund larger than the invoice it credits is refused]]"]
+found_in: ["[[HARBOR-213 A refund larger than the invoice it credits is refused]]", "[[HARBOR-238 A refund larger than the invoice it credits is refused]]"]
 blocks: ["[[HARBOR-183 Refund a cancelled booking to the card it came from]]"]
 ---
 
