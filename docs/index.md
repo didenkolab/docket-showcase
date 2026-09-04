@@ -1,17 +1,35 @@
 ---
 title: Northlight
 type: page
-updated: 2026-06-15
+updated: 2026-09-04
 ---
 
 # Northlight
 
-Three products for the same stretch of coast, built by six people: Harbor for marinas, Ledgerline for the businesses that invoice for them, and Fieldnote for the crews who service the boats. They live in one vault with one key space — HARBOR, LEDGER and FIELD — for reasons that are written down rather than assumed.
+Three products for the same stretch of coast, built by six people between 15 June and today: Harbor for marinas, Ledgerline for the businesses that invoice for them, and Fieldnote for the crews who service the boats. One vault, one board, one key space — HARBOR, LEDGER and FIELD — and the reason for that is [[0001-one-vault-for-three-products|ADR-0001]], which is also the first thing to read if you are wondering why the backlog is this long.
 
-This is the first day of that vault, so there is not much here yet. What there is:
+## If you are new
 
-Read [[documents]] before writing anything under `docs/`. It says what the five kinds of page are, which folder each lives in, and what a decision has to contain. It is normative and `docket check` enforces the checkable half of it.
+Start with the product you are going to touch: [[harbor|Harbor]], [[ledgerline|Ledgerline]] or [[fieldnote|Fieldnote]]. Each says what the product is, the flows it has, the words it uses for things, and what it costs — and each was rewritten once this quarter when something happened that made the first version wrong. [[architecture|The architecture page]] says what the three share, which is less than people expect.
 
-The board is the work. A task is a file, a sprint is a page, and the links between them are the whole of the integration between the two. Nothing here should list the tasks it is about: a page names work by key, in backticks, and the backlinks do the rest.
+Then read [[documents]], which is normative: the five kinds of page, where each lives, and what a decision must contain. `docket check` enforces the half of it that a program can.
 
-The labels — [[bookings]], [[payments]], [[offline-sync]] and the rest — each have a page saying what they mean, and everything labelled is in that page's backlinks. That is the pattern to copy: a page is found through what links to it, not through a list somebody remembered to update.
+## The arguments
+
+Six decisions were taken this quarter and they are in `docs/decisions/`, numbered in the order they were made. Two of them explain most of what is surprising in the code: [[0004-the-phone-is-the-source-of-truth-for-a-job|ADR-0004]], which is why Fieldnote keeps two versions of a job rather than merging them, and [[0006-refunds-are-credit-notes|ADR-0006]], which is why a refund in Harbor goes through Ledgerline at all. Both were bought expensively.
+
+## The work
+
+Sprints are pages in `docs/sprints/`, one per fortnight, each with the goal it started with and the retrospective it ended with; the tasks that were in one are its backlinks rather than a list. Sprint 6 finished today and Sprint 7 is planned.
+
+The labels — [[bookings]], [[payments]], [[offline-sync]] and the rest — each have a page saying what they mean, and everything carrying one is in that page's backlinks.
+
+## The apps, and the pages they brought
+
+This vault runs twelve packs on top of the board, and five of them brought a document explaining how the thing they add is meant to be kept: [[okrs]] on why progress is not a percentage of finished tasks, [[risks]] on why a risk has two words rather than a score, [[incidents]] on why an incident and its postmortem are two tasks, [[intake]] on why a request is not a backlog item, and [[logging-time]] on why an hour is a note rather than a number on a card. [[testing]] is the largest of them and says how a test plan, a test and a run relate.
+
+Everything those five describe is in this vault with real data in it: three objectives and seven key results for the quarter, six risks reviewed twice, two incidents with their postmortems, eight customer requests, and thirty worklogs from the last two sprints.
+
+## Where the quarter got to
+
+Harbor launched check-in on the pontoon in August and the whole check-in epic is finished. Ledgerline is closing its first quarter this week. Fieldnote lost eleven crews an afternoon in July, and the work that came out of that is most of what is on the board now. The one thing nobody has settled is what happens to a season berth that is cut short, which is why `HARBOR-142` has been in review since the middle of August.
