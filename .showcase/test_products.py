@@ -56,16 +56,27 @@ class ProductTests(unittest.TestCase):
         self.assertEqual(c["story"] + c["task"] + c["bug"], 34)
         self.assertEqual((c["story"], c["task"], c["bug"]), (22, 6, 6))
 
-    def test_ledgerline_and_fieldnote_shape(self):
-        for name, epics, work, subtasks in (("ledgerline", 3, 26, 6), ("fieldnote", 3, 26, 8)):
-            module = later(name)
-            if module is None:
-                self.skipTest("%s not written yet" % name)
-            with self.subTest(product=name):
-                c = self.counts(module)
-                self.assertEqual(c["epic"], epics)
-                self.assertEqual(c["subtask"], subtasks)
-                self.assertEqual(c["story"] + c["task"] + c["bug"], work)
+    def shape(self, name, epics, subtasks, kinds):
+        """One product's counts, or a skip while that product is still to be written.
+
+        A test per product rather than one loop over both: a loop that skips on the
+        product nobody has written yet reports the one that exists as skipped too, and a
+        product whose shape is never asserted out loud is a product nobody is holding to
+        it."""
+        module = later(name)
+        if module is None:
+            self.skipTest("%s not written yet" % name)
+        c = self.counts(module)
+        self.assertEqual(c["epic"], epics)
+        self.assertEqual(c["subtask"], subtasks)
+        self.assertEqual(c["story"] + c["task"] + c["bug"], sum(kinds))
+        self.assertEqual((c["story"], c["task"], c["bug"]), kinds)
+
+    def test_ledgerline_shape(self):
+        self.shape("ledgerline", epics=3, subtasks=6, kinds=(16, 5, 5))
+
+    def test_fieldnote_shape(self):
+        self.shape("fieldnote", epics=3, subtasks=8, kinds=(15, 5, 6))
 
     def test_every_alias_is_declared_and_unique(self):
         for module in products():
