@@ -49,6 +49,16 @@ class EngineTests(unittest.TestCase):
         fm, _ = vault.read_frontmatter(self.e.path("a"))
         self.assertIn(self.e.key("b"), fm["blocked_by"])
 
+    def test_declared_relations_read_from_vault(self):
+        showcase = pathlib.Path(__file__).resolve().parent.parent
+        rel = engine.declared_relations(showcase)
+        for name in ("blocks", "relates", "logs", "logged", "contributes_to", "advanced_by", "tests", "found"):
+            self.assertIn(name, rel, name)
+        self.assertNotIn("logged_by", rel)
+        self.assertNotIn("contributed_by", rel)
+        self.assertEqual(engine.declared_relations(self.root) >= {"blocks", "blocked_by", "causes", "caused_by",
+                                                                   "duplicates", "duplicated_by", "relates"}, True)
+
     def test_replay_sorts_by_time_and_check_is_clean(self):
         late = engine.Event(dt.datetime(2026, 6, 16, 9, 0), ING, "comment", {"task": "a", "text": "Later."}, "c")
         early = engine.Event(dt.datetime(2026, 6, 15, 9, 0), ING, "new",

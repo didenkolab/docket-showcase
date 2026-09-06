@@ -7,6 +7,35 @@ import pathlib
 import subprocess
 import vault
 
+CORE_RELATIONS = {"blocks", "blocked_by", "duplicates", "duplicated_by", "causes", "caused_by", "relates"}
+
+
+def declared_relations(root) -> set[str]:
+    """Every relation alias the vault's docket.yaml declares, plus the seven core relations it
+    never bothers to (the vault format assumes them). Parsed with a small stdlib line scanner
+    rather than PyYAML, since all we need is the `name:`/`inverse:` values inside the top-level
+    `relations:` block."""
+    names = set(CORE_RELATIONS)
+    path = pathlib.Path(root) / "docket.yaml"
+    if not path.exists():
+        return names
+    lines = path.read_text().splitlines()
+    in_block = False
+    for line in lines:
+        if line.startswith("relations:"):
+            in_block = True
+            continue
+        if in_block:
+            if line.strip() == "" or line.startswith(" ") or line.startswith("\t"):
+                stripped = line.strip().lstrip("-").strip()
+                if stripped.startswith("name:"):
+                    names.add(stripped.split(":", 1)[1].strip())
+                elif stripped.startswith("inverse:"):
+                    names.add(stripped.split(":", 1)[1].strip())
+                continue
+            break
+    return names
+
 
 @dc.dataclass(frozen=True)
 class Person:
@@ -31,7 +60,7 @@ class Engine:
         self.docket = docket
         self.dry = dry
         self.keys: dict[str, str] = {}
-        self.order = 0
+        self.relations = declared_relations(self.root)
 
     # -- plumbing ---------------------------------------------------------
     def run(self, *args):
@@ -71,7 +100,7 @@ class Engine:
         self.commit(event)
 
     def replay(self, events):
-        for i, event in enumerate(sorted(events, key=lambda e: e.when)):
+        for event in sorted(events, key=lambda e: e.when):
             self.apply(event)
 
     # -- handlers -----------------------------------------------------------
@@ -93,18 +122,13 @@ class Engine:
         vault.stamp(path, event.when, created=True)
         return []
 
-    RELATIONS = {"blocks", "blocked_by", "duplicates", "duplicated_by", "causes", "caused_by", "relates",
-                 "tests", "tested_by", "runs", "run_by", "found", "found_in", "includes", "included_in",
-                 "logs", "logged_by", "threatens", "threatened_by", "mitigated_by", "mitigates",
-                 "contributes_to", "contributed_by", "explains", "explained_by", "became", "came_from"}
-
     def on_set(self, event):
         a = dict(event.args)
         task = a.pop("task")
         a.pop("touch", None)
         pairs = []
         for name, value in a.items():
-            if name in self.RELATIONS:
+            if name in self.relations:
                 value = ",".join(self.key(v) for v in (value if isinstance(value, list) else [value]))
             pairs.append(f"{name}={value}")
         self.run("set", self.key(task), *pairs, "--quiet")
