@@ -3,6 +3,8 @@ filters:
   and:
     - or:
       - file.inFolder("HARBOR")
+      - file.inFolder("LEDGER")
+      - file.inFolder("FIELD")
     - 'note.assignee == "agent/claude"'
     - 'note.status_category != "done"'
 properties:

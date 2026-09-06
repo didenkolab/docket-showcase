@@ -3,8 +3,12 @@ filters:
   and:
     - or:
       - file.inFolder("HARBOR")
+      - file.inFolder("LEDGER")
+      - file.inFolder("FIELD")
     - 'note.status_category == "todo"'
     - 'note.type != "subtask"'
+    - 'note.type != "test_run"'
+    - 'note.type != "worklog"'
 properties:
   note.key:
     displayName: Key

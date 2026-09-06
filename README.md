@@ -1,23 +1,30 @@
-# Harbor
+# Northlight
 
-An [docket](https://github.com/vadymdidenkolab/docket) vault: a task board and a knowledge base
-kept as Markdown files in git.
+An [docket](https://github.com/vadymdidenkolab/docket) vault for an invented software company:
+three products, six people, twelve weeks of work. **Everything here is made up** — the company,
+the people, the customers and the incidents — and it was written by a generator,
+`.showcase/build.py`, so that every command and every app docket has can be seen on a board that
+looks like a team's rather than a form.
 
-Clone it, open the folder in Obsidian, and you get a board, a backlog and a wiki. There is
-nothing to install and nothing to run — tasks and pages are plain Markdown with YAML
-frontmatter, and git is the history.
+| Project | Product | What it is |
+|---|---|---|
+| `HARBOR` | Harbor | Berth booking and invoicing for marinas |
+| `LEDGER` | Ledgerline | Bookkeeping for small businesses |
+| `FIELD` | Fieldnote | Scheduling for field service crews, with an offline mobile app |
 
-| Path | What |
-|---|---|
-| `docket.yaml` | The projects this vault holds and the vocabulary they share |
-| `HARBOR/` | One folder per project. `HARBOR-12 Its title.md` is the task `HARBOR-12` |
-| `docs/` | Knowledge base — pages, decisions, specs and sprints. `docs/spec/documents.md` says what each one is |
-| `boards/` | Obsidian Bases views: board, backlog, my tasks |
-| `templates/` | Templates for a new task and a new page |
-| `AGENTS.md` | How an agent works in this vault |
+The code the tests come from is in [northlight](https://github.com/vadymdidenkolab/northlight).
 
-A key is `HARBOR-12`, and the file is named after the task, so the graph and the file
-explorer say what each note is. Link to one by its whole name: `[[HARBOR-12 Its title]]`.
+## Open it
 
-The format is specified in
-[docket-board](https://github.com/vadymdidenkolab/docket-board/blob/main/docs/spec/vault-format.md).
+Clone, open the folder in Obsidian: a board, a backlog, a wiki and a graph. Or serve it:
+
+    docket serve --programs
+
+`--programs` lets the server run what the apps declared (test coverage, workload, OKRs…).
+
+## Rebuild it
+
+    .showcase/build.py            # resets to the `scaffold` tag and replays the story
+    .showcase/build.py --verify   # also runs docket check, graph, anomalies, report
+
+The story is data in `.showcase/story.py` and `.showcase/products/`. Change it and rebuild.

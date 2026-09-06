@@ -4,9 +4,11 @@ filters:
   and:
     - or:
       - file.inFolder("HARBOR")
+      - file.inFolder("LEDGER")
+      - file.inFolder("FIELD")
     - 'note.status_category != "done"'
 formulas:
-  stage: 'if(note.status == "Backlog", "1. Backlog", if(note.status == "Ready", "2. Ready", if(note.status == "In progress", "3. In progress", if(note.status == "In review", "4. In review", if(note.status == "Done", "5. Done", if(note.status == "Dropped", "6. Dropped", ""))))))'
+  stage: 'if(note.status == "Backlog", "1. Backlog", if(note.status == "Ready", "2. Ready", if(note.status == "In progress", "3. In progress", if(note.status == "In review", "4. In review", if(note.status == "QA", "5. QA", if(note.status == "Done", "6. Done", if(note.status == "Cancelled", "7. Cancelled", "")))))))'
 properties:
   formula.stage:
     displayName: Stage

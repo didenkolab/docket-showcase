@@ -19,3 +19,7 @@
 # an .idea/ committed once follows every clone around for good.
 .idea/
 .vscode/
+
+__pycache__/
+*.pyc
+.venv/
