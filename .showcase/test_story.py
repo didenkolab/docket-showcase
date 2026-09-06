@@ -27,5 +27,36 @@ class StoryTests(unittest.TestCase):
         self.assertEqual(len(evs), 8)
         self.assertTrue(all(e.args["path"].startswith("docs/labels/") for e in evs))
 
+    def test_sprint_events_refuse_missing_retros(self):
+        with self.assertRaises(ValueError) as cm:
+            story.sprint_events()
+        self.assertEqual(str(cm.exception), "Sprint 1 has no retrospective")
+
+    def test_sprint_events_shape_when_retros_present(self):
+        saved = [(s.goal, s.retro) for s in story.SPRINTS]
+        try:
+            for s in story.SPRINTS:
+                s.goal = "Goal of " + s.name
+                s.retro = "What happened in " + s.name
+            evs = story.sprint_events()
+            starts = [e for e in evs if e.args["path"] == "docs/sprints/Sprint 1.md"]
+            self.assertEqual([e.when for e in starts],
+                             [story.at("2026-06-15", 9), story.at("2026-06-26", 17)])
+            self.assertIn("## Retrospective", starts[1].args["body"])
+            self.assertIn("Goal of Sprint 1", starts[1].args["body"])
+            six = [e for e in evs if e.args["path"] == "docs/sprints/Sprint 6.md"]
+            self.assertEqual(len(six), 1)                      # running: start only
+            seven = [e for e in evs if e.args["path"] == "docs/sprints/Sprint 7.md"]
+            self.assertEqual([e.when for e in seven], [story.at("2026-09-04", 16)])
+            self.assertNotIn("Retrospective", seven[0].args["body"])
+            self.assertEqual(len(evs), 6 + 5 + 1)
+        finally:
+            for s, (g, r) in zip(story.SPRINTS, saved):
+                s.goal, s.retro = g, r
+
+    def test_titles_with_braces_survive_the_message(self):
+        ev = story.new(story.at("2026-06-16"), story.PEOPLE["ingrid"], "x", "Render {berth} as a card", "HARBOR")
+        self.assertEqual(ev.message.format_map({"x": "HARBOR-1"}), "HARBOR-1: Render {berth} as a card")
+
 if __name__ == "__main__":
     unittest.main()

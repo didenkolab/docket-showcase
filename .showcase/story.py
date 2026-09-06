@@ -16,6 +16,12 @@ def at(day: str, hour: int = 10, minute: int = 0) -> dt.datetime:
     return dt.datetime(y, m, d, hour, minute)
 
 
+def _plain(text):
+    """Escapes a free-text fragment so it survives Engine.commit's format_map() unchanged,
+    even when it contains literal `{` or `}` (e.g. a title like "Render {berth} as a card")."""
+    return text.replace("{", "{{").replace("}", "}}")
+
+
 PEOPLE: dict[str, Person] = {
     p.handle: p
     for p in (
@@ -113,7 +119,7 @@ class TimelineBuilder:
             args["body"] = body
         if status:
             args["status"] = status
-        return Event(when, who, "new", args, "{%s}: %s" % (alias, title))
+        return Event(when, who, "new", args, "{%s}: %s" % (alias, _plain(title)))
 
     def move(self, when, who, alias, status):
         return Event(when, who, "set", {"task": alias, "status": status}, "{%s}: → %s" % (alias, status))
@@ -137,7 +143,7 @@ class TimelineBuilder:
         args = {"path": path, "title": title, "kind": kind, "body": body}
         if extra:
             args["extra"] = extra
-        return Event(when, who, "page", args, title)
+        return Event(when, who, "page", args, _plain(title))
 
     def person(self, when, who, handle, name):
         return Event(when, who, "person", {"handle": handle, "name": name}, "%s joins" % name)
