@@ -60,7 +60,7 @@ class ProductTests(unittest.TestCase):
         for name, epics, work, subtasks in (("ledgerline", 3, 26, 6), ("fieldnote", 3, 26, 8)):
             module = later(name)
             if module is None:
-                continue
+                self.skipTest("%s not written yet" % name)
             with self.subTest(product=name):
                 c = self.counts(module)
                 self.assertEqual(c["epic"], epics)
@@ -130,14 +130,15 @@ class ProductTests(unittest.TestCase):
                     self.assertIn(label, story.LABELS, e.args["alias"])
 
     def test_every_tag_is_on_at_least_two_tasks(self):
-        carried = collections.Counter()
+        carried = collections.defaultdict(set)
         for module in products():
             for e in module.events():
                 if e.kind == "set" and "tags" in e.args:
-                    carried.update(e.args["tags"].split(","))
+                    for tag in e.args["tags"].split(","):
+                        carried[tag].add(e.args["task"])
         self.assertTrue(carried, "no tags at all")
-        for tag, count in carried.items():
-            self.assertGreaterEqual(count, 2, "%r is a set of one" % tag)
+        for tag, tasks in carried.items():
+            self.assertGreaterEqual(len(tasks), 2, "%r is a set of one" % tag)
             self.assertNotIn(tag.split("/")[-1], story.LABELS, "%r is a tag and a label" % tag)
 
     def test_a_body_says_why_and_what_would_make_it_true(self):

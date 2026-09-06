@@ -118,7 +118,7 @@ class Engine:
         return vault.task_path(self.root, self.key(alias))
 
     def commit(self, event):
-        self.git("add", "-A")
+        self.git("add", "-A", "--", ".", ":!.showcase", ":!.superpowers")
         if not self.git("status", "--porcelain").strip():
             return
         when = event.when.replace(tzinfo=dt.timezone.utc).isoformat()
@@ -174,7 +174,8 @@ class Engine:
 
     def on_page(self, event):
         a = event.args
-        vault.write_page(self.root / a["path"], a["title"], a["kind"], event.when.date(), a["body"], **a.get("extra", {}))
+        body = a["body"].format_map(_KeyMap(self)) if a.get("keys") else a["body"]
+        vault.write_page(self.root / a["path"], a["title"], a["kind"], event.when.date(), body, **a.get("extra", {}))
         return []
 
     def on_person(self, event):

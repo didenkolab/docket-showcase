@@ -188,6 +188,8 @@ def _ticks(spec, alias, hand, moves) -> list[engine.Event]:
     if spec.get("ticks"):
         base = when(spec["ticks"])
     else:
+        if not moves:
+            raise ValueError("%s has ticked set but no moves to base the tick on" % alias)
         base = next((m for m, status, _ in moves if status in DOING), moves[-1][0])
     started = next((m for m, status, _ in moves if status == "In progress"), None)
     first = base - 5 * count * MINUTE

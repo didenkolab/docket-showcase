@@ -80,6 +80,31 @@ class EngineTests(unittest.TestCase):
         message = "{ledger.invoices.credit-notes}: waiting".format_map(engine._KeyMap(self.e))
         self.assertEqual(message, "ledger.invoices.credit-notes: waiting")
 
+    def test_commit_does_not_stage_showcase(self):
+        stray_dir = self.root / ".showcase"
+        stray_dir.mkdir(parents=True, exist_ok=True)
+        stray = stray_dir / "stray.py"
+        stray.write_text("# not part of the story\n", encoding="utf-8")
+        try:
+            self.e.apply(engine.Event(dt.datetime(2026, 6, 15, 9, 0), ING, "new",
+                                      {"alias": "a", "title": "T", "type": "task", "project": "ACME"}, "m"))
+            out = subprocess.run(["git", "show", "--stat", "HEAD"], cwd=self.root,
+                                 capture_output=True, text=True, check=True).stdout
+            self.assertNotIn("stray.py", out)
+        finally:
+            shutil.rmtree(stray_dir, ignore_errors=True)
+
+    def test_on_page_with_keys_writes_the_real_key(self):
+        self.e.apply(engine.Event(dt.datetime(2026, 6, 15, 9, 0), ING, "new",
+                                  {"alias": "a", "title": "T", "type": "task", "project": "ACME"}, "m"))
+        real_key = self.e.key("a")
+        ev = engine.Event(dt.datetime(2026, 6, 15, 9, 5), ING, "page",
+                          {"path": "docs/notes/x.md", "title": "X", "kind": "page",
+                           "body": "See {a} for details.", "keys": True}, "page")
+        self.e.apply(ev)
+        text = (self.root / "docs/notes/x.md").read_text(encoding="utf-8")
+        self.assertIn("See %s for details." % real_key, text)
+
     def test_replay_sorts_by_time_and_check_is_clean(self):
         late = engine.Event(dt.datetime(2026, 6, 16, 9, 0), ING, "comment", {"task": "a", "text": "Later."}, "c")
         early = engine.Event(dt.datetime(2026, 6, 15, 9, 0), ING, "new",

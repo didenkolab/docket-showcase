@@ -66,10 +66,17 @@ class StoryTests(unittest.TestCase):
             seven = [e for e in evs if e.args.get("path") == "docs/sprints/Sprint 7.md"]
             self.assertEqual([e.when for e in seven], [story.at("2026-09-04", 16)])
             self.assertNotIn("Retrospective", seven[0].args["body"])
-            self.assertEqual(len(evs), 6 + 5 + 1 + 1)   # + the board regeneration
+            self.assertEqual(len(evs), 6 + 5 + 1)
         finally:
             for s, (g, r) in zip(story.SPRINTS, saved):
                 s.goal, s.retro = g, r
+
+    def test_retro_end_pages_name_a_task_by_key(self):
+        evs = story.sprint_events()
+        keyed = [e for e in evs if e.kind == "page" and e.args.get("keys")]
+        self.assertTrue(keyed, "no end-page event asks the engine to resolve keys")
+        self.assertTrue(any("{harbor." in e.args["body"] for e in keyed),
+                        "no retro names a Harbor task by its alias")
 
     def test_titles_with_braces_survive_the_message(self):
         ev = story.new(story.at("2026-06-16"), story.PEOPLE["ingrid"], "x", "Render {berth} as a card", "HARBOR")
