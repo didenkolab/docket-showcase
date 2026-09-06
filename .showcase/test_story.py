@@ -28,9 +28,26 @@ class StoryTests(unittest.TestCase):
         self.assertTrue(all(e.args["path"].startswith("docs/labels/") for e in evs))
 
     def test_sprint_events_refuse_missing_retros(self):
-        with self.assertRaises(ValueError) as cm:
-            story.sprint_events()
-        self.assertEqual(str(cm.exception), "Sprint 1 has no retrospective")
+        saved = story.SPRINTS[0].retro
+        story.SPRINTS[0].retro = ""
+        try:
+            with self.assertRaises(ValueError) as cm:
+                story.sprint_events()
+            self.assertEqual(str(cm.exception), "Sprint 1 has no retrospective")
+        finally:
+            story.SPRINTS[0].retro = saved
+
+    def test_every_sprint_has_a_goal_and_the_first_five_a_retrospective(self):
+        for sp in story.SPRINTS + [story.SPRINT_7]:
+            self.assertTrue(sp.goal, sp.name)
+        for sp in story.SPRINTS[:5]:
+            self.assertGreater(len(sp.retro), 200, sp.name)
+        self.assertEqual(story.SPRINTS[5].retro, "")   # Sprint 6 is still running
+
+    def test_a_sprint_page_says_it_is_a_sprint(self):
+        for ev in story.sprint_events():
+            if ev.kind == "page":
+                self.assertEqual(ev.args["kind"], "sprint", ev.args["path"])
 
     def test_sprint_events_shape_when_retros_present(self):
         saved = [(s.goal, s.retro) for s in story.SPRINTS]
@@ -39,17 +56,17 @@ class StoryTests(unittest.TestCase):
                 s.goal = "Goal of " + s.name
                 s.retro = "What happened in " + s.name
             evs = story.sprint_events()
-            starts = [e for e in evs if e.args["path"] == "docs/sprints/Sprint 1.md"]
+            starts = [e for e in evs if e.args.get("path") == "docs/sprints/Sprint 1.md"]
             self.assertEqual([e.when for e in starts],
                              [story.at("2026-06-15", 9), story.at("2026-06-26", 17)])
             self.assertIn("## Retrospective", starts[1].args["body"])
             self.assertIn("Goal of Sprint 1", starts[1].args["body"])
-            six = [e for e in evs if e.args["path"] == "docs/sprints/Sprint 6.md"]
+            six = [e for e in evs if e.args.get("path") == "docs/sprints/Sprint 6.md"]
             self.assertEqual(len(six), 1)                      # running: start only
-            seven = [e for e in evs if e.args["path"] == "docs/sprints/Sprint 7.md"]
+            seven = [e for e in evs if e.args.get("path") == "docs/sprints/Sprint 7.md"]
             self.assertEqual([e.when for e in seven], [story.at("2026-09-04", 16)])
             self.assertNotIn("Retrospective", seven[0].args["body"])
-            self.assertEqual(len(evs), 6 + 5 + 1)
+            self.assertEqual(len(evs), 6 + 5 + 1 + 1)   # + the board regeneration
         finally:
             for s, (g, r) in zip(story.SPRINTS, saved):
                 s.goal, s.retro = g, r

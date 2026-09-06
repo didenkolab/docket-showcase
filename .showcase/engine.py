@@ -54,6 +54,29 @@ class Event:
     message: str
 
 
+class _Ref:
+    """One {alias} in a commit message, still being spelled out.
+
+    str.format_map splits a field name on its dots and asks the mapping only for the first
+    part, then takes attributes off whatever comes back. Aliases are dotted — a story is
+    `harbor.payments.refunds` — so what comes back has to survive `.payments.refunds` and
+    resolve to the key it stands for only at the end, when it is formatted."""
+    __slots__ = ("engine", "alias")
+
+    def __init__(self, engine, alias):
+        self.engine = engine
+        self.alias = alias
+
+    def __getattr__(self, part):
+        return _Ref(self.engine, "%s.%s" % (self.alias, part))
+
+    def __format__(self, spec):
+        return format(self.engine.keys.get(self.alias, self.alias), spec)
+
+    def __str__(self):
+        return self.__format__("")
+
+
 class _KeyMap(dict):
     """Formats {alias} placeholders in a commit message against the engine's assigned keys,
     leaving an unknown alias as-is rather than raising."""
@@ -61,7 +84,7 @@ class _KeyMap(dict):
         self.engine = engine
 
     def __missing__(self, alias):
-        return self.engine.keys.get(alias, alias)
+        return _Ref(self.engine, alias)
 
 
 class Engine:

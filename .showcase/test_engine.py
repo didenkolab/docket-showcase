@@ -67,6 +67,19 @@ class EngineTests(unittest.TestCase):
                              capture_output=True, text=True).stdout.strip()
         self.assertEqual(log, "ACME-1: Book a berth")
 
+    def test_commit_message_substitutes_a_dotted_alias(self):
+        self.e.apply(engine.Event(dt.datetime(2026, 6, 15, 9, 0), ING, "new",
+                                  {"alias": "harbor.payments.refunds", "title": "Refund a booking",
+                                   "type": "story", "project": "ACME"},
+                                  "{harbor.payments.refunds}: Refund a booking"))
+        log = subprocess.run(["git", "log", "-1", "--format=%s"], cwd=self.root,
+                             capture_output=True, text=True).stdout.strip()
+        self.assertEqual(log, "ACME-1: Refund a booking")
+
+    def test_an_unknown_dotted_alias_is_left_as_it_was_written(self):
+        message = "{ledger.invoices.credit-notes}: waiting".format_map(engine._KeyMap(self.e))
+        self.assertEqual(message, "ledger.invoices.credit-notes: waiting")
+
     def test_replay_sorts_by_time_and_check_is_clean(self):
         late = engine.Event(dt.datetime(2026, 6, 16, 9, 0), ING, "comment", {"task": "a", "text": "Later."}, "c")
         early = engine.Event(dt.datetime(2026, 6, 15, 9, 0), ING, "new",
