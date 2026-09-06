@@ -638,19 +638,6 @@ LEDGER_RELATIONS = [
 ]
 
 
-def _relation_events(pairs):
-    events = []
-    for moment, who, alias, relations in pairs:
-        named = {name: [_full(value) for value in values] for name, values in relations.items()}
-        events.append(common.relate(moment, who, _full(alias), **named))
-    return events
-
-
-def _full(alias: str) -> str:
-    """Harbor's own aliases are written here without their prefix; anybody else's whole."""
-    return PREFIX + alias if PREFIX + alias in ALIASES else alias
-
-
 def events(with_ledger: bool = True) -> list[story.Event]:
     if os.environ.get("SHOWCASE_NO_LEDGER"):
         with_ledger = False
@@ -658,7 +645,7 @@ def events(with_ledger: bool = True) -> list[story.Event]:
     out = []
     for index, spec in enumerate(WORK):
         out += common.lifecycle(spec, PROJECT, PREFIX, index)
-    out += _relation_events(RELATIONS)
+    out += common.relation_events(RELATIONS, ALIASES, PREFIX)
     if with_ledger:
-        out += _relation_events(LEDGER_RELATIONS)
+        out += common.relation_events(LEDGER_RELATIONS, ALIASES, PREFIX)
     return out

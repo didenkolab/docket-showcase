@@ -517,23 +517,10 @@ RELATIONS = [
 ]
 
 
-def _relation_events(pairs):
-    events = []
-    for moment, who, alias, relations in pairs:
-        named = {name: [_full(value) for value in values] for name, values in relations.items()}
-        events.append(common.relate(moment, who, _full(alias), **named))
-    return events
-
-
-def _full(alias: str) -> str:
-    """Ledgerline's own aliases are written here without their prefix; anybody else's whole."""
-    return PREFIX + alias if PREFIX + alias in ALIASES else alias
-
-
 def events() -> list[story.Event]:
     common.leaves_only(WORK, PREFIX)
     out = []
     for index, spec in enumerate(WORK):
         out += common.lifecycle(spec, PROJECT, PREFIX, index)
-    out += _relation_events(RELATIONS)
+    out += common.relation_events(RELATIONS, ALIASES, PREFIX)
     return out

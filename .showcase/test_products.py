@@ -78,6 +78,26 @@ class ProductTests(unittest.TestCase):
     def test_fieldnote_shape(self):
         self.shape("fieldnote", epics=3, subtasks=8, kinds=(15, 5, 6))
 
+    def test_fieldnote_overload(self):
+        """One person carrying a product, which is the workload page's reason to exist.
+
+        Read off the events rather than off `WORK`, because what a person is holding on
+        4 September is the last status anybody moved the card to — the shape the vault
+        will have, not the shape the data was typed in."""
+        module = later("fieldnote")
+        if module is None:
+            self.skipTest("fieldnote not written yet")
+        evs = module.events()
+        moves = _moves(evs)
+        sized = {e.args["task"] for e in evs if e.kind == "set" and "estimate" in e.args}
+        carrying = [e.args["alias"] for e in news(module)
+                    if e.args.get("assignee") == "[[aiko]]"
+                    and (moves[e.args["alias"]][-1][1] if moves[e.args["alias"]] else "Backlog")
+                    not in DONE]
+        self.assertGreaterEqual(len(carrying), 6, "aiko is not carrying Fieldnote: %s" % carrying)
+        self.assertGreaterEqual(len([a for a in carrying if a in sized]), 5,
+                                "too little of aiko's open work is sized: %s" % carrying)
+
     def test_every_alias_is_declared_and_unique(self):
         for module in products():
             with self.subTest(product=module.__name__):

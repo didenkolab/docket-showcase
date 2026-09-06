@@ -120,6 +120,26 @@ def relate(moment, who, alias, **relations) -> engine.Event:
     return story.relate(office_hours(when(moment), alias), PEOPLE[who], alias, **relations)
 
 
+def full(alias: str, aliases, prefix: str) -> str:
+    """A product's own aliases are written without its prefix; anybody else's whole.
+
+    `harbor.py` says `checkin.qr` about its own work and `ledger.invoices.credit-notes`
+    about somebody else's, in the same list, and the difference is decided here rather
+    than by every line remembering which project it is in."""
+    return prefix + alias if prefix + alias in aliases else alias
+
+
+def relation_events(pairs, aliases, prefix: str) -> list[engine.Event]:
+    """`("08-11 10:40", "aiko", "checkin.qr", dict(blocked_by=["checkin.pontoon"]))` — one
+    relation event per line, with every alias in it spelled out against `aliases`."""
+    events = []
+    for moment, who, alias, relations in pairs:
+        named = {name: [full(value, aliases, prefix) for value in values]
+                 for name, values in relations.items()}
+        events.append(relate(moment, who, full(alias, aliases, prefix), **named))
+    return events
+
+
 def lifecycle(spec: dict, project: str, prefix: str = "", index: int = 0) -> list[engine.Event]:
     """Every event one task ever produced, in the order it produced them."""
     kind = spec.get("type", "story")
@@ -138,6 +158,14 @@ def lifecycle(spec: dict, project: str, prefix: str = "", index: int = 0) -> lis
 
     if spec.get("tags"):
         events.append(tag(office_hours(made + 4 * MINUTE, alias), writer, alias, spec["tags"]))
+
+    # Which list the work is held to, when it is not the team's usual one. An afternoon's
+    # incident fix is not held to the same list as a story, and the vault has a word for
+    # that rather than a comment saying "urgent".
+    if spec.get("dod"):
+        events.append(engine.Event(office_hours(made + 5 * MINUTE, alias), writer, "set",
+                                   {"task": alias, "definition_of_done": spec["dod"]},
+                                   "{%s}: held to the %s list" % (alias, spec["dod"])))
 
     # Pulled into a sprint on the sprint's first morning, in planning, unless the task
     # did not exist yet — work written mid-sprint joins the one that is running.
