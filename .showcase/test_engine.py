@@ -59,6 +59,14 @@ class EngineTests(unittest.TestCase):
         self.assertEqual(engine.declared_relations(self.root) >= {"blocks", "blocked_by", "causes", "caused_by",
                                                                    "duplicates", "duplicated_by", "relates"}, True)
 
+    def test_commit_message_substitutes_alias_for_key(self):
+        self.e.apply(engine.Event(dt.datetime(2026, 6, 15, 9, 0), ING, "new",
+                                  {"alias": "a", "title": "Book a berth", "type": "story", "project": "ACME"},
+                                  "{a}: Book a berth"))
+        log = subprocess.run(["git", "log", "-1", "--format=%s"], cwd=self.root,
+                             capture_output=True, text=True).stdout.strip()
+        self.assertEqual(log, "ACME-1: Book a berth")
+
     def test_replay_sorts_by_time_and_check_is_clean(self):
         late = engine.Event(dt.datetime(2026, 6, 16, 9, 0), ING, "comment", {"task": "a", "text": "Later."}, "c")
         early = engine.Event(dt.datetime(2026, 6, 15, 9, 0), ING, "new",

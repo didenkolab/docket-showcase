@@ -54,6 +54,16 @@ class Event:
     message: str
 
 
+class _KeyMap(dict):
+    """Formats {alias} placeholders in a commit message against the engine's assigned keys,
+    leaving an unknown alias as-is rather than raising."""
+    def __init__(self, engine):
+        self.engine = engine
+
+    def __missing__(self, alias):
+        return self.engine.keys.get(alias, alias)
+
+
 class Engine:
     def __init__(self, root, docket="docket", dry=False):
         self.root = pathlib.Path(root)
@@ -89,7 +99,8 @@ class Engine:
         if not self.git("status", "--porcelain").strip():
             return
         when = event.when.replace(tzinfo=dt.timezone.utc).isoformat()
-        self.git("commit", "-q", "-m", event.message, "--author", f"{event.who.name} <{event.who.email}>",
+        message = event.message.format_map(_KeyMap(self))
+        self.git("commit", "-q", "-m", message, "--author", f"{event.who.name} <{event.who.email}>",
                  env={"GIT_AUTHOR_DATE": when, "GIT_COMMITTER_DATE": when,
                       "GIT_COMMITTER_NAME": event.who.name, "GIT_COMMITTER_EMAIL": event.who.email})
 
