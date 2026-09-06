@@ -60,6 +60,29 @@ class VaultTests(unittest.TestCase):
         vault.write_person(q, "ingrid", "Ingrid Solberg")
         self.assertIn("type: person\nname: ingrid\n", q.read_text())
 
+    def test_a_page_title_with_a_colon_stays_valid_yaml(self):
+        """`title: Offline first: the phone wins` is a mapping inside a mapping and every
+        reader of the vault refuses the file. Decision 0004 has exactly that title."""
+        p = self.dir / "docs" / "decisions" / "0004-offline-first.md"
+        vault.write_page(p, "Offline first: the phone is the source of truth", "decision",
+                         dt.date(2026, 7, 31), "# ADR-0004\n", status="accepted",
+                         date="2026-07-31")
+        text = p.read_text()
+        self.assertIn("title: 'Offline first: the phone is the source of truth'\n", text)
+        self.assertIn("status: accepted\n", text)      # nothing else gains quotes
+        self.assertIn("date: 2026-07-31\n", text)
+
+    def test_scalar_quotes_only_what_would_change(self):
+        for plain in ("Northlight", "Sprint 1", "2026-06-15", "accepted", "Refunds are 3x"):
+            self.assertEqual(vault.scalar(plain), plain)
+        self.assertEqual(vault.scalar("A: B"), "'A: B'")
+        self.assertEqual(vault.scalar("- listy"), "'- listy'")
+        self.assertEqual(vault.scalar("it's fine mid-word"), "it's fine mid-word")
+        quote = chr(39)
+        self.assertEqual(vault.scalar(quote + 'quoted' + quote),
+                         quote * 3 + 'quoted' + quote * 3)
+        self.assertEqual(vault.scalar(""), "''")
+
     def test_task_path(self):
         self.assertEqual(vault.task_path(self.dir, "HARBOR-1"), self.task)
 

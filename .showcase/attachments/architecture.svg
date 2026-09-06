@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360"
+     role="img" aria-label="Three Northlight products over one shared accounts service">
+  <style>
+    .bg  { fill: #f7f8f6; }
+    .box { fill: #ffffff; stroke: #2f3a35; stroke-width: 2; }
+    .shared { fill: #e8efe9; stroke: #2f3a35; stroke-width: 2; }
+    .t  { font: 600 17px sans-serif; fill: #16211c; }
+    .s  { font: 12px sans-serif; fill: #46514b; }
+    .k  { font: italic 12px sans-serif; fill: #46514b; }
+    .ln { stroke: #2f3a35; stroke-width: 1.5; fill: none; }
+  </style>
+  <rect class="bg" x="0" y="0" width="640" height="360" rx="6"/>
+  <text class="t" x="24" y="34">Northlight — three products, one place to sign in</text>
+
+  <rect class="box" x="24"  y="60" width="184" height="86" rx="6"/>
+  <text class="t" x="40" y="88">Harbor</text>
+  <text class="s" x="40" y="110">Berths, bookings, card</text>
+  <text class="s" x="40" y="128">payments, check-in</text>
+
+  <rect class="box" x="228" y="60" width="184" height="86" rx="6"/>
+  <text class="t" x="244" y="88">Ledgerline</text>
+  <text class="s" x="244" y="110">Invoices, bank import,</text>
+  <text class="s" x="244" y="128">tax periods</text>
+
+  <rect class="box" x="432" y="60" width="184" height="86" rx="6"/>
+  <text class="t" x="448" y="88">Fieldnote</text>
+  <text class="s" x="448" y="110">Jobs, routes, a phone</text>
+  <text class="s" x="448" y="128">that works offline</text>
+
+  <path class="ln" d="M116 146 V 196 H 320 V 232"/>
+  <path class="ln" d="M320 146 V 232"/>
+  <path class="ln" d="M524 146 V 196 H 320"/>
+  <path class="ln" d="M312 224 l 8 10 l 8 -10"/>
+
+  <rect class="shared" x="112" y="234" width="416" height="90" rx="6"/>
+  <text class="t" x="132" y="262">Accounts</text>
+  <text class="s" x="132" y="284">One business, the people in it, and what each of them may see.</text>
+  <text class="k" x="132" y="304">A marina, an accountant and a crew are the same customer twice over.</text>
+</svg>

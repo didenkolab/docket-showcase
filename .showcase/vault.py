@@ -69,11 +69,28 @@ def set_body(path, markdown):
     path.write_text(head + "\n" + markdown.rstrip("\n") + "\n" + comments, encoding="utf-8")
 
 
+# What a frontmatter value has to be quoted to survive as itself. A title with a colon
+# in it — "Offline first: the phone is the source of truth" — is unquoted YAML for a
+# mapping inside a mapping, and every reader of the vault rejects the file. docket quotes
+# a task's title for this reason; a page's is written here, so it is quoted here.
+_NEEDS_QUOTES = "-?:,[]{}#&*!|>'\"%@`"
+
+
+def scalar(value) -> str:
+    """A frontmatter value as YAML, quoted only when leaving it bare would change it."""
+    text = str(value)
+    if not text:
+        return "''"
+    if text[0] in _NEEDS_QUOTES or text[0] == " " or text[-1] in " :" or ": " in text or " #" in text:
+        return "'%s'" % text.replace("'", "''")
+    return text
+
+
 def write_page(path, title, kind, updated, body, **extra):
     path = pathlib.Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    fm = [f"title: {title}", f"type: {kind}", f"updated: {updated.isoformat()}"]
-    fm += [f"{k}: {v}" for k, v in extra.items()]
+    fm = [f"title: {scalar(title)}", f"type: {kind}", f"updated: {updated.isoformat()}"]
+    fm += [f"{k}: {scalar(v)}" for k, v in extra.items()]
     path.write_text("---\n" + "\n".join(fm) + "\n---\n\n" + body.rstrip("\n") + "\n", encoding="utf-8")
 
 

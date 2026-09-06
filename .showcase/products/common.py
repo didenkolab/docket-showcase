@@ -30,6 +30,7 @@ into a vault that `docket check` then rejects is a bug found in the wrong place.
 """
 from __future__ import annotations
 import datetime as dt
+import pathlib
 
 import engine
 import story
@@ -106,6 +107,26 @@ def tick(moment, who, alias, index) -> engine.Event:
 
     return engine.Event(moment, who, "raw", {"fn": fn, "touch": [alias]},
                         "{%s}: ticked an acceptance box" % alias)
+
+
+def attach(moment, who, name: str, message: str) -> engine.Event:
+    """Copies a file this generator carries into the vault's `attachments/`.
+
+    A page may embed `![[architecture.svg]]` only if the vault holds the file, and the
+    file is a drawing rather than something a story can compute — so it is written once,
+    by hand, in `.showcase/attachments/`, and put into the vault by the event that dates
+    it. Everything else here writes Markdown; this is the one event that carries bytes."""
+    source = pathlib.Path(__file__).resolve().parent.parent / "attachments" / name
+
+    def fn(eng, event):
+        target = eng.root / "attachments" / name
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(source.read_bytes())
+        return []
+
+    if not source.exists():
+        raise ValueError("no such attachment: %s" % source)
+    return engine.Event(office_hours(moment, name), who, "raw", {"fn": fn}, message)
 
 
 def tag(moment, who, alias, names) -> engine.Event:
