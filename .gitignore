@@ -1,0 +1,21 @@
+# Obsidian per-machine state — the layout of open panes, not content.
+#
+# .obsidian/graph.json is deliberately not here. It holds the zoom, which is
+# per-machine, and the colour groups, which are as much this vault's content as
+# a board is: they are written in its own words for its own containers and
+# statuses. Ignoring the file for the sake of the zoom threw away the only thing
+# that makes the graph readable, so the zoom is the thing that gets committed by
+# accident instead. `docket graph --colours` rewrites it and keeps your view.
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Obsidian local trash
+.trash/
+
+# macOS
+.DS_Store
+
+# Editors. Which panes somebody had open is not a fact about the project, and
+# an .idea/ committed once follows every clone around for good.
+.idea/
+.vscode/
