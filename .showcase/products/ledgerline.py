@@ -1,7 +1,7 @@
 """Ledgerline: bookkeeping for people who did not want to become bookkeepers.
 
 Three epics between 15 June and 4 September 2026 — invoices, bank import and tax
-periods — and the thirty-five pieces of work under them. The customers are a small
+periods — and the thirty-two pieces of work under them. The customers are a small
 accounting firm, Bergstrom Accounting, who keep the books for about ninety sole traders,
 and the sole traders themselves: a florist in Aalesund, a two-van plumber, a photographer
 who invoices four times a year and forgets which four.
@@ -45,7 +45,7 @@ PREFIX = "ledger."
 EPICS = [
     dict(a="invoices", t="Invoices and credit notes", type="epic", who="ingrid", made="06-15 09:34",
          moves=[("06-15 11:50", "Ready"), ("06-16 09:18", "In progress")],
-         why="A sole trader's invoice is a Word document with last month's numbers changed, "
+         why="A sole trader's invoice is a word-processor document with last month's numbers changed, "
              "saved over the top of the one before it, and emailed with the tax worked out on "
              "a calculator. Everything under this epic replaces that one habit: a document "
              "Ledgerline numbers, prices and sends, that the customer's accountant can file "
