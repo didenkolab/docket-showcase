@@ -128,20 +128,36 @@ class ShapeTests(unittest.TestCase):
     def test_both_sides_of_every_relation_are_written(self):
         """A relation with an inverse that only one side carries is what
         `docket anomalies --kind one-sided` reports, and Harbor plants the only one."""
+        counterpart = dict(RELATIONS_WITH_INVERSE)
+        counterpart.update({v: k for k, v in RELATIONS_WITH_INVERSE.items()})
         said = collections.defaultdict(set)
         for e in self.events:
             if e.kind != "set":
                 continue
             for name, value in e.args.items():
-                if name in RELATIONS_WITH_INVERSE or name in RELATIONS_WITH_INVERSE.values():
+                if name in counterpart:
                     said[(e.args["task"], name)].update(value)
         for (alias, name), targets in said.items():
-            inverse = RELATIONS_WITH_INVERSE.get(name)
-            if inverse is None:
-                continue
+            other = counterpart[name]
             for target in targets:
-                self.assertIn(alias, said[(target, inverse)],
+                self.assertIn(alias, said[(target, other)],
                               "%s %s %s and %s does not say so" % (alias, name, target, target))
+
+    def test_the_bug_causes_the_incident_not_the_other_way_round(self):
+        """The incident is what a customer saw; the bug is what did it. So the bug
+        carries `causes` and the incident carries the inverse `caused_by`, not the
+        other way round."""
+        final = {}
+        for e in self.events:
+            if e.kind != "set":
+                continue
+            for name in ("causes", "caused_by"):
+                if name in e.args:
+                    final[(e.args["task"], name)] = list(e.args[name])
+        for bug, incident in (("harbor.payments.double-charge", "inc.double-charge"),
+                              ("field.offline.sync-loss", "inc.sync-loss")):
+            self.assertEqual(final.get((bug, "causes")), [incident], bug)
+            self.assertEqual(final.get((incident, "caused_by")), [bug], incident)
 
 
 class RuleTests(unittest.TestCase):
@@ -290,7 +306,7 @@ class PageTests(unittest.TestCase):
         self.assertNotIn("http", text.replace("http://www.w3.org/2000/svg", ""))
         raw = [e for e in self.events if e.kind == "raw"]
         self.assertEqual(len(raw), 1)
-        embed = [p for p in self.pages() if "![[attachments/architecture.svg]]" in p.args["body"]]
+        embed = [p for p in self.pages() if "![[architecture.svg]]" in p.args["body"]]
         self.assertTrue(embed)
         self.assertTrue(all(raw[0].when < p.when for p in embed))
 

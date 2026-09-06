@@ -72,13 +72,6 @@ def _new(moment, who, alias, title, project, kind, status="", assignee="", label
                      labels=labels, parent=parent, body=body)
 
 
-def _set(moment, who, alias, **values) -> engine.Event:
-    """One `docket set`, whatever it writes: fields, a status, a relation, all three."""
-    said = ", ".join(sorted(values))
-    return engine.Event(_at(moment), PEOPLE[who], "set", {"task": alias, **values},
-                        "{%s}: %s" % (alias, said))
-
-
 # --- objectives and key results -------------------------------------------------------
 #
 # Written on 16 June, the second morning, when the sprint board already existed and the
@@ -298,7 +291,7 @@ INCIDENTS = [
          project=HARBOR, who="tomasz", labels="payments", made="07-08 09:50",
          severity="sev2", detected_at="2026-07-08T09:40:00Z", resolved_at="2026-07-08T13:15:00Z",
          customers_affected="3 marinas, 7 guests, 11 duplicate charges",
-         causes=["harbor.payments.double-charge"], caused_on="07-08 15:40",
+         from_bugs=["harbor.payments.double-charge"], caused_on="07-08 15:40",
          moves=[("07-08 13:20", "In review", "tomasz"), ("07-08 14:40", "QA", "mateo"),
                 ("07-08 16:30", "Done", "mateo")],
          why="Between 09:40 and 10:05 on Wednesday 8 July, eleven card charges were taken "
@@ -318,7 +311,7 @@ INCIDENTS = [
          project=FIELD, who="aiko", labels="offline-sync", made="07-29 14:20",
          severity="sev1", detected_at="2026-07-29T14:05:00Z", resolved_at="2026-07-29T18:30:00Z",
          customers_affected="11 crews, 34 jobs, one afternoon",
-         causes=["field.offline.sync-loss"], caused_on="07-30 10:20",
+         from_bugs=["field.offline.sync-loss"], caused_on="07-30 10:20",
          moves=[("07-30 09:30", "In review", "aiko"), ("07-30 11:20", "QA", "mateo"),
                 ("07-30 15:40", "Done", "mateo")],
          why="On Wednesday 29 July the Storelva crew rang the dispatcher at 14:05 to ask "
@@ -1538,7 +1531,7 @@ DESIGN += [
               "Three products, one shared thing underneath them, and a deliberate refusal "
               "to share anything else. This page says what that shared thing is, why it is "
               "the only one, and what it costs to keep it that way.\n\n"
-              "![[attachments/architecture.svg]]\n\n"
+              "![[architecture.svg]]\n\n"
               "## Why anything is shared at all\n\n"
               "A marina, an accountant and a maintenance company are three customers. They "
               "are also, often, the same customer: the marina that takes bookings in "
@@ -1585,7 +1578,7 @@ DESIGN += [
               "Three products, one shared thing underneath them, and a deliberate refusal "
               "to share anything else. This page says what that shared thing is, why it is "
               "the only one, and what it costs to keep it that way.\n\n"
-              "![[attachments/architecture.svg]]\n\n"
+              "![[architecture.svg]]\n\n"
               "## Why anything is shared at all\n\n"
               "A marina, an accountant and a maintenance company are three customers. They "
               "are also, often, the same customer: the marina that takes bookings in "
@@ -1882,7 +1875,8 @@ def _incident_events(declared) -> list[engine.Event]:
                            customers_affected=inc["customers_affected"]))
         for moment, status, who in inc["moves"]:
             out.append(story.move(_at(moment), PEOPLE[who], inc["a"], status))
-        declared.append((inc["caused_on"], inc["who"], inc["a"], "causes", inc["causes"]))
+        for bug in inc["from_bugs"]:
+            declared.append((inc["caused_on"], inc["who"], bug, "causes", [inc["a"]]))
 
     for pm in POSTMORTEMS:
         out.append(_new(pm["made"], pm["who"], pm["a"], pm["t"], pm["project"],
