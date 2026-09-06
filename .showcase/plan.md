@@ -776,7 +776,7 @@ Note: events across stages are sorted together by `replay`, so a Harbor comment 
 | epics | 4: Season bookings, Berth calendar, Card payments, Mobile check-in | 3: Invoices, Bank import, Tax periods | 3: Job scheduling, Route planning, Offline mobile |
 | stories/tasks/bugs | 34 (22 stories, 6 tasks, 6 bugs) | 26 (16/5/5) | 26 (15/5/6) |
 | subtasks | 10 | 6 | 8 |
-| assignees | ingrid writes stories; tomasz backend; priya web; aiko mobile; mateo bugs/QA; ola ops tasks | same | aiko carries most (the overload the workload app must show) |
+| assignees | ingrid writes stories; tomasz backend; priya web; aiko mobile; mateo bugs/QA; ola ops tasks | same | aiko carries most (the imbalance the workload app must show: aiko carries most of Fieldnote) |
 | final states on 2026-09-04 | ~55% Done, 2 Cancelled, 3 In review, 2 QA, 4 In progress, rest Ready/Backlog | similar | Sprint 6: aiko has 6 open tasks, 5 sized (workload); one task in `In review` since 08-12 (time-in-status outlier) |
 | estimates | every story that entered a sprint is sized on its scale; four Ready stories deliberately unsized (estimation app agenda); epics never carry one | | |
 | relations | ≥2 each of `blocks/blocked_by`, `duplicates/duplicated_by`, `relates`; **cross-project:** `harbor.payments.refunds` blocked_by `ledger.invoices.credit-notes`; a FIELD sync bug `relates` a HARBOR check-in story | | |
@@ -926,7 +926,7 @@ northlight/
 - Both hooks read `automation_id`; JUnit `classname.name` must equal the id the feature import stored. Verify with `hooks/import-features.sh … --dry-run` first and read one imported test.
 
 - [ ] **Step 1: Tests** — `test_tests_flow.py`: `executions_schedule()` returns eight datetimes in order, all inside the window; `revision_at(code_root, when)` returns the newest commit ≤ when (test on the built temp repo from `test_code`).
-- [ ] **Step 2: Implement; replay everything** — `.showcase/build.py --verify`. Expected: ~60 tests, 8 executions, ~480 runs, `docket check .` clean, `attachments/test-results.svg` exists, coverage page (`DOCKET_ROOT=. DOCKET_BIN=… hooks/coverage.sh`) prints a table with covered/uncovered counts, `hooks/workload.sh` shows aiko on top.
+- [ ] **Step 2: Implement; replay everything** — `.showcase/build.py --verify`. Expected: ~60 tests, 8 executions, ~480 runs, `docket check .` clean, `attachments/test-results.svg` exists, coverage page (`DOCKET_ROOT=. DOCKET_BIN=… hooks/coverage.sh`) prints a table with covered/uncovered counts, `hooks/workload.sh` shows the imbalance (tomasz first overall; aiko carries Fieldnote).
 - [ ] **Step 3: Commit generator** — reset, add, commit "showcase: features, coverage and eight executions", `git tag -f scaffold`.
 
 ---

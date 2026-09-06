@@ -134,7 +134,7 @@ SPRINTS: list[Sprint] = [
             "flush that empties the queue (`{harbor.checkin.pontoon.2}`) were both written this "
             "sprint. Two products sharing one hard problem turned out to be cheaper than two "
             "products each having half of it.\n\n"
-            "On the Wednesday of the second week we lost work that eleven crews had done "
+            "On the Wednesday of the first week we lost work that eleven crews had done "
             "offline. The merge took the server's version of a job whenever the two disagreed, "
             "and a day in a dead zone is exactly the case where the phone is right and the "
             "server is stale. It is written up as an incident with a postmortem; the short "

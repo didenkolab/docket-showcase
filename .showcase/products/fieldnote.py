@@ -199,7 +199,7 @@ JOBS = [
              "A customer who cancels the contract stops generating them"]),
     dict(a="jobs.tomorrow", t="A job moved to tomorrow stays on today's list until the app restarts",
          type="bug", parent="jobs", who="aiko", priority="normal", labels="mobile",
-         tags=("device/android",), pts=2, made="08-28 11:10", sprint="Sprint 6",
+         tags=("device/older-fleet",), pts=2, made="08-28 11:10", sprint="Sprint 6",
          moves=[("08-28 14:20", "Ready")],
          why="The phone is told the job has moved and removes it from the server's answer, but "
              "the list on the screen was built when the day was opened and nothing tells it to "
@@ -488,7 +488,7 @@ OFFLINE = [
              "A phone that loses the signal mid-sync resumes rather than starting again",
              "The reconciliation is measured, so we find out from a graph rather than a crew"]),
     dict(a="offline.attachments", t="Upload a job's photographs over a connection that keeps dropping",
-         parent="offline", who="aiko", labels="offline-sync,mobile", tags=("device/android",),
+         parent="offline", who="aiko", labels="offline-sync,mobile", tags=("device/older-fleet",),
          pts=5, made="08-24 10:10", sprint="Sprint 6",
          moves=[("08-25 11:30", "Ready"), ("08-27 09:40", "In progress"),
                 ("09-03 16:10", "In review")],
@@ -512,7 +512,7 @@ OFFLINE = [
              "A job that was signed cannot be quietly edited afterwards without saying so"]),
     dict(a="offline.devices", t="Get the offline build onto both crews' own phones before the trial day",
          type="task", parent="offline", who="ola", by="ola",
-         tags=("device/android", "customer/nordic-field"), pts=2, made="07-27 10:10",
+         tags=("device/older-fleet", "customer/nordic-field"), pts=2, made="07-27 10:10",
          sprint="Sprint 4",
          moves=[("07-28 09:35", "Ready"), ("07-29 10:30", "In progress"),
                 ("07-30 11:10", "In review"), ("07-31 09:50", "QA", "aiko"),
