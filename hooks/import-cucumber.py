@@ -39,7 +39,7 @@ outcome = {}   # case id -> (result, one line, the whole message)
 names = {}     # case id -> what the scenario is called
 derived = set()
 for feature in json.load(open(report, encoding="utf-8")):
-    uri = feature.get("uri") or feature.get("name") or ""
+    uri = caseid.feature_file(feature)
     for e in feature.get("elements", []):
         if e.get("type") == "background":
             continue
