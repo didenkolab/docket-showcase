@@ -66,6 +66,9 @@ def main():
                 print("  " + path, file=sys.stderr)
             raise SystemExit("Commit them, move the tag (git tag -f scaffold), then rebuild — or pass --keep.")
         subprocess.run(["git", "reset", "-q", "--hard", "scaffold"], cwd=ROOT, check=True)
+        # `git clean` looks at ignored files only with -x, which is not passed;
+        # the excludes are for .showcase, which is tracked, and for a .venv or
+        # a .superpowers somebody has that this vault's .gitignore may not.
         subprocess.run(["git", "clean", "-qfd", "--exclude=.showcase", "--exclude=.venv", "--exclude=.superpowers"], cwd=ROOT, check=True)
     e = engine.Engine(ROOT, DOCKET)
     events = []

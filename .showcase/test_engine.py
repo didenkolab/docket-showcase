@@ -116,5 +116,22 @@ class EngineTests(unittest.TestCase):
         out = subprocess.run([DOCKET, "check", "."], cwd=self.root, capture_output=True, text=True)
         self.assertEqual(out.returncode, 0, out.stdout + out.stderr)
 
+    def test_an_ignored_working_directory_does_not_stop_a_commit(self):
+        """The vault ignores `.superpowers/`, where the showcase's own working
+        notes live. A commit has to step over it rather than name it: git
+        refuses an `add` whose pathspec mentions an ignored path, even to
+        exclude it, and the whole replay stopped on the first event."""
+        (self.root / ".gitignore").write_text(".superpowers/\n", encoding="utf-8")
+        notes = self.root / ".superpowers" / "sdd"
+        notes.mkdir(parents=True)
+        (notes / "plan.md").write_text("# how this was built\n", encoding="utf-8")
+        self.e.apply(engine.Event(dt.datetime(2026, 6, 15, 9, 0), ING, "new",
+                                  {"alias": "a", "title": "T", "type": "task", "project": "ACME"}, "m"))
+        files = subprocess.run(["git", "show", "--name-only", "--format=", "HEAD"],
+                               cwd=self.root, capture_output=True, text=True).stdout
+        self.assertIn(".md", files)
+        self.assertNotIn(".superpowers", files)
+
+
 if __name__ == "__main__":
     unittest.main()

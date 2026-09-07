@@ -118,7 +118,11 @@ class Engine:
         return vault.task_path(self.root, self.key(alias))
 
     def commit(self, event):
-        self.git("add", "-A", "--", ".", ":!.showcase", ":!.superpowers")
+        # `:!.showcase` because the generator is not part of the story it tells.
+        # `.superpowers/` is kept out by .gitignore now; naming it here as well
+        # made git refuse the whole `add` — a pathspec that names an ignored
+        # path is an error even when the pathspec is an exclusion.
+        self.git("add", "-A", "--", ".", ":!.showcase")
         if not self.git("status", "--porcelain").strip():
             return
         when = event.when.replace(tzinfo=dt.timezone.utc).isoformat()
