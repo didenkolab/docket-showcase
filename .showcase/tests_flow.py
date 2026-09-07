@@ -36,11 +36,12 @@ Two things are done here that the hooks do not do for themselves, both deliberat
     `git status` in the vault — is stamped to the event's own minute, so a replay in
     2027 produces the same vault as a replay today.
 
-  * **the other side of a relation.** The importers write `runs`, `tests`, `includes` and
-    `found` on one side only, and `docket anomalies` counts every one of those as a
-    one-sided relation. Left alone that is three hundred and fifty findings burying the
-    one the story plants on purpose, so the inverse is written here. See the task report:
-    it is a defect in the app's hooks, and this is the compensation, not a fix.
+  * **the other side of what this module itself sets.** The importers write both sides
+    of everything they write. Two relations are set here rather than by a hook —
+    `includes:` on a set, when the sets are rewritten after an import, and `found:` on a
+    failing run — so their inverses, `included_in:` and `found_in:`, are written here
+    too. Nothing this module does leaves a pair of tasks disagreeing about their own
+    relationship.
 """
 from __future__ import annotations
 
@@ -153,9 +154,8 @@ FOUND = [
      "it is not written down; that is the lesson rather than the bug."),
 ]
 
-# The relations the app's importers write on one side only, and the side they leave out.
-INVERSES = {"runs": "run_by", "tests": "tested_by", "includes": "included_in",
-            "found": "found_in"}
+# The relations this module sets with its own `docket set`, and the side each one owes.
+INVERSES = {"includes": "included_in", "found": "found_in"}
 
 TASK_FILE = re.compile(r"^(?:HARBOR|LEDGER|FIELD)/[^/]+\.md$")
 IN_FEATURE = re.compile(r"in `([^`]+\.feature)`")
@@ -291,11 +291,12 @@ def stamp_touched(eng, moment: dt.datetime) -> list:
 
 
 def _mirror(eng) -> int:
-    """The other side of every relation the importers wrote on one side.
+    """The other side of the two relations this module sets for itself.
 
-    `docket set a runs=b` does not write `run_by` on b, and `docket anomalies` reports the
-    pair as disagreeing about their own relationship. The story plants exactly one of
-    those on purpose; three hundred and fifty more from the test importers would hide it.
+    `docket set a includes=b` does not write `included_in` on b, and `docket anomalies`
+    reports the pair as disagreeing about their own relationship. The story plants
+    exactly one of those on purpose, and it is not one of these. The importers look
+    after their own inverses, so this is only `includes` and `found`.
     """
     tasks = _export(eng)
     known = {t["key"]: t for t in tasks}

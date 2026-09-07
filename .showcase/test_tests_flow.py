@@ -10,6 +10,7 @@ from __future__ import annotations
 import datetime as dt
 import os
 import pathlib
+import re
 import subprocess
 import sys
 import tempfile
@@ -329,6 +330,32 @@ class TheEvents(unittest.TestCase):
     def test_no_two_events_share_a_minute(self):
         moments = [event.when for event in self.events]
         self.assertEqual(len(moments), len(set(moments)))
+
+
+class TheInversesItOwes(unittest.TestCase):
+    """`_mirror` is for what this module sets itself, and nothing else.
+
+    The app's importers write both sides of `runs`/`run_by` and `tests`/`tested_by` now.
+    Mirroring those here again would be dead code that quietly hides the day an importer
+    stops doing it, so the table has to be exactly the two verbs this module writes.
+    """
+
+    def test_only_what_the_flow_sets_with_its_own_docket_set(self):
+        self.assertEqual(tests_flow.INVERSES,
+                         {"includes": "included_in", "found": "found_in"})
+
+    def test_those_two_verbs_are_the_ones_the_module_writes(self):
+        source = pathlib.Path(tests_flow.__file__).read_text(encoding="utf-8")
+        written = set(re.findall(r'"(\w+)=" \+', source))
+        written |= {m for m in re.findall(r'"(\w+)=" *\+', source)}
+        self.assertEqual(written & {"includes", "found", "runs", "tests"},
+                         set(tests_flow.INVERSES))
+
+    def test_the_relations_are_the_vault_s_own(self):
+        declared = (pathlib.Path(tests_flow.ROOT) / "docket.yaml").read_text(encoding="utf-8")
+        for name, inverse in tests_flow.INVERSES.items():
+            self.assertIn("- name: %s" % name, declared)
+            self.assertIn("inverse: %s" % inverse, declared)
 
 
 if __name__ == "__main__":
