@@ -157,7 +157,9 @@ To change the story, change the data — a task in `.showcase/products/harbor.py
 `.showcase/story.py`, a page in `.showcase/crosscut.py` — then run those tests, commit `.showcase`,
 move the `scaffold` tag onto that commit, and only then rebuild. `build.py` resets the working
 tree to `scaffold` before it replays, so an uncommitted change to the generator is a change the
-rebuild throws away. Issues about docket itself belong on its own board, in
+rebuild would throw away: it refuses to start while `.showcase`, `hooks/`, `docket.yaml` or this
+README have uncommitted changes, and names them. `--keep` skips the reset and the check both.
+Issues about docket itself belong on its own board, in
 [docket-board](https://github.com/vadymdidenkolab/docket-board).
 
 ## License
