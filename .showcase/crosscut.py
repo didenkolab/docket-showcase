@@ -1697,7 +1697,7 @@ INDEX = [
               "each have a page saying what they mean, and everything carrying one is in "
               "that page's backlinks.\n\n"
               "## The apps, and the pages they brought\n\n"
-              "This vault runs eleven packs on top of the board, and five of them brought "
+              "This vault runs twelve packs on top of the board, and five of them brought "
               "a document explaining how the thing they add is meant to be kept: "
               "[[okrs]] on why progress is not a percentage of finished tasks, [[risks]] "
               "on why a risk has two words rather than a score, [[incidents]] on why an "

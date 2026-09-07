@@ -77,6 +77,24 @@ class CountTests(unittest.TestCase):
         self.assertEqual(len(crosscut.DESIGN), 8)      # four pages, each rewritten once
         self.assertEqual(len(crosscut.INDEX), 2)
 
+    def test_the_front_page_counts_the_apps_the_vault_actually_installs(self):
+        """The index says how many packs are on the board, in words. It said eleven when
+        there were twelve, which is the one kind of mistake this whole vault is about."""
+        words = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight",
+                 "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen"]
+        declared = pathlib.Path(crosscut.__file__).resolve().parent.parent / "docket.yaml"
+        installed, under = 0, False
+        for line in declared.read_text(encoding="utf-8").splitlines():
+            if line.startswith("apps:"):
+                under = True
+            elif under and line[:1] not in (" ", "\t", ""):
+                under = False
+            elif under and line.startswith("  - name:"):
+                installed += 1
+        self.assertGreater(installed, 0)
+        said = crosscut.INDEX[-1]["body"]
+        self.assertIn("%s packs on top of the board" % words[installed], said)
+
     def test_six_decisions_numbered_once_each(self):
         numbers = [d["n"] for d in crosscut.DECISIONS]
         self.assertEqual(numbers, ["0001", "0002", "0003", "0004", "0005", "0006"])
