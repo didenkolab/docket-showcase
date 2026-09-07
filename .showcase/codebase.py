@@ -86,7 +86,66 @@ card or imported a bank statement, and no real company, product or person is mea
 name in it.
 """)
 
-_b("README.md", "packages", "06-26 10:40", """
+_b("README.md", "quickstart", "09-03 10:00", """
+## Quick start
+
+    git clone https://github.com/vadymdidenkolab/northlight.git
+    cd northlight
+    python3 -m venv .venv && .venv/bin/pip install behave
+    .venv/bin/behave features
+
+Sixty scenarios run, and two of them fail on purpose:
+
+  * `HARBOR-PAY-004`, *A refund larger than the invoice it credits is refused* — it is
+    not refused. Twenty-five thousand cents go back against a charge of eighteen.
+  * *A job finished offline keeps its photographs* — it comes back one photograph short.
+    Nobody tagged that scenario, so it is known by the id derived from its own name,
+    `FIELD-GEN-04E49B`.
+
+Both are bugs, and both are written up in the vault next door. Everything else passes.
+""")
+
+_b("README.md", "requirements", "09-03 10:00", """
+## Requirements
+
+| | |
+|---|---|
+| Python 3.11 or newer | `pyproject.toml` asks for it, and nothing here needs anything newer |
+| behave | The one dependency, and only for the scenarios. The three packages import nothing but the standard library |
+""")
+
+_b("README.md", "install", "09-03 10:00", """
+## Install
+
+Nothing to install. Clone the repository and the packages are importable from the
+checkout; the virtualenv above exists for `behave` and for nothing else.
+""")
+
+_b("README.md", "usage", "09-03 10:00", """
+## Usage
+
+One product's suite at a time:
+
+    .venv/bin/behave features/harbor
+
+The Cucumber JSON the vault imports, which is how a run gets onto the board:
+
+    .venv/bin/behave features/harbor -q --no-summary -f json -o reports/harbor.json
+
+One feature file, the way the board's own button runs it — the second argument says
+where to leave the JUnit XML:
+
+    ./run-tests features/harbor/booking.feature reports/junit.xml
+""")
+
+_b("README.md", "configuration", "09-03 10:00", """
+## Configuration
+
+None. No environment variable and no file outside this checkout changes what the
+scenarios do; the virtualenv is the whole of the setup.
+""")
+
+_b("README.md", "how", "06-26 10:40", """
 ## What is in here
 
     harbor/       berths, what a stay costs, and taking the money for it
@@ -98,20 +157,82 @@ Every module is pure: a function is handed the state it needs and gives back a n
 Nothing here opens a socket, reads a file it was not given, or asks what time it is.
 """)
 
-_b("README.md", "running", "09-03 10:00", """
-## Running the scenarios
+_b("README.md", "how", "09-03 10:00", """
+## How it works
 
-    python3 -m venv .venv
-    .venv/bin/pip install behave
+    harbor/       berths, what a stay costs, and taking the money for it
+    ledgerline/   invoice numbers, bank statements and tax periods
+    fieldnote/    a crew's day, the order they drive it in, and a phone with no signal
+    features/     the same three, as behave scenarios, three files per product
+
+Every module is pure: a function is handed the state it needs and gives back a new one.
+Nothing here opens a socket, reads a file it was not given, or asks what time it is,
+which is why a suite can be run against a checkout from three months ago and mean
+something.
+
+Some scenarios carry a case id — `@HARBOR-PAY-004` — and some carry nothing. A tagged one
+keeps its identity when somebody rewords it. An untagged one is identified by its feature
+file's name and its own, hashed into `FIELD-GEN-04E49B` and the like. Both kinds are
+imported; an untagged scenario is not second class.
+
+Results reach the board from the vault, not from here. Somebody runs a suite and hands
+the JSON to `hooks/import-cucumber.sh` in `docket-showcase`, which writes one execution
+and one run per scenario, each attached to its test by that same id. Those ids and the
+task key every commit message here opens with are the only things joining the two
+repositories — the key is how the vault blames a scenario's lines back to a ticket.
+""")
+
+_b("README.md", "where", "09-03 10:00", """
+## Where things are
+
+  * [docket-showcase](https://github.com/vadymdidenkolab/docket-showcase) — the vault: the
+    same team's board, backlog, wiki, and the test results these scenarios produce.
+  * [docket](https://github.com/vadymdidenkolab/docket) — the tracker the vault is kept in.
+""")
+
+_b("README.md", "contributing", "09-03 10:00", """
+## Contributing
+
+Put a scenario in the feature file for the area it belongs to. Tag it with a case id if
+it settles a case somebody wrote down, and leave it untagged if it does not.
+
+Do not rename a feature file, and do not rename a scenario that has runs against it. An
+untagged scenario's id is derived from those two names, so a rename starts a new test and
+leaves the old one holding the history. Once a scenario is tagged, reword it freely.
+
+There is no other test suite. Run it before you push:
+
     .venv/bin/behave features
+""")
 
-Two scenarios fail, and are meant to: a refund larger than the invoice it credits is
-still accepted, and a job finished with the phone offline comes back one photograph
-short. Both are written up in the vault next door. Everything else passes.
+_b("README.md", "license", "06-15 09:05", """
+## License
 
-One feature file at a time, the way the board's button runs it:
+MIT. See [LICENSE](LICENSE).
+""")
 
-    ./run-tests features/harbor/booking.feature reports/junit.xml
+_b("LICENSE", "mit", "06-15 09:05", """
+MIT License
+
+Copyright (c) 2026 Vadym Didenko
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 """)
 
 _b("pyproject.toml", "project", "06-15 09:05", """
@@ -3605,14 +3726,28 @@ def _timeline() -> list:
     return commits
 
 
+def _origin(root: pathlib.Path) -> str:
+    """Where this checkout pushes, or empty if it is not a repository or pushes nowhere."""
+    try:
+        return _git(root, "remote", "get-url", "origin").strip()
+    except (RuntimeError, OSError):
+        return ""
+
+
 def _init(root: pathlib.Path) -> None:
     """An empty repository, however the last run left this one.
 
     Everything the generator wrote is removed and git is started again, so a second
     replay is a first replay. The virtualenv and the reports the test runs leave behind
     are not ours to delete and are kept where they are.
+
+    `origin` is the one thing about the old repository that is not the generator's to
+    throw away: it says where this checkout belongs, a person put it there, and deleting
+    `.git` takes it with everything else. It is read before the wipe and written back
+    after `git init`, so a rebuild leaves a repository that can still be pushed.
     """
     root.mkdir(parents=True, exist_ok=True)
+    origin = _origin(root)
     for entry in sorted(root.iterdir()):
         if entry.name in KEEP:
             continue
@@ -3621,6 +3756,8 @@ def _init(root: pathlib.Path) -> None:
         else:
             entry.unlink()
     _git(root, "init", "-q", "-b", "main")
+    if origin:
+        _git(root, "remote", "add", "origin", origin)
 
 
 def _git(root: pathlib.Path, *args, env=None) -> str:

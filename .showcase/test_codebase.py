@@ -98,7 +98,7 @@ class BuildsOnce(unittest.TestCase):
         self.assertEqual(done.returncode, 0, done.stderr)
 
     def test_the_layout_the_plan_asked_for(self):
-        for path in ("README.md", "pyproject.toml", ".gitignore", "run-tests",
+        for path in ("README.md", "LICENSE", "pyproject.toml", ".gitignore", "run-tests",
                      "harbor/booking.py", "harbor/invoice.py", "harbor/checkin.py",
                      "ledgerline/invoices.py", "ledgerline/bankimport.py", "ledgerline/tax.py",
                      "fieldnote/jobs.py", "fieldnote/routes.py", "fieldnote/sync.py",
@@ -124,6 +124,24 @@ class BuildsTheSameTwice(unittest.TestCase):
         with tempfile.TemporaryDirectory() as one, tempfile.TemporaryDirectory() as two:
             self.assertEqual(build(pathlib.Path(one) / "northlight"),
                              build(pathlib.Path(two) / "northlight"))
+
+    def test_a_rebuild_keeps_the_remote_somebody_added(self):
+        """A replay starts git again, and `origin` is the one thing in `.git` that a
+        person put there. Losing it turns every rebuild into a checkout that cannot be
+        pushed, and the way that is found out is a failed push an hour later."""
+        url = "https://example.invalid/northlight.git"
+        with tempfile.TemporaryDirectory() as tmp:
+            root = pathlib.Path(tmp) / "northlight"
+            build(root)
+            codebase._git(root, "remote", "add", "origin", url)
+            build(root)
+            self.assertEqual(codebase._git(root, "remote", "get-url", "origin").strip(), url)
+
+    def test_a_first_build_invents_no_remote(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = pathlib.Path(tmp) / "northlight"
+            build(root)
+            self.assertEqual(codebase._git(root, "remote").strip(), "")
 
 
 class RefusesRatherThanGuesses(unittest.TestCase):

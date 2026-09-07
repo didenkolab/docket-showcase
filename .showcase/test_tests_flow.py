@@ -346,8 +346,7 @@ class TheInversesItOwes(unittest.TestCase):
 
     def test_those_two_verbs_are_the_ones_the_module_writes(self):
         source = pathlib.Path(tests_flow.__file__).read_text(encoding="utf-8")
-        written = set(re.findall(r'"(\w+)=" \+', source))
-        written |= {m for m in re.findall(r'"(\w+)=" *\+', source)}
+        written = set(re.findall(r'"(\w+)=" *\+', source))
         self.assertEqual(written & {"includes", "found", "runs", "tests"},
                          set(tests_flow.INVERSES))
 
