@@ -326,7 +326,7 @@ actions:
 apps:
   - name: tests
     source: /Volumes/Develop/develop/docket/apps#tests
-    version: "11"
+    version: "12"
     brought:
       types:
         - test_plan
@@ -453,7 +453,7 @@ apps:
         - anomalies
   - name: workload
     source: /Volumes/Develop/develop/docket/apps#workload
-    version: "1"
+    version: "2"
     brought:
       pages:
         - workload
