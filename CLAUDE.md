@@ -1,4 +1,4 @@
-# Harbor
+# Northlight
 
 This repository is a docket vault: a task tracker and a knowledge base made of Markdown files.
 

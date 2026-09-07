@@ -2,7 +2,9 @@ import datetime as dt, os, pathlib, shutil, subprocess, tempfile, unittest
 import engine, vault
 
 DOCKET = os.environ.get("DOCKET_BIN", "docket")
-TEMPLATE = "/Volumes/Develop/develop/docket-template"
+# Where `docket init` clones an empty vault from. Point SHOWCASE_TEMPLATE at a
+# local clone to run these tests without the network.
+TEMPLATE = os.environ.get("SHOWCASE_TEMPLATE", "https://github.com/vadymdidenkolab/docket-template.git")
 ING = engine.Person("ingrid", "Ingrid Solberg", "ingrid@northlight.example", "product")
 
 class EngineTests(unittest.TestCase):

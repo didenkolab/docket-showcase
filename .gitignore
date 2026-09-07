@@ -23,3 +23,8 @@
 __pycache__/
 *.pyc
 .venv/
+
+# The controller and its agents keep working notes here: briefs, reviews,
+# the plan the vault was built to. They are about building the showcase, not
+# about the company the showcase is of.
+.superpowers/

@@ -325,7 +325,7 @@ actions:
     confirm: Run every scenario now? Whatever the runner writes is committed.
 apps:
   - name: tests
-    source: /Volumes/Develop/develop/docket/apps#tests
+    source: https://github.com/vadymdidenkolab/docket-apps.git#tests
     version: "12"
     brought:
       types:
@@ -368,7 +368,7 @@ apps:
         - run-tests
         - junit
   - name: time
-    source: /Volumes/Develop/develop/docket/apps#time
+    source: https://github.com/vadymdidenkolab/docket-apps.git#time
     version: "1"
     brought:
       types:
@@ -381,7 +381,7 @@ apps:
         - logs
         - logged
   - name: risks
-    source: /Volumes/Develop/develop/docket/apps#risks
+    source: https://github.com/vadymdidenkolab/docket-apps.git#risks
     version: "1"
     brought:
       types:
@@ -397,7 +397,7 @@ apps:
         - mitigated_by
         - mitigates
   - name: okr
-    source: /Volumes/Develop/develop/docket/apps#okr
+    source: https://github.com/vadymdidenkolab/docket-apps.git#okr
     version: "1"
     brought:
       types:
@@ -412,7 +412,7 @@ apps:
         - contributes_to
         - advanced_by
   - name: incidents
-    source: /Volumes/Develop/develop/docket/apps#incidents
+    source: https://github.com/vadymdidenkolab/docket-apps.git#incidents
     version: "1"
     brought:
       types:
@@ -427,7 +427,7 @@ apps:
         - explains
         - explained_by
   - name: intake
-    source: /Volumes/Develop/develop/docket/apps#intake
+    source: https://github.com/vadymdidenkolab/docket-apps.git#intake
     version: "1"
     brought:
       types:
@@ -440,26 +440,26 @@ apps:
         - became
         - came_from
   - name: time_in_status
-    source: /Volumes/Develop/develop/docket/apps#time-in-status
+    source: https://github.com/vadymdidenkolab/docket-apps.git#time-in-status
     version: "1"
     brought:
       pages:
         - time-in-status
   - name: anomalies
-    source: /Volumes/Develop/develop/docket/apps#anomalies
+    source: https://github.com/vadymdidenkolab/docket-apps.git#anomalies
     version: "1"
     brought:
       pages:
         - anomalies
   - name: workload
-    source: /Volumes/Develop/develop/docket/apps#workload
+    source: https://github.com/vadymdidenkolab/docket-apps.git#workload
     version: "2"
     brought:
       pages:
         - workload
   - name: checklists
-    source: /Volumes/Develop/develop/docket/apps#checklists
-    version: "1"
+    source: https://github.com/vadymdidenkolab/docket-apps.git#checklists
+    version: "2"
     brought:
       fields:
         - definition_of_done
@@ -468,14 +468,14 @@ apps:
       panels:
         - progress
   - name: estimation
-    source: /Volumes/Develop/develop/docket/apps#estimation
-    version: "1"
+    source: https://github.com/vadymdidenkolab/docket-apps.git#estimation
+    version: "2"
     brought:
       pages:
         - unsized
   - name: portfolio
-    source: /Volumes/Develop/develop/docket/apps#portfolio
-    version: "1"
+    source: https://github.com/vadymdidenkolab/docket-apps.git#portfolio
+    version: "2"
     brought:
       pages:
         - portfolio
