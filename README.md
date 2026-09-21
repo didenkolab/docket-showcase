@@ -1,6 +1,6 @@
 # Northlight
 
-An [docket](https://github.com/vadymdidenkolab/docket) vault for a software company that does not exist.
+A [docket](https://github.com/vadymdidenkolab/docket) vault for a software company that does not exist.
 
 Three products, six people, twelve weeks of work — and **everything here is invented**: the
 company, the people, the customers, the incidents and the code. None of it was typed, either. A
