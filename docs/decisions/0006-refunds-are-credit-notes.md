@@ -24,7 +24,7 @@ So the sequence is one way only: a credit note is issued against an invoice, and
 
 A credit note carries its own number in the same unbroken sequence as invoices, its own tax lines, and a reference to what it credits. It is a document the business sends, not a state on another document.
 
-What that sequence has to survive is [[ledgerline|Ledgerline's design page]].
+What that sequence has to survive is [[Ledgerline|Ledgerline's design page]].
 
 ## What this costs
 

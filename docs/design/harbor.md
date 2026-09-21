@@ -30,4 +30,4 @@ The word we avoid is "reservation", because half the marinas use it for a hold a
 
 The queue on the phone is the price of the pontoon working at all: every screen that shows an arrival now has to be able to show one that has not reached us yet. Group bookings, a waiting list, and printing the week for the office wall are all unbuilt, and the last of those is a customer request that has been waiting since June. What happens to a season booking that is cut short is not decided, which is why the season-rate story has sat in review since the middle of August. Harbor still assumes boats are in the water: there is nothing here about winter storage.
 
-What Harbor shares with the other two products, and what it deliberately does not, is [[architecture|the architecture page]].
+What Harbor shares with the other two products, and what it deliberately does not, is [[Architecture|the architecture page]].

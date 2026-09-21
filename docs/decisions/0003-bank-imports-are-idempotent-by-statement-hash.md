@@ -24,7 +24,7 @@ Normalisation is the part with the rules in it: line endings, the thousands sepa
 
 The line's position matters because a business that pays the same supplier the same amount on the same day twice is not making a mistake, and two lines that are identical in every field are two payments.
 
-What the import does with a line once it has one is [[ledgerline|Ledgerline's design page]].
+What the import does with a line once it has one is [[Ledgerline|Ledgerline's design page]].
 
 ## What this costs
 

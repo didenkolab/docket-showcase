@@ -24,7 +24,7 @@ A correction to a closed period is a document in the open period that refers to 
 
 A period that is closed can be reopened, by a person, and the reopening is recorded the same way the closing was. Refusing to allow it would be pretending nobody ever closes a quarter by mistake at half past four on a Friday.
 
-What a period is made of, and what else this product does with it, is [[ledgerline|Ledgerline's design page]].
+What a period is made of, and what else this product does with it, is [[Ledgerline|Ledgerline's design page]].
 
 ## What this costs
 

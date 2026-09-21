@@ -26,9 +26,9 @@ There is no shared scheduling. Harbor's bookings and Fieldnote's jobs are both "
 
 Two dependencies have grown between the products this quarter, and both were predicted on the first day.
 
-**Money crosses from Harbor to Ledgerline.** A refund in Harbor is a credit note in [[ledgerline|Ledgerline]], and since [[0006-refunds-are-credit-notes|ADR-0006]] it is only ever a credit note: `HARBOR-183` is blocked by `LEDGER-28` and will stay that way, because the direction is now a rule. The cost is that Harbor's refund flow depends on Ledgerline being up, which is a coupling we would not have chosen and did choose.
+**Money crosses from Harbor to Ledgerline.** A refund in Harbor is a credit note in [[Ledgerline|Ledgerline]], and since [[0006-refunds-are-credit-notes|ADR-0006]] it is only ever a credit note: `HARBOR-183` is blocked by `LEDGER-28` and will stay that way, because the direction is now a rule. The cost is that Harbor's refund flow depends on Ledgerline being up, which is a coupling we would not have chosen and did choose.
 
-**Offline crosses from Fieldnote to Harbor.** Queueing work on a phone with no signal and reconciling it later is one problem, and it appeared in [[fieldnote|Fieldnote]]'s jobs and [[harbor|Harbor]]'s pontoon check-in within a fortnight of each other. The two share [[0004-the-phone-is-the-source-of-truth-for-a-job|ADR-0004]] rather than a library — the conflict rule is the same and the code is not, because a job and a check-in disagree in different shapes.
+**Offline crosses from Fieldnote to Harbor.** Queueing work on a phone with no signal and reconciling it later is one problem, and it appeared in [[Fieldnote|Fieldnote]]'s jobs and [[Harbor|Harbor]]'s pontoon check-in within a fortnight of each other. The two share [[0004-the-phone-is-the-source-of-truth-for-a-job|ADR-0004]] rather than a library — the conflict rule is the same and the code is not, because a job and a check-in disagree in different shapes.
 
 ## What this costs
 

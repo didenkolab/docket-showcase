@@ -159,7 +159,7 @@ argues hard for itself. Getting this wrong in the other direction is worse: a fo
 design page never writes its alternatives down, and the argument gets had again.
 
 Everything else — what each section must contain, how a page is named, superseding, and what
-`docket check` can and cannot tell you — is in [[documents]], and
+`docket check` can and cannot tell you — is in [[Documents]], and
 [[0001-a-session-is-a-signed-cookie]] is a worked decision to read before writing one.
 
 **Do not write a page whose purpose is to list other pages.** No index of labels, no "see all",

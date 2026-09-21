@@ -10,9 +10,9 @@ Three products for the same stretch of coast, built by six people between 15 Jun
 
 ## If you are new
 
-Start with the product you are going to touch: [[harbor|Harbor]], [[ledgerline|Ledgerline]] or [[fieldnote|Fieldnote]]. Each says what the product is, the flows it has, the words it uses for things, and what it costs — and each was rewritten once this quarter when something happened that made the first version wrong. [[architecture|The architecture page]] says what the three share, which is less than people expect.
+Start with the product you are going to touch: [[Harbor|Harbor]], [[Ledgerline|Ledgerline]] or [[Fieldnote|Fieldnote]]. Each says what the product is, the flows it has, the words it uses for things, and what it costs — and each was rewritten once this quarter when something happened that made the first version wrong. [[Architecture|The architecture page]] says what the three share, which is less than people expect.
 
-Then read [[documents]], which is normative: the five kinds of page, where each lives, and what a decision must contain. `docket check` enforces the half of it that a program can.
+Then read [[Documents]], which is normative: the five kinds of page, where each lives, and what a decision must contain. `docket check` enforces the half of it that a program can.
 
 ## The arguments
 
@@ -26,7 +26,7 @@ The labels — [[bookings]], [[payments]], [[offline-sync]] and the rest — eac
 
 ## The apps, and the pages they brought
 
-This vault runs twelve packs on top of the board, and five of them brought a document explaining how the thing they add is meant to be kept: [[okrs]] on why progress is not a percentage of finished tasks, [[risks]] on why a risk has two words rather than a score, [[incidents]] on why an incident and its postmortem are two tasks, [[intake]] on why a request is not a backlog item, and [[logging-time]] on why an hour is a note rather than a number on a card. [[testing]] is the largest of them and says how a test plan, a test and a run relate.
+This vault runs twelve packs on top of the board, and five of them brought a document explaining how the thing they add is meant to be kept: [[How objectives are kept]] on why progress is not a percentage of finished tasks, [[How risks are kept]] on why a risk has two words rather than a score, [[How incidents are kept]] on why an incident and its postmortem are two tasks, [[How requests are kept]] on why a request is not a backlog item, and [[How time is logged]] on why an hour is a note rather than a number on a card. [[How testing works here]] is the largest of them and says how a test plan, a test and a run relate.
 
 Everything those five describe is in this vault with real data in it: three objectives and seven key results for the quarter, six risks reviewed twice, two incidents with their postmortems, eight customer requests, and thirty worklogs from the last two sprints.
 

@@ -22,7 +22,7 @@ The module exists because two products calling a payment API two different ways 
 
 One provider means one sandbox, one webhook shape, one set of keys to keep out of the repository, one refund model to explain to an accountant, and one set of failure modes for the whole team to learn rather than two sets for half the team each.
 
-What the three products do and do not share, and why this is the one dependency between two of them that was chosen rather than grown, is [[architecture|the architecture page]].
+What the three products do and do not share, and why this is the one dependency between two of them that was chosen rather than grown, is [[Architecture|the architecture page]].
 
 ## What this costs
 

@@ -26,7 +26,7 @@ Where the two genuinely disagree — the phone changed a field and a dispatcher 
 
 This is a rule about jobs. It is not a rule about the schedule: which crew is on which job tomorrow is the dispatcher's to decide and the server holds it.
 
-How the rest of the day fits around that is [[fieldnote|Fieldnote's design page]].
+How the rest of the day fits around that is [[Fieldnote|Fieldnote's design page]].
 
 ## What this costs
 
