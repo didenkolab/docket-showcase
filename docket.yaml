@@ -304,14 +304,11 @@ panels:
   - name: runs-here
     title: Runs in this execution
     run: hooks/runs-here.sh
-  - name: covered-by
-    title: Tested by
-    run: hooks/covered-by.sh
   - name: last-runs
     title: Last runs
     run: hooks/last-runs.sh
   - name: progress
-    title: Acceptance
+    title: Progress
     run: hooks/progress.sh
 inbox:
   - name: junit
@@ -326,7 +323,7 @@ actions:
 apps:
   - name: tests
     source: https://github.com/vadymdidenkolab/docket-apps.git#tests
-    version: "12"
+    version: "13"
     brought:
       types:
         - test_plan
@@ -362,8 +359,7 @@ apps:
         - feature
       panels:
         - runs-here
-        - covered-by
-        - last-runs
+          - last-runs
       actions:
         - run-tests
         - junit
@@ -459,7 +455,7 @@ apps:
         - workload
   - name: checklists
     source: https://github.com/vadymdidenkolab/docket-apps.git#checklists
-    version: "2"
+    version: "3"
     brought:
       fields:
         - definition_of_done
