@@ -4,7 +4,7 @@ import engine, vault
 DOCKET = os.environ.get("DOCKET_BIN", "docket")
 # Where `docket init` clones an empty vault from. Point SHOWCASE_TEMPLATE at a
 # local clone to run these tests without the network.
-TEMPLATE = os.environ.get("SHOWCASE_TEMPLATE", "https://github.com/vadymdidenkolab/docket-template.git")
+TEMPLATE = os.environ.get("SHOWCASE_TEMPLATE", "https://github.com/didenkolab/docket-template.git")
 ING = engine.Person("ingrid", "Ingrid Solberg", "ingrid@northlight.example", "product")
 
 class EngineTests(unittest.TestCase):

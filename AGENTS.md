@@ -8,7 +8,7 @@ the key, keep `status` and `status_category` together, check the move against th
 rename the file when the title changes and commit — each of which is a way to corrupt the vault
 by hand. Read with file tools freely; this file tells you how.
 
-The [vault format](https://github.com/vadymdidenkolab/docket-board/blob/main/docs/spec/vault-format.md)
+The [vault format](https://github.com/didenkolab/docket-board/blob/main/docs/spec/vault-format.md)
 is normative. This file is the short version — the rules you need in order to not corrupt the
 vault.
 

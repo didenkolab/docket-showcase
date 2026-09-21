@@ -8,7 +8,7 @@ updated: 2026-08-31
 # Documents
 
 Normative specification of this vault's knowledge base. The
-[vault format](https://github.com/vadymdidenkolab/docket-board/blob/main/docs/spec/vault-format.md)
+[vault format](https://github.com/didenkolab/docket-board/blob/main/docs/spec/vault-format.md)
 says what a task is; this says what a page is — the five kinds a document under `docs/` can be,
 what each is for, where it lives, what frontmatter it carries and what it must contain.
 
@@ -290,7 +290,7 @@ something the spec forbids will be believed by somebody.
 ## 7. Sprint
 
 A sprint is a fortnight, and it is fully specified in
-[vault format §5.3](https://github.com/vadymdidenkolab/docket-board/blob/main/docs/spec/vault-format.md).
+[vault format §5.3](https://github.com/didenkolab/docket-board/blob/main/docs/spec/vault-format.md).
 In summary, so that this table is complete: `docs/sprints/`, named after its title, `starts` and
 `ends` as plain `YYYY-MM-DD`, no state field because whether a sprint is running is a question
 about today, and a body that is the goal in more than one line, what was cut and why, and the
@@ -405,9 +405,9 @@ front page. A front page that gains an entry every time somebody writes a page i
 refuses, and it will hold a fifth of this vault's edges within a year.
 
 Which mechanism links what — `parent`, relations, `labels`, `sprint`, `tags` — is
-[how things connect](https://github.com/vadymdidenkolab/docket-board/blob/main/docs/design/how-things-connect.md),
+[how things connect](https://github.com/didenkolab/docket-board/blob/main/docs/design/how-things-connect.md),
 and the normative form of it is `AGENTS.md` and
-[vault format §5](https://github.com/vadymdidenkolab/docket-board/blob/main/docs/spec/vault-format.md).
+[vault format §5](https://github.com/didenkolab/docket-board/blob/main/docs/spec/vault-format.md).
 
 ## 12. What is checked, and what is not
 

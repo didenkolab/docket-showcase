@@ -1,6 +1,6 @@
 # Northlight
 
-A [docket](https://github.com/vadymdidenkolab/docket) vault for a software company that does not exist.
+A [docket](https://github.com/didenkolab/docket) vault for a software company that does not exist.
 
 Three products, six people, twelve weeks of work — and **everything here is invented**: the
 company, the people, the customers, the incidents and the code. None of it was typed, either. A
@@ -15,7 +15,7 @@ every app docket has can be seen on a board that looks like a team's rather than
 
 ## Quick start
 
-    git clone https://github.com/vadymdidenkolab/docket-showcase.git
+    git clone https://github.com/didenkolab/docket-showcase.git
     cd docket-showcase
     docket serve --programs --auth none --author "Your Name <you@example.com>"
 
@@ -36,7 +36,7 @@ the same pages, and a graph.
 
 ## Install
 
-Download `docket` from [Releases](https://github.com/vadymdidenkolab/docket/releases) and put it on
+Download `docket` from [Releases](https://github.com/didenkolab/docket/releases) and put it on
 your `PATH`. There is nothing else to install: the vault is the clone.
 
 ## Usage
@@ -78,7 +78,7 @@ seventeen real revisions of the code, with the two that fail at HEAD still faili
 |---|---|
 | `--programs` | Lets the server run what the apps declared — coverage, workload, OKRs. Without it those pages render, and say they were refused |
 | `DOCKET_BIN`, `DOCKET_ROOT` | Where a hook in `hooks/` finds the binary and the vault root. They default to `docket` on the `PATH` and the current directory, so they matter when a hook is run from somewhere else |
-| `SHOWCASE_TEMPLATE` | What the engine's own tests hand `docket init` as a template. Defaults to the public [docket-template](https://github.com/vadymdidenkolab/docket-template) URL, which the tests clone; point it at a local clone to run them without the network |
+| `SHOWCASE_TEMPLATE` | What the engine's own tests hand `docket init` as a template. Defaults to the public [docket-template](https://github.com/didenkolab/docket-template) URL, which the tests clone; point it at a local clone to run them without the network |
 | `SHOWCASE_NO_LEDGER=1` | For a partial rebuild only. Drops the two relations Harbor has with Ledgerline, so `.showcase/build.py --only people,labels,sprints,harbor` can build Harbor on its own |
 
 ## How it works
@@ -126,17 +126,17 @@ Every relation is written on both sides except one, and that one is the second a
 
 ## Where things are
 
-- [docket](https://github.com/vadymdidenkolab/docket) — the tool: the binary, the vault format, the
+- [docket](https://github.com/didenkolab/docket) — the tool: the binary, the vault format, the
   board in the browser.
-- [docket-apps](https://github.com/vadymdidenkolab/docket-apps) — the twelve apps this vault
+- [docket-apps](https://github.com/didenkolab/docket-apps) — the twelve apps this vault
   installs. The scripts in `hooks/` came from them.
-- [docket-board](https://github.com/vadymdidenkolab/docket-board) — docket's own board: its spec and
+- [docket-board](https://github.com/didenkolab/docket-board) — docket's own board: its spec and
   its roadmap, kept in a vault like this one.
-- [docket-template](https://github.com/vadymdidenkolab/docket-template) — what `docket init` clones
+- [docket-template](https://github.com/didenkolab/docket-template) — what `docket init` clones
   to make an empty vault.
-- [docket-demo](https://github.com/vadymdidenkolab/docket-demo) — a smaller vault to read first, if
+- [docket-demo](https://github.com/didenkolab/docket-demo) — a smaller vault to read first, if
   532 tasks is too many at once.
-- [northlight](https://github.com/vadymdidenkolab/northlight) — the code the tests come from:
+- [northlight](https://github.com/didenkolab/northlight) — the code the tests come from:
   sixty-eight commits by the same six people, 15 June to 4 September 2026, each message opening
   with the key of the task it belongs to. That is what `hooks/link-coverage.sh` blames a scenario
   against to say which work its test covers; nothing else joins the two repositories.
@@ -150,7 +150,7 @@ The story has its own tests, and a replay is a long way to find a typo:
     cd .showcase && DOCKET_BIN=$(command -v docket) python3 -m unittest
 
 Some of those tests build an empty vault with `docket init` and clone the template to do it. Set
-`SHOWCASE_TEMPLATE` to a local clone of [docket-template](https://github.com/vadymdidenkolab/docket-template)
+`SHOWCASE_TEMPLATE` to a local clone of [docket-template](https://github.com/didenkolab/docket-template)
 to run them offline.
 
 To change the story, change the data — a task in `.showcase/products/harbor.py`, a person in
@@ -160,7 +160,7 @@ tree to `scaffold` before it replays, so an uncommitted change to the generator 
 rebuild would throw away: it refuses to start while `.showcase`, `hooks/`, `docket.yaml` or this
 README have uncommitted changes, and names them. `--keep` skips the reset and the check both.
 Issues about docket itself belong on its own board, in
-[docket-board](https://github.com/vadymdidenkolab/docket-board).
+[docket-board](https://github.com/didenkolab/docket-board).
 
 ## License
 
